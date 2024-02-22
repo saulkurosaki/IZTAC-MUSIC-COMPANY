@@ -8,7 +8,7 @@ const Header = () => {
       <div className="container mx-[398.5px] px-[15px] flex justify-between items-center">
         <SideBar />
 
-        <div>Hola</div>
+        <div>LOGO</div>
 
         <div>Hi Mates</div>
       </div>

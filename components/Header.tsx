@@ -10,7 +10,7 @@ const Header = () => {
 
         <div>LOGO</div>
 
-        <div>Hi Mates</div>
+        <div>IDENTIFY</div>
       </div>
     </nav>
   );

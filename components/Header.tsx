@@ -1,6 +1,9 @@
 import React from "react";
 
 import SideBar from "./SideBar";
+import Image from "next/image";
+
+import iztacLogo from "../assets/iztac_logo_black.png";
 
 const Header = () => {
   return (
@@ -8,7 +11,7 @@ const Header = () => {
       <div className="container mx-[398.5px] px-[15px] flex justify-between items-center">
         <SideBar />
 
-        <div>LOGO</div>
+        <Image src={iztacLogo} alt="logo" width={55} height={55} />
 
         <div>IDENTIFY</div>
       </div>

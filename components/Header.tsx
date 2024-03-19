@@ -19,9 +19,9 @@ const Header = () => {
           <p className="text-[18px] font-medium text-[#2b2f35]">Conócenos</p>
         </div>
 
-        {/* <div className="flex lg:hidden">
+        <div className="flex lg:hidden">
           <SideBar />
-        </div> */}
+        </div>
       </div>
     </nav>
   );

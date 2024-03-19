@@ -4,6 +4,7 @@ import SideBar from "./SideBar";
 import Image from "next/image";
 
 import iztacLogo from "../assets/iztac_logo_white.png";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -13,7 +14,9 @@ const Header = () => {
           <SideBar />
         </div>
 
-        <Image src={iztacLogo} alt="logo" width={45} height={45} />
+        <Link href="/">
+          <Image src={iztacLogo} alt="logo" width={45} height={45} />
+        </Link>
 
         <div className="hidden lg:flex w-[91px] justify-center items-center">
           <p className="text-[18px] font-medium text-[#2b2f35]">Conócenos</p>

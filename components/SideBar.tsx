@@ -1,5 +1,4 @@
 import React from "react";
-
 import {
   Sheet,
   SheetContent,
@@ -9,10 +8,23 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 
+import hamburger from "../assets/hamburger.png";
+import Image from "next/image";
+
 const SideBar = () => {
   return (
     <Sheet>
-      <SheetTrigger>Open</SheetTrigger>
+      <SheetTrigger>
+        <div className="flex lg:w-[91px] lg:h-[37.5px] justify-center items-center">
+          {/* <Image
+            src={hamburger}
+            alt="hamburger"
+            width={25}
+            height={25}
+            className="opacity-65"
+          /> */}
+        </div>
+      </SheetTrigger>
       <SheetContent>
         <SheetHeader>
           <SheetTitle>Are you absolutely sure?</SheetTitle>

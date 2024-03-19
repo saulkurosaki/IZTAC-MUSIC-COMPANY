@@ -16,13 +16,13 @@ const SideBar = () => {
     <Sheet>
       <SheetTrigger>
         <div className="flex lg:w-[91px] lg:h-[37.5px] justify-center items-center">
-          {/* <Image
+          <Image
             src={hamburger}
             alt="hamburger"
             width={25}
             height={25}
             className="opacity-65"
-          /> */}
+          />
         </div>
       </SheetTrigger>
       <SheetContent>

@@ -18,9 +18,12 @@ const Header = () => {
           <Image src={iztacLogo} alt="logo" width={45} height={45} />
         </Link>
 
-        <div className="hidden lg:flex w-[91px] justify-center items-center">
+        <Link
+          href="/about-us"
+          className="hidden lg:flex w-[91px] justify-center items-center"
+        >
           <p className="text-[18px] font-medium text-[#2b2f35]">Conócenos</p>
-        </div>
+        </Link>
 
         <div className="flex lg:hidden">
           <SideBar />

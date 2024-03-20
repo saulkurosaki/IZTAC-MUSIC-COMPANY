@@ -58,7 +58,7 @@ const SideBar = () => {
                 <Link href="/about-us">Sobre Nosotros</Link>
                 <Link href="/contact-us">Contáctenos</Link>
 
-                {/* <div className="w-full border-b-[1px] border-[#25252562] mt-4 mb-16" /> */}
+                <div className="w-full border-b-[1px] border-[#25252562] mt-4 mb-16" />
 
                 {/* <Link
                   href="mailto:iztacmusicofficial@gmail.com"

@@ -18,7 +18,7 @@ import mail_logo from "../assets/mail_logo.png";
 import iztacLogo from "../assets/iztac_logo_white.png";
 
 const SideBar = () => {
-  // const size = useWindowSize();
+  const size = useWindowSize();
 
   return (
     <Sheet>

@@ -64,13 +64,13 @@ const SideBar = () => {
                   href="mailto:iztacmusicofficial@gmail.com"
                   className="w-full h-5 flex items-center"
                 >
-                  {/* <Image
+                  <Image
                     src={mail_logo}
                     alt="mail_logo"
                     width={15}
                     height={15}
                     className="inline-block mr-[6px] pt-[2px]"
-                  /> */}
+                  />
                   <p className="inline-block font-semibold">
                     iztacmusicofficial@gmail.com
                   </p>

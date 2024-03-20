@@ -39,7 +39,7 @@ const SideBar = () => {
       >
         <SheetHeader className="h-full">
           <SheetTitle className="text-[26px] text-[#2b2f35] mb-5">
-            {/* <Link href="/">
+            <Link href="/">
               <Image
                 src={iztacLogo}
                 alt="logo"
@@ -47,7 +47,7 @@ const SideBar = () => {
                 height={70}
                 className="inline-block"
               />
-            </Link> */}
+            </Link>
           </SheetTitle>
           <SheetDescription className="h-full text-lg text-[#252525b8]">
             <div className="flex flex-col justify-between h-full">

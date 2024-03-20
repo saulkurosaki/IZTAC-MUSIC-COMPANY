@@ -52,11 +52,11 @@ const SideBar = () => {
           <SheetDescription className="h-full text-lg text-[#252525b8]">
             <div className="flex flex-col justify-between h-full">
               <ul className="flex flex-col h-[40%] justify-between">
-                {/* <Link href="/">Inicio</Link>
+                <Link href="/">Inicio</Link>
                 <Link href="/our-services">Servicios</Link>
                 <Link href="/blog">Nuestros Logros</Link>
                 <Link href="/about-us">Sobre Nosotros</Link>
-                <Link href="/contact-us">Contáctenos</Link> */}
+                <Link href="/contact-us">Contáctenos</Link>
 
                 {/* <div className="w-full border-b-[1px] border-[#25252562] mt-4 mb-16" /> */}
 

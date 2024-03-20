@@ -60,21 +60,21 @@ const SideBar = () => {
 
                 <div className="w-full border-b-[1px] border-[#25252562] mt-4 mb-16" />
 
-                {/* <Link
+                <Link
                   href="mailto:iztacmusicofficial@gmail.com"
                   className="w-full h-5 flex items-center"
                 >
-                  // <Image
-                  //   src={mail_logo}
-                  //   alt="mail_logo"
-                  //   width={15}
-                  //   height={15}
-                  //   className="inline-block mr-[6px] pt-[2px]"
-                  // />
+                  {/* <Image
+                    src={mail_logo}
+                    alt="mail_logo"
+                    width={15}
+                    height={15}
+                    className="inline-block mr-[6px] pt-[2px]"
+                  /> */}
                   <p className="inline-block font-semibold">
                     iztacmusicofficial@gmail.com
                   </p>
-                </Link> */}
+                </Link>
               </ul>
 
               {/* <Link

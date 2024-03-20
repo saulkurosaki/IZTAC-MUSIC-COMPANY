@@ -77,12 +77,12 @@ const SideBar = () => {
                 </Link>
               </ul>
 
-              {/* <Link
+              <Link
                 href="/contact-us"
                 className="flex w-full h-9 bg-[#2e2414] rounded-lg justify-center items-center"
               >
                 <p className="text-white text-[15px]">Contáctenos</p>
-              </Link> */}
+              </Link>
             </div>
           </SheetDescription>
         </SheetHeader>

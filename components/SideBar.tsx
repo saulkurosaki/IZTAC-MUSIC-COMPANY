@@ -27,9 +27,9 @@ const SideBar = () => {
           <Image
             src={hamburger}
             alt="hamburger"
-            width={25}
-            height={25}
-            className="opacity-65"
+            width={30}
+            height={30}
+            className="opacity-65 hover:border-[3px] hover:border-[#2e2414] hover:rounded-lg"
           />
         </div>
       </SheetTrigger>

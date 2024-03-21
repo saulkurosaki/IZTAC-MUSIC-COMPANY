@@ -34,7 +34,7 @@ const SideBar = () => {
         </div>
       </SheetTrigger>
       <SheetContent
-        side={size.width > 768 ? "left" : "right"}
+        side={size.width >= 1024 ? "left" : "right"}
         className="bg-[#B99253] w-[400px] max-sm:w-full border-none"
       >
         <SheetHeader className="h-full">

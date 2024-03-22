@@ -77,30 +77,30 @@ const HeroBanner = () => {
       </Carousel>
 
       <ul className="w-full h-4 absolute top-[784px] z-2 flex mb-[1rem] list-none justify-center gap-[6px]">
-        {/* <li
-          onClick={() => {
-            api && api.scrollTo(0);
-          }}
+        <li
+          //   onClick={() => {
+          //     api && api.scrollTo(0);
+          //   }}
           className={`w-4 h-4 bg-[#fff] ${
             current !== 1 ? "opacity-[0.5]" : "opacity-[1]"
           } rounded-full border-[1px] border-transparent cursor-pointer`}
         />
         <li
-          onClick={() => {
-            api && api.scrollTo(1);
-          }}
+          //   onClick={() => {
+          //     api && api.scrollTo(1);
+          //   }}
           className={`w-4 h-4 bg-[#fff] ${
             current !== 2 ? "opacity-[0.5]" : "opacity-[1]"
           } rounded-full border-[1px] border-transparent cursor-pointer`}
         />
         <li
-          onClick={() => {
-            api && api.scrollTo(2);
-          }}
+          //   onClick={() => {
+          //     api && api.scrollTo(2);
+          //   }}
           className={`w-4 h-4 bg-[#fff] ${
             current !== 3 ? "opacity-[0.5]" : "opacity-[1]"
           } rounded-full border-[1px] border-transparent cursor-pointer`}
-        /> */}
+        />
       </ul>
     </>
   );

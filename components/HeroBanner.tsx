@@ -76,8 +76,8 @@ const HeroBanner = () => {
         <CarouselNext className="absolute top-1/2 right-6 w-16 h-16" />
       </Carousel>
 
-      {/* <ul className="w-full h-4 absolute top-[784px] z-2 flex mb-[1rem] list-none justify-center gap-[6px]">
-        <li
+      <ul className="w-full h-4 absolute top-[784px] z-2 flex mb-[1rem] list-none justify-center gap-[6px]">
+        {/* <li
           onClick={() => {
             api && api.scrollTo(0);
           }}
@@ -100,8 +100,8 @@ const HeroBanner = () => {
           className={`w-4 h-4 bg-[#fff] ${
             current !== 3 ? "opacity-[0.5]" : "opacity-[1]"
           } rounded-full border-[1px] border-transparent cursor-pointer`}
-        />
-      </ul> */}
+        /> */}
+      </ul>
     </>
   );
 };

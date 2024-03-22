@@ -17,9 +17,9 @@ import Banner_2 from "../assets/banner_image_2.webp";
 import Banner_3 from "../assets/banner_image_3.jpg";
 
 const HeroBanner = () => {
-  //   const [api, setApi] = useState<CarouselApi>();
-  //   const [current, setCurrent] = useState(0);
-  //   const [count, setCount] = useState(0);
+  const [api, setApi] = useState<CarouselApi>();
+  const [current, setCurrent] = useState(0);
+  const [count, setCount] = useState(0);
 
   //   useEffect(() => {
   //     if (!api) {

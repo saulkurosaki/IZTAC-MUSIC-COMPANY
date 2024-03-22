@@ -72,8 +72,8 @@ const HeroBanner = () => {
             />
           </CarouselItem>
         </CarouselContent>
-        {/* <CarouselPrevious className="absolute top-1/2 left-6 w-16 h-16" />
-        <CarouselNext className="absolute top-1/2 right-6 w-16 h-16" /> */}
+        <CarouselPrevious className="absolute top-1/2 left-6 w-16 h-16" />
+        {/* <CarouselNext className="absolute top-1/2 right-6 w-16 h-16" /> */}
       </Carousel>
 
       {/* <ul className="w-full h-4 absolute top-[784px] z-2 flex mb-[1rem] list-none justify-center gap-[6px]">

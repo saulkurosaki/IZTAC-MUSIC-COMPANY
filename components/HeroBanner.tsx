@@ -19,14 +19,12 @@ import Banner_3 from "../assets/banner_image_3.jpg";
 const HeroBanner = () => {
   const [api, setApi] = useState<CarouselApi>();
   const [current, setCurrent] = useState(0);
-  const [count, setCount] = useState(0);
 
   useEffect(() => {
     if (!api) {
       return;
     }
 
-    setCount(api.scrollSnapList().length);
     setCurrent(api.selectedScrollSnap() + 1);
 
     api.on("select", () => {
@@ -76,8 +74,10 @@ const HeroBanner = () => {
         <CarouselNext className="absolute top-1/2 right-6 w-16 h-16" />
       </Carousel>
 
-      <ul className="w-full h-4 absolute top-[784px] z-2 flex mb-[1rem] list-none justify-center gap-[6px]">
-        <li
+      {/* <CarouselTracker /> */}
+
+      <section className="w-full h-4 absolute top-[784px] z-2 flex mb-[1rem] list-none justify-center gap-[6px]">
+        <div
           onClick={() => {
             api && api.scrollTo(0);
           }}
@@ -85,7 +85,7 @@ const HeroBanner = () => {
             current !== 1 ? "opacity-[0.5]" : "opacity-[1]"
           } rounded-full border-[1px] border-transparent cursor-pointer`}
         />
-        <li
+        <div
           onClick={() => {
             api && api.scrollTo(1);
           }}
@@ -93,7 +93,7 @@ const HeroBanner = () => {
             current !== 2 ? "opacity-[0.5]" : "opacity-[1]"
           } rounded-full border-[1px] border-transparent cursor-pointer`}
         />
-        <li
+        <div
           onClick={() => {
             api && api.scrollTo(2);
           }}
@@ -101,7 +101,7 @@ const HeroBanner = () => {
             current !== 3 ? "opacity-[0.5]" : "opacity-[1]"
           } rounded-full border-[1px] border-transparent cursor-pointer`}
         />
-      </ul>
+      </section>
     </>
   );
 };

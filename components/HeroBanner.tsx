@@ -75,7 +75,7 @@ const HeroBanner = () => {
         <CarouselNext className="absolute top-1/2 right-6 w-16 h-16" />
       </Carousel>
 
-      <CarouselTracker />
+      <CarouselTracker api={api} current={current} />
     </>
   );
 };

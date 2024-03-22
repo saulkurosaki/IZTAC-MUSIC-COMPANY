@@ -15,6 +15,7 @@ import Autoplay from "embla-carousel-autoplay";
 import Banner_1 from "../assets/banner_image_1.png";
 import Banner_2 from "../assets/banner_image_2.webp";
 import Banner_3 from "../assets/banner_image_3.jpg";
+import CarouselTracker from "./CarouselTracker";
 
 const HeroBanner = () => {
   const [api, setApi] = useState<CarouselApi>();
@@ -74,34 +75,7 @@ const HeroBanner = () => {
         <CarouselNext className="absolute top-1/2 right-6 w-16 h-16" />
       </Carousel>
 
-      {/* <CarouselTracker /> */}
-
-      <section className="w-full h-4 absolute top-[784px] z-2 flex mb-[1rem] list-none justify-center gap-[6px]">
-        <div
-          onClick={() => {
-            api && api.scrollTo(0);
-          }}
-          className={`w-4 h-4 bg-[#fff] ${
-            current !== 1 ? "opacity-[0.5]" : "opacity-[1]"
-          } rounded-full border-[1px] border-transparent cursor-pointer`}
-        />
-        <div
-          onClick={() => {
-            api && api.scrollTo(1);
-          }}
-          className={`w-4 h-4 bg-[#fff] ${
-            current !== 2 ? "opacity-[0.5]" : "opacity-[1]"
-          } rounded-full border-[1px] border-transparent cursor-pointer`}
-        />
-        <div
-          onClick={() => {
-            api && api.scrollTo(2);
-          }}
-          className={`w-4 h-4 bg-[#fff] ${
-            current !== 3 ? "opacity-[0.5]" : "opacity-[1]"
-          } rounded-full border-[1px] border-transparent cursor-pointer`}
-        />
-      </section>
+      <CarouselTracker />
     </>
   );
 };

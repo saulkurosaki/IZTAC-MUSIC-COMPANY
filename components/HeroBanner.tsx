@@ -46,8 +46,8 @@ const HeroBanner = () => {
             delay: 10000,
           }),
         ]}
-        // setApi={setApi}
-        // className="bg-slate-600 h-[770px]"
+        setApi={setApi}
+        className="bg-slate-600 h-[770px]"
       >
         <CarouselContent className="-ml-0">
           {/* <CarouselItem className="pl-0">

@@ -57,13 +57,13 @@ const HeroBanner = () => {
               className="w-full h-[770px] object-cover overflow-hidden"
             />
           </CarouselItem>
-          {/* <CarouselItem className="pl-0">
+          <CarouselItem className="pl-0">
             <Image
               src={Banner_2}
               alt="banner_image_2"
               className="w-full h-[770px] object-cover overflow-hidden"
             />
-          </CarouselItem> */}
+          </CarouselItem>
           {/* <CarouselItem className="pl-0">
             <Image
               src={Banner_3}

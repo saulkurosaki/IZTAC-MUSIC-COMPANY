@@ -1,11 +1,11 @@
 import { CarouselApi } from "./ui/carousel";
 
-// type TrackerProps = {
-//   api: CarouselApi | undefined;
-//   current: number;
-// };
+type TrackerProps = {
+  api: CarouselApi | undefined;
+  current: number;
+};
 
-const CarouselTracker = ({ api, current }) => {
+const CarouselTracker = ({ api, current }: TrackerProps) => {
   return (
     <section className="w-full h-4 absolute top-[784px] z-2 flex mb-[1rem] list-none justify-center gap-[6px]">
       <div

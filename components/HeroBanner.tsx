@@ -37,17 +37,17 @@ const HeroBanner = () => {
   return (
     <>
       <Carousel
-      // opts={{
-      //   align: "start",
-      //   loop: true,
-      // }}
-      // plugins={[
-      //   Autoplay({
-      //     delay: 10000,
-      //   }),
-      // ]}
-      // setApi={setApi}
-      // className="bg-slate-600 h-[770px]"
+        opts={{
+          align: "start",
+          loop: true,
+        }}
+        // plugins={[
+        //   Autoplay({
+        //     delay: 10000,
+        //   }),
+        // ]}
+        // setApi={setApi}
+        // className="bg-slate-600 h-[770px]"
       >
         <CarouselContent className="-ml-0">
           {/* <CarouselItem className="pl-0">

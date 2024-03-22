@@ -50,13 +50,13 @@ const HeroBanner = () => {
         className="bg-slate-600 h-[770px]"
       >
         <CarouselContent className="-ml-0">
-          {/* <CarouselItem className="pl-0">
+          <CarouselItem className="pl-0">
             <Image
               src={Banner_1}
               alt="banner_image_1"
               className="w-full h-[770px] object-cover overflow-hidden"
             />
-          </CarouselItem> */}
+          </CarouselItem>
           {/* <CarouselItem className="pl-0">
             <Image
               src={Banner_2}

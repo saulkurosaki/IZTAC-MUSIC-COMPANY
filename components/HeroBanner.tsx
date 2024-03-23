@@ -40,21 +40,22 @@ const HeroBanner = () => {
           align: "start",
           loop: true,
         }}
-        plugins={[
-          Autoplay({
-            delay: 10000,
-          }),
-        ]}
+        // plugins={[
+        //   Autoplay({
+        //     delay: 10000,
+        //   }),
+        // ]}
         setApi={setApi}
         className="bg-slate-600 h-[770px]"
       >
         <CarouselContent className="-ml-0">
-          <CarouselItem className="pl-0">
+          <CarouselItem className={`pl-0`}>
             <Image
               src={Banner_1}
               alt="banner_image_1"
-              className="w-full h-[770px] object-cover overflow-hidden"
+              className="w-full h-[770px] object-cover overflow-hidden z-10"
             />
+            <div className="w-[1290px] h-[466px] bg-slate-600 opacity-50 z-20"></div>
           </CarouselItem>
           <CarouselItem className="pl-0">
             <Image

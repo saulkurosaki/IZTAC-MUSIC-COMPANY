@@ -17,6 +17,9 @@ const config = {
       xl: "1280px",
       "2xl": "1537px",
     },
+    fontFamily: {
+      oxygen: ['"Odoo Unicode Support Noto"', "sans-serif"],
+    },
     container: {
       center: true,
       padding: "2rem",

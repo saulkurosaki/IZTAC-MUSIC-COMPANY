@@ -58,12 +58,12 @@ const HeroBanner = () => {
             />
             <div className="absolute inset-0 flex justify-center items-center">
               <div className="flex flex-col justify-center items-center w-[720px] h-[241px] text-white z-20">
-                {/* <h2 className="text-[65px] font-oxygen">Bienvenido a IMC</h2>
+                <h2 className="text-[65px] font-oxygen">Bienvenido a IMC</h2>
                 <p className="pb-4 text-3xl font-oxygen">Iztac Music Company</p>
                 <p className="pb-4 text-xl font-oxygen">
                   Somos una productora musical especializada en cine, televisión
                   y videojuegos
-                </p> */}
+                </p>
                 {/* <Link
                   href="/about-us"
                   className="text-[23px] font-normal mt-auto flex justify-center items-center w-44 h-12 bg-[#B99253] rounded-lg text-[#2b2f35ef] px-4 pya-2"

@@ -64,12 +64,12 @@ const HeroBanner = () => {
                   Somos una productora musical especializada en cine, televisión
                   y videojuegos
                 </p>
-                {/* <Link
+                <Link
                   href="/about-us"
                   className="text-[23px] font-normal mt-auto flex justify-center items-center w-44 h-12 bg-[#B99253] rounded-lg text-[#2b2f35ef] px-4 pya-2"
                 >
                   Descubre más
-                </Link> */}
+                </Link>
               </div>
             </div>
           </CarouselItem>

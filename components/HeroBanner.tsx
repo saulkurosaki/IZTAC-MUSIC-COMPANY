@@ -110,12 +110,12 @@ const HeroBanner = () => {
                 <p className="pb-4 text-xl font-oxygen">
                   Encuentra algunos de nuestros premios y nominaciones aquí
                 </p>
-                {/* <Link
+                <Link
                   href="/blog-2"
                   className="text-[23px] font-normal mt-auto flex justify-center items-center w-52 h-12 bg-[#B99253] rounded-lg text-[#2b2f35ef] px-4 pya-2"
                 >
                   Nuestros Logros
-                </Link> */}
+                </Link>
               </div>
             </div>
           </CarouselItem>

@@ -81,12 +81,12 @@ const HeroBanner = () => {
             />
             <div className="w-full absolute left-[100%] inset-64 flex justify-center items-center">
               <div className="flex flex-col justify-center items-center w-[1000px] h-[198px] text-white z-20">
-                {/* <h2 className="text-[55px] font-oxygen">
+                <h2 className="text-[55px] font-oxygen">
                   Lleva tu proyecto al siguiente nivel
                 </h2>
                 <p className="pb-4 text-xl font-oxygen">
                   Contáctanos para saber acerca de nuestras asesorías artísticas
-                </p> */}
+                </p>
                 {/* <Link
                   href="/our-services"
                   className="text-[23px] font-normal mt-auto flex justify-center items-center w-40 h-12 bg-[#B99253] rounded-lg text-[#2b2f35ef] px-4 pya-2"

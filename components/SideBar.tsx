@@ -51,7 +51,7 @@ const SideBar = () => {
           </SheetTitle>
           <SheetDescription className="h-full text-lg text-[#252525b8]">
             <div className="flex flex-col justify-between h-full">
-              <ul className="flex flex-col h-[40%] justify-between items-start">
+              <ul className="flex flex-col h-[40%] justify-between items-start oxygen">
                 <Link href="/">Inicio</Link>
                 <Link href="/our-services">Servicios</Link>
                 <Link href="/blog">Nuestros Logros</Link>
@@ -71,9 +71,7 @@ const SideBar = () => {
                     height={15}
                     className="inline-block mr-[6px] pt-[2px]"
                   />
-                  <p className="inline-block font-semibold">
-                    iztacmusicofficial@gmail.com
-                  </p>
+                  <p className="inline-block">iztacmusicofficial@gmail.com</p>
                 </Link>
               </ul>
 
@@ -81,7 +79,7 @@ const SideBar = () => {
                 href="/contact-us"
                 className="flex w-full h-9 bg-[#2e2414] rounded-lg justify-center items-center"
               >
-                <p className="text-white text-[15px]">Contáctenos</p>
+                <p className="text-white text-[15px] oxygen">Contáctenos</p>
               </Link>
             </div>
           </SheetDescription>

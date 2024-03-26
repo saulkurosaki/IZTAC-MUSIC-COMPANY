@@ -47,7 +47,7 @@ const HeroBanner = () => {
         //   }),
         // ]}
         setApi={setApi}
-        className="bg-slate-600 h-[770px]"
+        className="bg-[#2e2414] h-[770px]"
       >
         <CarouselContent className="-ml-0">
           <CarouselItem className="pl-0">
@@ -56,6 +56,14 @@ const HeroBanner = () => {
               alt="banner_image_1"
               className="w-full h-[770px] object-cover z-10"
             />
+
+            <div className="absolute inset-0 flex items-start">
+              <div
+                className="w-screen h-[172px] bg-[#2e2414] z-20"
+                style={{ clipPath: "polygon(0 0, 100% 0, 100% 0, 0 100%)" }}
+              ></div>
+            </div>
+
             <div className="absolute inset-64 flex justify-center items-center">
               <div className="flex flex-col justify-center items-center w-[720px] h-[241px] text-white z-20">
                 <h2 className="text-[65px] oxygen">Bienvenido a IMC</h2>
@@ -72,6 +80,15 @@ const HeroBanner = () => {
                 </Link>
               </div>
             </div>
+
+            {/* <div className="absolute inset-0 flex items-end">
+              <div
+                className="w-screen h-[78px] bg-[#2e2414] z-20"
+                style={{
+                  clipPath: "polygon(0 0, 100% 100%, 100% 100%, 0 100%)",
+                }}
+              ></div>
+            </div> */}
           </CarouselItem>
           <CarouselItem className="pl-0">
             <Image

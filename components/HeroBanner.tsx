@@ -16,6 +16,7 @@ import Banner_1 from "../assets/banner_image_1.png";
 import Banner_2 from "../assets/banner_image_2.webp";
 import Banner_3 from "../assets/banner_image_3.jpg";
 import Banner_2_lines from "../assets/banner_2_lines.svg";
+import Banner_3_waves from "../assets/banner_3_waves.svg";
 import CarouselTracker from "./CarouselTracker";
 import Link from "next/link";
 
@@ -120,6 +121,11 @@ const HeroBanner = () => {
             </div>
           </CarouselItem>
           <CarouselItem className="pl-0">
+            <Image
+              src={Banner_3_waves}
+              alt="banner_3_waves"
+              className="absolute w-full h-full z-20"
+            />
             <Image
               src={Banner_3}
               alt="banner_image_3"

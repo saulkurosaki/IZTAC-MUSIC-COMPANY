@@ -58,9 +58,9 @@ const HeroBanner = () => {
             />
             <div className="absolute inset-64 flex justify-center items-center">
               <div className="flex flex-col justify-center items-center w-[720px] h-[241px] text-white z-20">
-                <h2 className="text-[65px] font-oxygen">Bienvenido a IMC</h2>
-                <p className="pb-4 text-3xl font-oxygen">Iztac Music Company</p>
-                <p className="pb-4 text-xl font-oxygen">
+                <h2 className="text-[65px] oxygen">Bienvenido a IMC</h2>
+                <p className="pb-4 text-3xl oxygen">Iztac Music Company</p>
+                <p className="pb-4 text-xl oxygen">
                   Somos una productora musical especializada en cine, televisión
                   y videojuegos
                 </p>
@@ -81,10 +81,10 @@ const HeroBanner = () => {
             />
             <div className="w-full absolute left-[100%] inset-64 flex justify-center items-center">
               <div className="flex flex-col justify-center items-center w-[1000px] h-[198px] text-white z-20">
-                <h2 className="text-[55px] font-oxygen">
+                <h2 className="text-[55px] oxygen">
                   Lleva tu proyecto al siguiente nivel
                 </h2>
-                <p className="pb-4 text-xl font-oxygen">
+                <p className="pb-4 text-xl oxygen">
                   Contáctanos para saber acerca de nuestras asesorías artísticas
                 </p>
                 <Link
@@ -104,10 +104,10 @@ const HeroBanner = () => {
             />
             <div className="w-full absolute left-[200%] inset-64 flex justify-center items-center">
               <div className="flex flex-col justify-center items-center w-[1050px] h-[198px] text-white z-20">
-                <h2 className="text-[55px] font-oxygen">
+                <h2 className="text-[50px] oxygen">
                   Composiciones mundialmente reconocidas
                 </h2>
-                <p className="pb-4 text-xl font-oxygen">
+                <p className="pb-4 text-xl oxygen">
                   Encuentra algunos de nuestros premios y nominaciones aquí
                 </p>
                 <Link

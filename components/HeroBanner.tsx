@@ -87,12 +87,12 @@ const HeroBanner = () => {
                 <p className="pb-4 text-xl font-oxygen">
                   Contáctanos para saber acerca de nuestras asesorías artísticas
                 </p>
-                {/* <Link
+                <Link
                   href="/our-services"
                   className="text-[23px] font-normal mt-auto flex justify-center items-center w-40 h-12 bg-[#B99253] rounded-lg text-[#2b2f35ef] px-4 pya-2"
                 >
                   Conoce más
-                </Link> */}
+                </Link>
               </div>
             </div>
           </CarouselItem>
@@ -102,22 +102,22 @@ const HeroBanner = () => {
               alt="banner_image_3"
               className="w-full h-[770px] object-cover z-10"
             />
-            {/* <div className="w-full absolute left-[200%] inset-64 flex justify-center items-center">
+            <div className="w-full absolute left-[200%] inset-64 flex justify-center items-center">
               <div className="flex flex-col justify-center items-center w-[1050px] h-[198px] text-white z-20">
-                // <h2 className="text-[55px] font-oxygen">
-                //   Composiciones mundialmente reconocidas
-                // </h2>
-                // <p className="pb-4 text-xl font-oxygen">
-                //   Encuentra algunos de nuestros premios y nominaciones aquí
-                // </p>
-                // <Link
-                //   href="/blog-2"
-                //   className="text-[23px] font-normal mt-auto flex justify-center items-center w-52 h-12 bg-[#B99253] rounded-lg text-[#2b2f35ef] px-4 pya-2"
-                // >
-                //   Nuestros Logros
-                // </Link>
+                {/* <h2 className="text-[55px] font-oxygen">
+                  Composiciones mundialmente reconocidas
+                </h2>
+                <p className="pb-4 text-xl font-oxygen">
+                  Encuentra algunos de nuestros premios y nominaciones aquí
+                </p> */}
+                {/* <Link
+                  href="/blog-2"
+                  className="text-[23px] font-normal mt-auto flex justify-center items-center w-52 h-12 bg-[#B99253] rounded-lg text-[#2b2f35ef] px-4 pya-2"
+                >
+                  Nuestros Logros
+                </Link> */}
               </div>
-            </div> */}
+            </div>
           </CarouselItem>
         </CarouselContent>
         <CarouselPrevious className="absolute top-1/2 left-6 w-16 h-16" />

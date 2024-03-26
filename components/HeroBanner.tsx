@@ -81,14 +81,14 @@ const HeroBanner = () => {
               </div>
             </div>
 
-            {/* <div className="absolute inset-0 flex items-end">
+            <div className="absolute inset-0 flex items-end">
               <div
                 className="w-screen h-[78px] bg-[#2e2414] z-20"
                 style={{
                   clipPath: "polygon(0 0, 100% 100%, 100% 100%, 0 100%)",
                 }}
               ></div>
-            </div> */}
+            </div>
           </CarouselItem>
           <CarouselItem className="pl-0">
             <Image

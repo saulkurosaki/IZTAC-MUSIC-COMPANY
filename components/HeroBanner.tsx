@@ -72,9 +72,9 @@ const HeroBanner = () => {
               ></div>
             </div>
 
-            <div className="absolute inset-0 max-lg:inset-32 max-md:inset-5 flex justify-center items-center">
+            <div className="absolute inset-0 max-lg:inset-32 max-md:inset-3 flex justify-center items-center">
               <div className="flex flex-col justify-center items-center w-[720px] h-[241px] max-md:h-64 text-white z-20">
-                <h2 className="text-[65px] max-lg:text-[52px] max-md:text-[40px] oxygen">
+                <h2 className="text-[65px] max-lg:text-[52px] max-md:text-4xl max-md:pb-4 oxygen">
                   Bienvenido a IMC
                 </h2>
                 <p className="pb-4 text-3xl max-lg:text-2xl oxygen">

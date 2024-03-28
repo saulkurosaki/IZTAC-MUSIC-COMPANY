@@ -72,11 +72,15 @@ const HeroBanner = () => {
               ></div>
             </div>
 
-            <div className="absolute inset-64 flex justify-center items-center">
+            <div className="absolute inset-0 max-lg:inset-32 flex justify-center items-center">
               <div className="flex flex-col justify-center items-center w-[720px] h-[241px] text-white z-20">
-                <h2 className="text-[65px] oxygen">Bienvenido a IMC</h2>
-                <p className="pb-4 text-3xl oxygen">Iztac Music Company</p>
-                <p className="pb-4 text-xl oxygen">
+                <h2 className="text-[65px] max-lg:text-[52px] oxygen">
+                  Bienvenido a IMC
+                </h2>
+                <p className="pb-4 text-3xl max-lg:text-2xl oxygen">
+                  Iztac Music Company
+                </p>
+                <p className="pb-4 text-xl text-center oxygen">
                   Somos una productora musical especializada en cine, televisión
                   y videojuegos
                 </p>
@@ -109,7 +113,7 @@ const HeroBanner = () => {
               alt="banner_image_2"
               className="w-full h-[770px] object-cover z-10"
             />
-            <div className="w-full absolute left-[100%] inset-64 flex justify-center items-center">
+            <div className="w-full absolute left-[100%] inset-0 flex justify-center items-center">
               <div className="flex flex-col justify-center items-center w-[1000px] h-[198px] text-white z-20">
                 <h2 className="text-[55px] oxygen">
                   Lleva tu proyecto al siguiente nivel
@@ -137,7 +141,7 @@ const HeroBanner = () => {
               alt="banner_image_3"
               className="w-full h-[770px] object-cover z-10"
             />
-            <div className="w-full absolute left-[200%] inset-64 flex justify-center items-center">
+            <div className="w-full absolute left-[200%] inset-0 flex justify-center items-center">
               <div className="flex flex-col justify-center items-center w-[1050px] h-[198px] text-white z-20">
                 <h2 className="text-[50px] oxygen">
                   Composiciones mundialmente reconocidas
@@ -147,7 +151,7 @@ const HeroBanner = () => {
                 </p>
                 <Link
                   href="/blog-2"
-                  className="text-[23px] font-normal mt-auto flex justify-center items-center w-52 h-12 bg-[#B99253] rounded-lg text-[#2b2f35ef] px-4 pya-2"
+                  className="text-[23px] font-normal mt-auto flex justify-center items-center w-[199px] h-12 bg-[#B99253] rounded-lg text-[#2b2f35ef] px-4 pya-2"
                 >
                   Nuestros Logros
                 </Link>

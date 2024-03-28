@@ -142,11 +142,11 @@ const HeroBanner = () => {
               className="w-full h-[770px] object-cover z-10"
             />
             <div className="w-full absolute left-[200%] inset-0 flex justify-center items-center">
-              <div className="flex flex-col justify-center items-center w-[1050px] max-xl:w-[900px] max-lg:w-[670px] h-[198px] max-xl:h-52 max-lg:h-48 xl:h-44 text-white z-20">
-                <h2 className="text-[50px] max-xl:text-5xl max-lg:text-[42px] max-xl:pb-3 text-center oxygen">
+              <div className="flex flex-col justify-center items-center w-[1050px] max-xl:w-[900px] max-lg:w-[670px] max-md:w-[340px] h-[198px] max-xl:h-52 max-lg:h-48 max-md:h-64 xl:h-44 text-white z-20">
+                <h2 className="text-[50px] max-xl:text-5xl max-lg:text-[42px] max-md:text-4xl max-xl:pb-3 max-md:pb-5 text-center oxygen">
                   Composiciones mundialmente reconocidas
                 </h2>
-                <p className="pb-4 text-xl oxygen">
+                <p className="pb-4 text-center text-xl max-md:text-base max-md:px-4 oxygen">
                   Encuentra algunos de nuestros premios y nominaciones aquí
                 </p>
                 <Link

@@ -49,11 +49,11 @@ const HeroBanner = () => {
           align: "start",
           loop: true,
         }}
-        // plugins={[
-        //   Autoplay({
-        //     delay: 10000,
-        //   }),
-        // ]}
+        plugins={[
+          Autoplay({
+            delay: 10000,
+          }),
+        ]}
         setApi={setApi}
         className="bg-[#2e2414] h-[770px]"
       >

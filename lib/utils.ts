@@ -44,9 +44,9 @@ export const generateClipPathTopStyle = (mediaQuery: number) => {
     return "polygon(0 0, 100% 0, 100% 19%, 0 66%)";
   } else if (mediaQuery <= 1536) {
     return "polygon(0 0, 100% 0, 100% 14%, 0 71%)";
-  // } else {
-  //   return "polygon(0 0, 100% 0, 100% 0, 0 100%)";
-  // }
+  } else {
+    return "polygon(0 0, 100% 0, 100% 0, 0 100%)";
+  }
 };
 
 // export const generateClipPathBottomStyle = (mediaQuery: number) => {

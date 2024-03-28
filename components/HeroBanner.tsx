@@ -15,13 +15,18 @@ import Autoplay from "embla-carousel-autoplay";
 import Banner_1 from "../assets/banner_image_1.png";
 import Banner_2 from "../assets/banner_image_2.webp";
 import Banner_3 from "../assets/banner_image_3.jpg";
-import Banner_1_borders from "../assets/banner_1_borders.svg";
 import Banner_2_lines from "../assets/banner_2_lines.svg";
 import Banner_3_waves from "../assets/banner_3_waves.svg";
 import CarouselTracker from "./CarouselTracker";
 import Link from "next/link";
+import {
+  generateClipPathBottomStyle,
+  generateClipPathTopStyle,
+  useWindowSize,
+} from "@/lib/utils";
 
 const HeroBanner = () => {
+  const size = useWindowSize();
   const [api, setApi] = useState<CarouselApi>();
   const [current, setCurrent] = useState(0);
 
@@ -60,10 +65,10 @@ const HeroBanner = () => {
               className="w-full h-[770px] object-cover z-10"
             />
 
-            <div className="absolute inset-0 flex items-start">
+            <div className="absolute inset-0 flex items-start max-md:hidden">
               <div
                 className="w-screen h-[172px] bg-[#2e2414] z-20"
-                style={{ clipPath: "polygon(0 0, 100% 0, 100% 0, 0 100%)" }}
+                style={{ clipPath: generateClipPathTopStyle(size.width) }}
               ></div>
             </div>
 
@@ -84,12 +89,12 @@ const HeroBanner = () => {
               </div>
             </div>
 
-            <div className="absolute inset-0 flex items-end">
+            <div className="absolute inset-0 flex items-end max-md:hidden">
               <div
                 className="w-screen h-[78px] bg-[#2e2414] z-20"
-                style={{
-                  clipPath: "polygon(0 0, 100% 100%, 100% 100%, 0 100%)",
-                }}
+                // style={{
+                //   clipPath: generateClipPathBottomStyle(size.width),
+                // }}
               ></div>
             </div>
           </CarouselItem>

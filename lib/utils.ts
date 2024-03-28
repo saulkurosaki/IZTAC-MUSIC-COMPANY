@@ -40,8 +40,8 @@ export const generateClipPathTopStyle = (mediaQuery: number) => {
     return "polygon(0 0, 100% 0, 100% 28%, 0 58%)";
   } else if (mediaQuery <= 1024) {
     return "polygon(0 0, 100% 0, 100% 22%, 0 62%)";
-  // } else if (mediaQuery <= 1280) {
-  //   return "polygon(0 0, 100% 0, 100% 19%, 0 66%)";
+  } else if (mediaQuery <= 1280) {
+    return "polygon(0 0, 100% 0, 100% 19%, 0 66%)";
   // } else if (mediaQuery <= 1536) {
   //   return "polygon(0 0, 100% 0, 100% 14%, 0 71%)";
   // } else {

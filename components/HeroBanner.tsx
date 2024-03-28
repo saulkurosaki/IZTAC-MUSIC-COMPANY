@@ -130,7 +130,7 @@ const HeroBanner = () => {
             <Image
               src={Banner_3_waves}
               alt="banner_3_waves"
-              className="absolute w-full h-full z-20"
+              className="absolute w-full h-full z-20 max-md:hidden"
             />
             <Image
               src={Banner_3}

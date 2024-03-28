@@ -92,9 +92,9 @@ const HeroBanner = () => {
             <div className="absolute inset-0 flex items-end max-md:hidden">
               <div
                 className="w-screen h-[78px] bg-[#2e2414] z-20"
-                // style={{
-                //   clipPath: generateClipPathBottomStyle(size.width),
-                // }}
+                style={{
+                  clipPath: generateClipPathBottomStyle(size.width),
+                }}
               ></div>
             </div>
           </CarouselItem>

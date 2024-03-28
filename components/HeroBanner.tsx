@@ -72,9 +72,9 @@ const HeroBanner = () => {
               ></div>
             </div>
 
-            <div className="absolute inset-0 max-lg:inset-32 flex justify-center items-center">
-              <div className="flex flex-col justify-center items-center w-[720px] h-[241px] text-white z-20">
-                <h2 className="text-[65px] max-lg:text-[52px] oxygen">
+            <div className="absolute inset-0 max-lg:inset-32 max-md:inset-5 flex justify-center items-center">
+              <div className="flex flex-col justify-center items-center w-[720px] h-[241px] max-md:h-64 text-white z-20">
+                <h2 className="text-[65px] max-lg:text-[52px] max-md:text-[40px] oxygen">
                   Bienvenido a IMC
                 </h2>
                 <p className="pb-4 text-3xl max-lg:text-2xl oxygen">
@@ -159,8 +159,8 @@ const HeroBanner = () => {
             </div>
           </CarouselItem>
         </CarouselContent>
-        <CarouselPrevious className="absolute top-1/2 left-6 w-16 h-16" />
-        <CarouselNext className="absolute top-1/2 right-6 w-16 h-16" />
+        <CarouselPrevious className="absolute top-1/2 left-6 w-16 h-16 max-md:hidden" />
+        <CarouselNext className="absolute top-1/2 right-6 w-16 h-16 max-md:hidden" />
       </Carousel>
 
       <CarouselTracker api={api} current={current} />

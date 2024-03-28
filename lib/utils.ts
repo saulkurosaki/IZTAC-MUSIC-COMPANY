@@ -54,8 +54,8 @@ export const generateClipPathBottomStyle = (mediaQuery: number) => {
       return "polygon(0 52%, 100% 83%, 100% 100%, 0 100%)";
     } else if (mediaQuery <= 1024) {
       return "polygon(0 28%, 100% 69%, 100% 100%, 0 100%)";
-  //   } else if (mediaQuery <= 1280) {
-  //     return "polygon(0 31%, 100% 82%, 100% 100%, 0 100%)";
+    } else if (mediaQuery <= 1280) {
+      return "polygon(0 31%, 100% 82%, 100% 100%, 0 100%)";
   //   } else if (mediaQuery <= 1536) {
   //     return "polygon(0 26%, 100% 87%, 100% 100%, 0 100%)";
   //   } else {

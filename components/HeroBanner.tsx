@@ -102,7 +102,7 @@ const HeroBanner = () => {
             <Image
               src={Banner_2_lines}
               alt="banner_2_lines"
-              className="absolute w-full z-20"
+              className="absolute w-full z-20 max-md:hidden"
             />
             <Image
               src={Banner_2}

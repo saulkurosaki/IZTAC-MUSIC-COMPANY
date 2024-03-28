@@ -142,7 +142,7 @@ const HeroBanner = () => {
               className="w-full h-[770px] object-cover z-10"
             />
             <div className="w-full absolute left-[200%] inset-0 flex justify-center items-center">
-              <div className="flex flex-col justify-center items-center w-[1050px] h-[198px] text-white z-20">
+              <div className="flex flex-col justify-center items-center w-[1050px] h-[198px] xl:h-44 text-white z-20">
                 <h2 className="text-[50px] oxygen">
                   Composiciones mundialmente reconocidas
                 </h2>

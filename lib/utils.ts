@@ -36,8 +36,8 @@ export const useWindowSize = () => {
 };
 
 export const generateClipPathTopStyle = (mediaQuery: number) => {
-  // if (mediaQuery <= 768) {
-  //   return "polygon(0 0, 100% 0, 100% 28%, 0 58%)";
+  if (mediaQuery <= 768) {
+    return "polygon(0 0, 100% 0, 100% 28%, 0 58%)";
   // } else if (mediaQuery <= 1024) {
   //   return "polygon(0 0, 100% 0, 100% 22%, 0 62%)";
   // } else if (mediaQuery <= 1280) {

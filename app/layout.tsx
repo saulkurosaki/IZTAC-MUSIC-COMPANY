@@ -27,7 +27,7 @@ export default function RootLayout({
         <div className="overflow-auto w-full h-full z-0 relative flex flex-col flex-nowrap">
           <Header />
           <main>{children}</main>
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </body>
     </html>

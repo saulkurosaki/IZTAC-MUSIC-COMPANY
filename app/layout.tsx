@@ -24,9 +24,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={oxygen.variable}>
-        <Header />
-        <main>{children}</main>
-        <Footer />
+        <div className="overflow-auto w-full h-full z-0 relative flex flex-col flex-nowrap">
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </div>
       </body>
     </html>
   );

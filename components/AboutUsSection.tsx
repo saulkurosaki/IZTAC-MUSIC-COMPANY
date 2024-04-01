@@ -10,11 +10,11 @@ const AboutUsSection = () => {
             <h2 className="oxygen h-[53px] mb-11 font-medium text-white text-[44px] pl-2 flex items-center">
               Sobre Nosotros
             </h2>
-            {/* <p className="text-white text-lg h-12 mb-5 oxygen flex items-center">
+            <p className="text-white text-lg h-12 mb-5 oxygen flex items-center">
               IMC es una compañía enfocada en la elaboración de música para
               cine, televisión y videojuegos. ¡Conoce más acerca de nosotros
               aquí!
-            </p> */}
+            </p>
             {/* <div className="w-full h-[38px] flex">
               <Link
                 href="/about-us"

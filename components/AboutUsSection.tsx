@@ -15,14 +15,14 @@ const AboutUsSection = () => {
               cine, televisión y videojuegos. ¡Conoce más acerca de nosotros
               aquí!
             </p>
-            {/* <div className="w-full h-[38px] flex">
+            <div className="w-full h-[38px] flex">
               <Link
                 href="/about-us"
                 className="w-[136px] h-full px-3 py-[6px] bg-[#f5f3f0] cursor-pointer border-[1px] border-transparent rounded-md text-center font-light text-lg oxygen flex items-center justify-center"
               >
                 ¡Conoce más!
               </Link>
-            </div> */}
+            </div>
           </div>
           {/* <div className="w-[550px] h-full ml-[110px] px-[15px] py-4"></div> */}
         </div>

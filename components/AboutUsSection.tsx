@@ -10,21 +10,21 @@ const AboutUsSection = () => {
             <h2 className="oxygen h-[53px] mb-11 font-medium text-white text-[44px] pl-2 flex items-center">
               Sobre Nosotros
             </h2>
-            <p className="text-white text-lg h-12 mb-5 oxygen flex items-center">
+            {/* <p className="text-white text-lg h-12 mb-5 oxygen flex items-center">
               IMC es una compañía enfocada en la elaboración de música para
               cine, televisión y videojuegos. ¡Conoce más acerca de nosotros
               aquí!
-            </p>
-            <div className="w-full h-[38px] flex">
+            </p> */}
+            {/* <div className="w-full h-[38px] flex">
               <Link
                 href="/about-us"
                 className="w-[136px] h-full px-3 py-[6px] bg-[#f5f3f0] cursor-pointer border-[1px] border-transparent rounded-md text-center font-light text-lg oxygen flex items-center justify-center"
               >
                 ¡Conoce más!
               </Link>
-            </div>
+            </div> */}
           </div>
-          <div className="w-[550px] h-full ml-[110px] px-[15px] py-4"></div>
+          {/* <div className="w-[550px] h-full ml-[110px] px-[15px] py-4"></div> */}
         </div>
       </div>
     </div>

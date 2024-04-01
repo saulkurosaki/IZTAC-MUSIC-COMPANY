@@ -1,5 +1,8 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+
+import Logo from "../assets/iztac_logo_white.png";
 
 const AboutUsSection = () => {
   return (
@@ -24,7 +27,9 @@ const AboutUsSection = () => {
               </Link>
             </div>
           </div>
-          {/* <div className="w-[550px] h-full ml-[110px] px-[15px] py-4"></div> */}
+          <div className="w-[550px] h-full ml-[110px] px-[15px] py-4">
+            <Image src={Logo} alt="logo" className="w-full h-full" />
+          </div>
         </div>
       </div>
     </div>

@@ -43,7 +43,7 @@ const HeroBanner = () => {
   }, [api]);
 
   return (
-    <section className="max-md:pt-14 md:pt-[70px] xl:pt-14 lg:pt-12">
+    <>
       <Carousel
         opts={{
           align: "start",
@@ -164,7 +164,7 @@ const HeroBanner = () => {
       </Carousel>
 
       <CarouselTracker api={api} current={current} />
-    </section>
+    </>
   );
 };
 

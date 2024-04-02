@@ -22,7 +22,7 @@ const Header = () => {
           href="/about-us"
           className="hidden lg:flex w-[91px] justify-center items-center"
         >
-          <p className="text-[18px] text-[#2b2f35] oxygen">Conócenos</p>
+          <p className="text-[18px] text-[#2e2414] oxygen">Conócenos</p>
         </Link>
 
         <div className="flex lg:hidden">

@@ -1,5 +1,6 @@
 import AboutUsSection from "@/components/AboutUsSection";
 import HeroBanner from "@/components/HeroBanner";
+import OurServicesSection from "@/components/OurServicesSection";
 
 export default function Home() {
   return (
@@ -7,6 +8,8 @@ export default function Home() {
       <HeroBanner />
 
       <AboutUsSection />
+
+      <OurServicesSection />
     </div>
   );
 }

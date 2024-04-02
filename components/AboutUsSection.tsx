@@ -22,7 +22,7 @@ const AboutUsSection = () => {
             <div className="w-full h-[38px] flex">
               <Link
                 href="/about-us"
-                className="w-[136px] h-full px-3 py-[6px] bg-[#f5f3f0] cursor-pointer border-[1px] border-transparent rounded-md text-center font-light text-lg oxygen flex items-center justify-center"
+                className="w-[136px] h-full px-3 py-[6px] bg-[#f5f3f0] cursor-pointer border-[1px] border-transparent rounded-md text-center font-light text-lg text-[#2e2414] oxygen flex items-center justify-center"
               >
                 ¡Conoce más!
               </Link>

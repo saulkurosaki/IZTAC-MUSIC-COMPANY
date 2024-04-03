@@ -1,9 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import OurServices1 from "../assets/our_services_image_1.webp";
 import OurServices2 from "../assets/our_services_image_2.webp";
 import OurServices3 from "../assets/our_services_image_3.webp";
-import Link from "next/link";
 
 const OurServicesSection = () => {
   return (

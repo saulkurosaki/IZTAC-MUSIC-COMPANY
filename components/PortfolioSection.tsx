@@ -25,13 +25,13 @@ const PortfolioSection = () => {
       {/* <div className="w-full h-[411px] pt-64 pb-10">
       </div> */}
 
-      {/* <div className="w-full h-[542px] absolute bottom-0 right-0 z-10 flex items-end overflow-hidden">
+      <div className="w-full h-[542px] absolute bottom-0 right-0 z-10 flex items-end overflow-hidden">
         <Image
           src={Port_Bottom_Waves}
           alt="Bottom Waves"
           className="w-full h-auto object-contain"
         />
-      </div> */}
+      </div>
       {/* <div className="w-full h-[542px] py-6">
       </div> */}
     </section>

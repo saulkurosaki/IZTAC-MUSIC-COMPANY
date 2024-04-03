@@ -16,9 +16,11 @@ const ServiceCard = ({ image, title, description }: ServiceCardProps) => {
           alt="our_services_image"
           className="w-full h-auto object-contain"
         />
-        <div className="flex flex-col w-full h-[269px] px-4 pt-3 pb-5 justify-around">
-          <h3 className="w-[95%] h-[85px] oxygen text-4xl">{title}</h3>
-          <p className="w-full h-[72px] oxygen ">{description}</p>
+        <div className="flex flex-col w-full xl:h-[269px] lg:h-[328px] px-4 pt-3 pb-5 xl:justify-around max-xl:justify-between">
+          <h3 className="xl:w-[95%] max-xl:w-full h-[85px] oxygen lg:text-4xl text-gray-800">
+            {title}
+          </h3>
+          <p className="w-full h-[72px] oxygen text-gray-700">{description}</p>
           <div className="w-full h-11">
             <Link
               href="/contact-us"

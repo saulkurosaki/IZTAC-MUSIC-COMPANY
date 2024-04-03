@@ -1,6 +1,7 @@
 import AboutUsSection from "@/components/AboutUsSection";
 import HeroBanner from "@/components/HeroBanner";
 import OurServicesSection from "@/components/OurServicesSection";
+import PortfolioSection from "@/components/PortfolioSection";
 
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
       <AboutUsSection />
 
       <OurServicesSection />
+
+      <PortfolioSection />
     </div>
   );
 }

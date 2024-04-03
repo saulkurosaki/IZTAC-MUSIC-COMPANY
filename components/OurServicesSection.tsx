@@ -22,11 +22,11 @@ const OurServicesSection = () => {
                 <h3 className="w-[95%] h-[85px] oxygen text-4xl">
                   Asesoría Artística y Vocal Coaching
                 </h3>
-                {/* <p className="w-full h-[72px] oxygen ">
+                <p className="w-full h-[72px] oxygen ">
                   Asesorías personalizadas para artistas, cantantes,
                   productores, compositores y músicos que buscan impulsar su
                   carrera.
-                </p> */}
+                </p>
                 {/* <div className="w-full h-11">
                   <Link
                     href="/contact-us"

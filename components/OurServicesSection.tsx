@@ -56,14 +56,14 @@ const OurServicesSection = () => {
                   comerciales y videojuegos adaptables a presupuesto y
                   objetivos.
                 </p>
-                {/* <div className="w-full h-11">
+                <div className="w-full h-11">
                   <Link
                     href="/contact-us"
                     className="flex w-32 h-full bg-[#2e2414] justify-center items-center text-white text-lg oxygen rounded-md"
                   >
                     Contáctanos
                   </Link>
-                </div> */}
+                </div>
               </div>
             </div>
           </div>

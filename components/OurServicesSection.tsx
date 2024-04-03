@@ -48,9 +48,9 @@ const OurServicesSection = () => {
                 className="w-full h-auto object-contain"
               />
               <div className="flex flex-col w-full h-[269px] px-4 pt-3 pb-5 justify-around">
-                {/* <h3 className="w-[95%] h-[85px] oxygen text-4xl">
+                <h3 className="w-[95%] h-[85px] oxygen text-4xl">
                   Composición para Media
-                </h3> */}
+                </h3>
                 {/* <p className="w-full h-[72px] oxygen ">
                   Composiciones personalizadas para cine, televisión,
                   comerciales y videojuegos adaptables a presupuesto y

@@ -80,10 +80,10 @@ const OurServicesSection = () => {
                 <h3 className="w-[95%] h-[85px] oxygen text-4xl">
                   Mezcla y Masterización
                 </h3>
-                {/* <p className="w-full h-[72px] oxygen ">
+                <p className="w-full h-[72px] oxygen ">
                   Ingeniería profesional y eficaz para la mezcla y masterización
                   de proyectos musicales.
-                </p> */}
+                </p>
                 {/* <div className="w-full h-11">
                   <Link
                     href="/contact-us"

@@ -40,14 +40,14 @@ const OurServicesSection = () => {
           </div>
 
           {/* Card 2 */}
-          {/* <div className="w-full h-full px-[15px] py-4">
+          <div className="w-full h-full px-[15px] py-4">
             <div className="flex flex-col w-full h-full overflow-hidden shadow-1 bg-white rounded-[0.4rem]">
-              <Image
+              {/* <Image
                 src={OurServices2}
                 alt="our_services_2"
                 className="w-full h-auto object-contain"
-              />
-              <div className="flex flex-col w-full h-[269px] px-4 pt-3 pb-5 justify-around">
+              /> */}
+              {/* <div className="flex flex-col w-full h-[269px] px-4 pt-3 pb-5 justify-around">
                 <h3 className="w-[95%] h-[85px] oxygen text-4xl">
                   Composición para Media
                 </h3>
@@ -64,9 +64,9 @@ const OurServicesSection = () => {
                     Contáctanos
                   </Link>
                 </div>
-              </div>
+              </div> */}
             </div>
-          </div> */}
+          </div>
 
           {/* Card 3 */}
           {/* <div className="w-full h-full px-[15px] py-4">

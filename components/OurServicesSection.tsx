@@ -51,11 +51,11 @@ const OurServicesSection = () => {
                 <h3 className="w-[95%] h-[85px] oxygen text-4xl">
                   Composición para Media
                 </h3>
-                {/* <p className="w-full h-[72px] oxygen ">
+                <p className="w-full h-[72px] oxygen ">
                   Composiciones personalizadas para cine, televisión,
                   comerciales y videojuegos adaptables a presupuesto y
                   objetivos.
-                </p> */}
+                </p>
                 {/* <div className="w-full h-11">
                   <Link
                     href="/contact-us"

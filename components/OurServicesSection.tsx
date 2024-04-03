@@ -2,8 +2,8 @@ import ServiceCard from "./ServiceCard";
 import { services } from "@/lib/constants";
 
 const OurServicesSection = () => (
-  <section className="w-full h-[775px] bg-[#B99253] py-8">
-    <div className="container w-[1320px] h-full px-0">
+  <section className="w-full xl:h-[775px] lg:h-[714px] bg-[#B99253] py-8">
+    <div className="container xl:w-[1320px] lg:w-[960px] h-full px-0">
       <div className="flex w-full h-full items-stretch">
         <ServiceCard
           image={services.coaching.image}

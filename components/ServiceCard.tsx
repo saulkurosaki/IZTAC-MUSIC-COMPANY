@@ -9,15 +9,15 @@ type ServiceCardProps = {
 
 const ServiceCard = ({ image, title, description }: ServiceCardProps) => {
   return (
-    <div className="w-full h-full px-[15px] py-4">
+    <div className="w-full lg:h-full md:h-[917px] px-[15px] py-4">
       <div className="flex flex-col w-full h-full overflow-hidden shadow-1 bg-white rounded-[0.4rem]">
         <Image
           src={image}
           alt="our_services_image"
           className="w-full h-auto object-contain"
         />
-        <div className="flex flex-col w-full xl:h-[269px] lg:h-[328px] px-4 pt-3 pb-5 xl:justify-around max-xl:justify-between">
-          <h3 className="xl:w-[95%] max-xl:w-full h-[85px] oxygen lg:text-4xl text-gray-800">
+        <div className="flex flex-col w-full xl:h-[269px] lg:h-[328px] md:h-[195px] px-4 pt-3 pb-5 xl:justify-around max-xl:justify-between">
+          <h3 className="xl:w-[95%] max-xl:w-full lg:h-[85px] md:h-14 oxygen lg:text-4xl md:text-4xl text-gray-800">
             {title}
           </h3>
           <p className="w-full h-[72px] oxygen text-gray-700">{description}</p>

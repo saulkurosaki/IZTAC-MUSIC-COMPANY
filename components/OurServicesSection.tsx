@@ -77,9 +77,9 @@ const OurServicesSection = () => {
                 className="w-full h-auto object-contain"
               />
               <div className="flex flex-col w-full h-[269px] px-4 pt-3 pb-5 justify-around">
-                {/* <h3 className="w-[95%] h-[85px] oxygen text-4xl">
+                <h3 className="w-[95%] h-[85px] oxygen text-4xl">
                   Mezcla y Masterización
-                </h3> */}
+                </h3>
                 {/* <p className="w-full h-[72px] oxygen ">
                   Ingeniería profesional y eficaz para la mezcla y masterización
                   de proyectos musicales.

@@ -18,24 +18,24 @@ const OurServicesSection = () => {
                 alt="our_services_1"
                 className="w-full h-auto object-contain"
               />
-              {/* <div className="flex flex-col w-full h-[269px] px-4 pt-3 pb-5 justify-around">
-                // <h3 className="w-[95%] h-[85px] oxygen text-4xl">
-                //   Asesoría Artística y Vocal Coaching
-                // </h3>
-                // <p className="w-full h-[72px] oxygen ">
-                //   Asesorías personalizadas para artistas, cantantes,
-                //   productores, compositores y músicos que buscan impulsar su
-                //   carrera.
-                // </p>
-                // <div className="w-full h-11">
-                //   <Link
-                //     href="/contact-us"
-                //     className="flex w-32 h-full bg-[#2e2414] justify-center items-center text-white text-lg oxygen rounded-md"
-                //   >
-                //     Contáctanos
-                //   </Link>
-                // </div>
-              </div> */}
+              <div className="flex flex-col w-full h-[269px] px-4 pt-3 pb-5 justify-around">
+                {/* <h3 className="w-[95%] h-[85px] oxygen text-4xl">
+                  Asesoría Artística y Vocal Coaching
+                </h3> */}
+                {/* <p className="w-full h-[72px] oxygen ">
+                  Asesorías personalizadas para artistas, cantantes,
+                  productores, compositores y músicos que buscan impulsar su
+                  carrera.
+                </p> */}
+                {/* <div className="w-full h-11">
+                  <Link
+                    href="/contact-us"
+                    className="flex w-32 h-full bg-[#2e2414] justify-center items-center text-white text-lg oxygen rounded-md"
+                  >
+                    Contáctanos
+                  </Link>
+                </div> */}
+              </div>
             </div>
           </div>
 

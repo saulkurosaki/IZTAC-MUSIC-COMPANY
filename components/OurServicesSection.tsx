@@ -76,23 +76,23 @@ const OurServicesSection = () => {
                 alt="our_services_3"
                 className="w-full h-auto object-contain"
               />
-              {/* <div className="flex flex-col w-full h-[269px] px-4 pt-3 pb-5 justify-around">
-                <h3 className="w-[95%] h-[85px] oxygen text-4xl">
+              <div className="flex flex-col w-full h-[269px] px-4 pt-3 pb-5 justify-around">
+                {/* <h3 className="w-[95%] h-[85px] oxygen text-4xl">
                   Mezcla y Masterización
-                </h3>
-                <p className="w-full h-[72px] oxygen ">
+                </h3> */}
+                {/* <p className="w-full h-[72px] oxygen ">
                   Ingeniería profesional y eficaz para la mezcla y masterización
                   de proyectos musicales.
-                </p>
-                <div className="w-full h-11">
+                </p> */}
+                {/* <div className="w-full h-11">
                   <Link
                     href="/contact-us"
                     className="flex w-32 h-full bg-[#2e2414] justify-center items-center text-white text-lg oxygen rounded-md"
                   >
                     Contáctanos
                   </Link>
-                </div>
-              </div> */}
+                </div> */}
+              </div>
             </div>
           </div>
         </div>

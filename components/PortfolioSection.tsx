@@ -21,9 +21,17 @@ const PortfolioSection = () => {
           alt="Top Waves"
           className="w-full h-auto object-contain"
         />
+        <div className="absolute inset-0 w-full h-[411px] pt-64 pb-10">
+          <div className="flex flex-col container w-full h-full px-[15px] justify-around">
+            <h2 className="w-full h-[77px] text-white text-center text-7xl oxygen">
+              Con nosotros, todo es posible
+            </h2>
+            <h6 className="w-full h-[21px] text-white text-center text-xl oxygen">
+              Escucha algunas de las entradas de nuestro portafolio.
+            </h6>
+          </div>
+        </div>
       </div>
-      {/* <div className="w-full h-[411px] pt-64 pb-10">
-      </div> */}
 
       <div className="w-full h-[542px] absolute bottom-0 right-0 z-10 flex items-end overflow-hidden">
         <Image
@@ -31,9 +39,8 @@ const PortfolioSection = () => {
           alt="Bottom Waves"
           className="w-full h-auto object-contain"
         />
+        <div className="absolute inset-0 w-full h-[542px] py-6"></div>
       </div>
-      {/* <div className="w-full h-[542px] py-6">
-      </div> */}
     </section>
   );
 };

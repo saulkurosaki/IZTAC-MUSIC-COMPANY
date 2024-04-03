@@ -19,9 +19,9 @@ const OurServicesSection = () => {
                 className="w-full h-auto object-contain"
               />
               <div className="flex flex-col w-full h-[269px] px-4 pt-3 pb-5 justify-around">
-                {/* <h3 className="w-[95%] h-[85px] oxygen text-4xl">
+                <h3 className="w-[95%] h-[85px] oxygen text-4xl">
                   Asesoría Artística y Vocal Coaching
-                </h3> */}
+                </h3>
                 {/* <p className="w-full h-[72px] oxygen ">
                   Asesorías personalizadas para artistas, cantantes,
                   productores, compositores y músicos que buscan impulsar su

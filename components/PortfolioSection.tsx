@@ -84,14 +84,14 @@ const PortfolioSection = () => {
                   alt="portfolio_image_1"
                   className="w-full h-auto object-cover pb-3 rounded-lg"
                 />
-                {/* <div className="w-full h-[38px]">
+                <div className="w-full h-[38px]">
                   <Link
                     href="https://soundcloud.com/zackarymc101/frustration?si=b4fa00fffa494e2db8b0d6eff2440bcd&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
                     className="w-24 h-full flex justify-center items-center rounded-lg text-[#2e2414] text-lg bg-[#B99253] oxygen"
                   >
                     Escucha
                   </Link>
-                </div> */}
+                </div>
               </div>
             </div>
           </div>

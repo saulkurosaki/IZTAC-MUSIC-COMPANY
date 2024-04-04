@@ -47,11 +47,11 @@ const PortfolioSection = () => {
           <div className="w-[1320px] h-full container p-0">
             <div className="w-full h-full grid grid-cols-3">
               <div className="flex flex-col w-auto h-auto px-2">
-                {/* <Image
+                <Image
                   src={Portfolio_Image_1}
                   alt="portfolio_image_1"
                   className="w-full h-auto object-cover pb-3 rounded-lg"
-                /> */}
+                />
                 {/* <div className="w-full h-[38px]">
                   <Link
                     href="https://soundcloud.com/zackarymc101/infierno-credit-sequence?si=bc5ce5534680455eb8140f74ed6ab6f7&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"

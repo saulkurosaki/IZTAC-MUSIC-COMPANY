@@ -9,7 +9,8 @@ import { portfolioSongs } from "@/lib/constants";
 
 const PortfolioSection = () => {
   return (
-    <section className="relative w-full h-[953px]">
+    <section className="relative w-full xl:h-[953px] max-xl:h-[825px]">
+      {/* Fixed Background */}
       <span className="absolute inset-0 z-0">
         <Image
           src={Portfolio_Sec_Bg}
@@ -18,32 +19,34 @@ const PortfolioSection = () => {
         />
       </span>
 
-      <div className="w-full h-[411px] absolute top-0 left-0 z-10 overflow-hidden">
+      {/* Upper Section */}
+      <div className="w-full xl:h-[411px] max-xl:h-[403px] absolute top-0 left-0 z-10 overflow-hidden">
         <Image
           src={Port_Top_Waves}
           alt="Top Waves"
           className="w-full h-auto object-contain"
         />
-        <div className="absolute inset-0 w-full h-[411px] pt-64 pb-10">
-          <div className="flex flex-col container w-full h-full px-[15px] justify-around">
-            <h2 className="w-full h-[77px] text-white text-center text-7xl oxygen">
+        <div className="absolute inset-0 w-full xl:h-[411px] max-xl:h-[403px] xl:pt-64 max-xl:pt-[260px] xl:pb-10 max-xl:pb-[50px]">
+          <div className="flex flex-col container xl:w-full max-xl:w-[960px] h-full px-[15px] justify-around">
+            <h2 className="w-full xl:h-[77px] max-xl:h-16 text-white text-center xl:text-7xl max-xl:text-6xl oxygen">
               Con nosotros, todo es posible
             </h2>
-            <h6 className="w-full h-[21px] text-white text-center text-xl oxygen">
+            <h6 className="w-full h-[21px] text-white text-center xl:text-xl max-xl:text-lg oxygen">
               Escucha algunas de las entradas de nuestro portafolio.
             </h6>
           </div>
         </div>
       </div>
 
-      <div className="w-full h-[542px] absolute bottom-0 right-0 z-10 flex items-end overflow-hidden">
+      {/* Lower Section */}
+      <div className="w-full xl:h-[542px] max-xl:h-[422px] absolute bottom-0 right-0 z-10 flex items-end overflow-hidden">
         <Image
           src={Port_Bottom_Waves}
           alt="Bottom Waves"
           className="w-full h-auto object-contain"
         />
-        <div className="absolute inset-0 w-full h-[542px] py-6">
-          <div className="w-[1320px] h-full container p-0">
+        <div className="absolute inset-0 w-full xl:h-[542px] max-xl:h-[422px] py-6">
+          <div className="xl:w-[1320px] max-xl:w-[960px] h-full container p-0">
             <div className="w-full h-full grid grid-cols-3">
               <PortfolioCard
                 image={portfolioSongs[1].image}

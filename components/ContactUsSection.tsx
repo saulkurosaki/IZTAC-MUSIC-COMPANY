@@ -12,7 +12,7 @@ const ContactUsSection = () => {
         className="w-full h-auto object-cover absolute bottom-0 right-0 z-0 overflow-hidden"
       />
 
-      <div className="container w-[1320px] h-full p-0 relative z-10">
+      <div className="container xl:w-[1320px] lg:w-[960px] h-full p-0 relative z-10">
         <div className="flex w-full h-full">
           <div className="flex w-[990px] h-full px-[15px] pb-7 flex-col justify-around">
             <h3 className="w-full h-11 text-4xl font-semibold text-gray-900 oxygen">

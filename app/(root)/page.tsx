@@ -1,4 +1,5 @@
 import AboutUsSection from "@/components/AboutUsSection";
+import ContactUsSection from "@/components/ContactUsSection";
 import HeroBanner from "@/components/HeroBanner";
 import OurServicesSection from "@/components/OurServicesSection";
 import PortfolioSection from "@/components/PortfolioSection";
@@ -13,6 +14,8 @@ export default function Home() {
       <OurServicesSection />
 
       <PortfolioSection />
+
+      <ContactUsSection />
     </div>
   );
 }

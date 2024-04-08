@@ -28,7 +28,7 @@ const Footer = () => {
               Blvd. Universitario 399-21, Plaza Palmas II, Oficina 16 •
               Juriquilla QRO 76230 • México
             </p>
-            {/* <div className="w-full h-5 mb-4 flex justify-center">
+            <div className="w-full h-5 mb-4 flex justify-center">
               <div className="w-[269px] h-full flex justify-between">
                 <Image
                   src={Main_Logo}
@@ -43,7 +43,7 @@ const Footer = () => {
                   Iztacmusicofficial@gmail.com
                 </Link>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
         <div className="w-full h-[243px] py-4"></div>

@@ -16,6 +16,7 @@ const PortfolioCard = ({ image, song }: PortfolioCardProps) => (
     <div className="w-full h-[38px]">
       <Link
         href={song}
+        target="_blank"
         className="w-24 h-full flex justify-center items-center rounded-lg text-[#2e2414] text-lg bg-[#B99253] oxygen"
       >
         Escucha

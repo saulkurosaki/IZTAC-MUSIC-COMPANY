@@ -8,10 +8,10 @@ import iztacLogo from "../assets/iztac_logo_white.png";
 
 const Footer = () => {
   return (
-    <footer className="w-full h-[438px] bg-[#2e2414]">
-      <div className="w-full h-[381px]">
+    <footer className="w-full xl:h-[438px] lg:h-[377px] bg-[#2e2414]">
+      <div className="w-full xl:h-[381px] lg:h-[320px]">
         <div className="w-full h-[138px] pt-4">
-          <div className="container w-[1320px] h-full px-[15px]">
+          <div className="container w-full h-full px-[15px]">
             <div className="flex w-full h-[54px] justify-center mb-2">
               <Link
                 href="https://soundcloud.com/zackarymc101?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
@@ -47,7 +47,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="w-full h-[243px] py-4 flex justify-center">
+        <div className="w-full xl:h-[243px] lg:h-44 py-4 flex justify-center">
           <Link href="/">
             <Image src={iztacLogo} alt="main_logo" className="h-full w-auto" />
           </Link>

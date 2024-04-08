@@ -8,11 +8,11 @@ import iztacLogo from "../assets/iztac_logo_white.png";
 
 const Footer = () => {
   return (
-    <footer className="w-full xl:h-[438px] lg:h-[377px] bg-[#2e2414]">
+    <footer className="w-full xl:h-[438px] lg:h-[377px] max-md:h-[640px] bg-[#2e2414]">
       <div className="w-full xl:h-[381px] lg:h-[320px]">
-        <div className="w-full h-[138px] pt-4">
+        <div className="w-full md:h-[138px] max-md:h-64 pt-4">
           <div className="container w-full h-full px-[15px]">
-            <div className="flex w-full h-[54px] justify-center mb-2">
+            <div className="flex w-full h-[54px] justify-center md:mb-2 max-md:mb-4">
               <Link
                 href="https://soundcloud.com/zackarymc101?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
                 className="w-[54px] h-[54px] rounded-full bg-white cursor-pointer"
@@ -25,7 +25,7 @@ const Footer = () => {
                 />
               </Link>
             </div>
-            <p className="w-full h-6 mb-3 text-center text-white oxygen text-lg">
+            <p className="w-full md:h-6 max-md:h-24 mb-3 text-center text-white oxygen text-lg">
               Blvd. Universitario 399-21, Plaza Palmas II, Oficina 16 •
               Juriquilla QRO 76230 • México
             </p>
@@ -47,14 +47,14 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="w-full xl:h-[243px] lg:h-44 py-4 flex justify-center">
+        <div className="w-full xl:h-[243px] lg:h-44 max-md:h-[330px] py-4 flex justify-center">
           <Link href="/">
             <Image src={iztacLogo} alt="main_logo" className="h-full w-auto" />
           </Link>
         </div>
       </div>
-      <div className="w-full h-[57px] flex justify-center items-center">
-        <p className="w-96 h-full text-white oxygen text-lg text-center">
+      <div className="w-full md:h-[57px] max-md:h-12 flex justify-center items-center">
+        <p className="w-96 h-full text-white oxygen md:text-lg max-md:text-base text-center">
           Copyright © Iztac Music Company
         </p>
       </div>

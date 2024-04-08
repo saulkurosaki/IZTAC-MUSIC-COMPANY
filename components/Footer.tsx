@@ -39,7 +39,7 @@ const Footer = () => {
                 />
                 <Link
                   href="mailto:Iztacmusicofficial@gmail.com"
-                  className="text-[#B99253] text-lg oxygen flex items-center cursor-pointer"
+                  className="text-[#b8a383] hover:text-[#b59259] text-lg oxygen flex items-center cursor-pointer"
                 >
                   Iztacmusicofficial@gmail.com
                 </Link>

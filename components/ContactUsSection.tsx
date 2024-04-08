@@ -26,7 +26,7 @@ const ContactUsSection = () => {
             <div className="w-full h-12 flex justify-end">
               <Link
                 href="/contact-us"
-                className="w-40 h-full bg-[#2e2414] hover:text-[#b59259] text-2xl text-white px-4 py-2 rounded-md flex justify-center items-center"
+                className="w-40 h-full bg-[#2e2414] text-2xl text-white px-4 py-2 rounded-md flex justify-center items-center"
               >
                 Contáctanos
               </Link>

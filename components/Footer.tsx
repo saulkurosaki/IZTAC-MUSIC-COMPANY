@@ -3,13 +3,14 @@ import Link from "next/link";
 import React from "react";
 
 import SoundCloud_Logo from "../assets/soundcloud_logo.png";
-import Main_Logo from "../assets/mail_logo.png";
+import Mail_Logo from "../assets/mail_logo.png";
+import iztacLogo from "../assets/iztac_logo_white.png";
 
 const Footer = () => {
   return (
     <footer className="w-full h-[438px] bg-[#2e2414]">
       <div className="w-full h-[381px]">
-        <div className="w-full h-[138px] pt-8">
+        <div className="w-full h-[138px] pt-4">
           <div className="container w-[1320px] h-full px-[15px]">
             <div className="flex w-full h-[54px] justify-center mb-2">
               <Link
@@ -31,7 +32,7 @@ const Footer = () => {
             <div className="w-full h-5 mb-4 flex justify-center">
               <div className="w-[269px] h-full flex justify-between">
                 <Image
-                  src={Main_Logo}
+                  src={Mail_Logo}
                   alt="mail"
                   width={24}
                   className="relative top-[2px]"
@@ -46,7 +47,11 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="w-full h-[243px] py-4"></div>
+        <div className="w-full h-[243px] py-4 flex justify-center">
+          <Link href="/">
+            <Image src={iztacLogo} alt="main_logo" className="h-full w-auto" />
+          </Link>
+        </div>
       </div>
       <div className="w-full h-[57px]"></div>
     </footer>

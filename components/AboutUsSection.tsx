@@ -19,7 +19,7 @@ const AboutUsSection = () => {
               cine, televisión y videojuegos. ¡Conoce más acerca de nosotros
               aquí!
             </p>
-            <div className="w-full h-[38px] flex">
+            <div className="w-full h-[38px] flex relative z-10">
               <Link
                 href="/about-us"
                 className="w-[136px] h-full px-3 py-[6px] bg-[#f5f3f0] cursor-pointer border-[1px] border-transparent rounded-md text-center font-light text-lg text-[#2e2414] oxygen flex items-center justify-center"

@@ -53,7 +53,11 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-      <div className="w-full h-[57px]"></div>
+      <div className="w-full h-[57px] flex justify-center items-center">
+        <p className="w-96 h-full text-white oxygen text-lg text-center">
+          Copyright © Iztac Music Company
+        </p>
+      </div>
     </footer>
   );
 };

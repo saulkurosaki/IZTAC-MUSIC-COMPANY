@@ -46,7 +46,7 @@ const Footer = () => {
             </div>
           </div> */}
         </div>
-        {/* <div className="w-full h-[243px] py-4"></div> */}
+        <div className="w-full h-[243px] py-4"></div>
       </div>
       {/* <div className="w-full h-[57px]"></div> */}
     </footer>

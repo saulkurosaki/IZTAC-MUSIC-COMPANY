@@ -24,10 +24,10 @@ const Footer = () => {
                 />
               </Link>
             </div>
-            {/* <p className="w-full h-6 mb-3 text-center text-white oxygen text-lg">
+            <p className="w-full h-6 mb-3 text-center text-white oxygen text-lg">
               Blvd. Universitario 399-21, Plaza Palmas II, Oficina 16 •
               Juriquilla QRO 76230 • México
-            </p> */}
+            </p>
             {/* <div className="w-full h-5 mb-4 flex justify-center">
               <div className="w-[269px] h-full flex justify-between">
                 <Image

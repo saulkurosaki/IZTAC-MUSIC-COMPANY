@@ -23,7 +23,7 @@ const ServiceCard = ({ image, title, description }: ServiceCardProps) => {
           <p className="w-full h-[72px] oxygen max-md:text-sm text-gray-700">
             {description}
           </p>
-          <div className="w-full h-11">
+          <div className="w-full h-11 z-10">
             <Link
               href="/contact-us"
               className="flex w-32 h-full bg-[#2e2414] justify-center items-center text-white text-lg oxygen rounded-md"

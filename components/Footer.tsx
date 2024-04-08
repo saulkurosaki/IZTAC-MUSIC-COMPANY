@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
         <div className="w-full h-[243px] py-4"></div>
       </div>
-      {/* <div className="w-full h-[57px]"></div> */}
+      <div className="w-full h-[57px]"></div>
     </footer>
   );
 };

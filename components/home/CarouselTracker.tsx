@@ -1,4 +1,4 @@
-import { CarouselApi } from "./ui/carousel";
+import { CarouselApi } from "../ui/carousel";
 
 type TrackerProps = {
   api: CarouselApi | undefined;

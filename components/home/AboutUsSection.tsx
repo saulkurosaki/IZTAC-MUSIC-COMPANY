@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-import Logo from "../assets/iztac_logo_white.png";
+import Logo from "../../assets/iztac_logo_white.png";
 
 const AboutUsSection = () => {
   return (

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import ContactUs_Bg from "../assets/contactus_sec_img.svg";
+import ContactUs_Bg from "../../assets/contactus_sec_img.svg";
 import Link from "next/link";
 
 const ContactUsSection = () => {

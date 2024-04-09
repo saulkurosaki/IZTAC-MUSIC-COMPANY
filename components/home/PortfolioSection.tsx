@@ -1,9 +1,8 @@
 import Image from "next/image";
 
-import Port_Top_Waves from "../assets/portfolio_top_waves.svg";
-import Port_Bottom_Waves from "../assets/portfolio_bottom_waves.svg";
-import Portfolio_Sec_Bg from "../assets/portfolio_sec_bg.jpg";
-import Link from "next/link";
+import Port_Top_Waves from "../../assets/portfolio_top_waves.svg";
+import Port_Bottom_Waves from "../../assets/portfolio_bottom_waves.svg";
+import Portfolio_Sec_Bg from "../../assets/portfolio_sec_bg.jpg";
 import PortfolioCard from "./PortfolioCard";
 import { portfolioSongs } from "@/lib/constants";
 

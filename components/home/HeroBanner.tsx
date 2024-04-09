@@ -12,11 +12,11 @@ import {
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 
-import Banner_1 from "../assets/banner_image_1.png";
-import Banner_2 from "../assets/banner_image_2.webp";
-import Banner_3 from "../assets/banner_image_3.jpg";
-import Banner_2_lines from "../assets/banner_2_lines.svg";
-import Banner_3_waves from "../assets/banner_3_waves.svg";
+import Banner_1 from "../../assets/banner_image_1.png";
+import Banner_2 from "../../assets/banner_image_2.webp";
+import Banner_3 from "../../assets/banner_image_3.jpg";
+import Banner_2_lines from "../../assets/banner_2_lines.svg";
+import Banner_3_waves from "../../assets/banner_3_waves.svg";
 import CarouselTracker from "./CarouselTracker";
 import Link from "next/link";
 import {

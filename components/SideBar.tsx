@@ -35,7 +35,7 @@ const SideBar = () => {
       </SheetTrigger>
       <SheetContent
         side={size.width >= 1024 ? "left" : "right"}
-        className="bg-[#B99253] w-[400px] max-sm:w-full border-none"
+        className="bg-[#B99253] w-[400px] max-sm:w-full border-none z-[1030]"
       >
         <SheetHeader className="h-full">
           <SheetTitle className="flex text-[26px] text-[#2b2f35] mb-5">

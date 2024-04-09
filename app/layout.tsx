@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Oxygen } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/Header";
+import NavBar from "@/components/NavBar";
 
 const oxygen = Oxygen({
   subsets: ["latin"],
@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={oxygen.variable}>
-        <Header />
+        <NavBar />
         <main>{children}</main>
       </body>
     </html>

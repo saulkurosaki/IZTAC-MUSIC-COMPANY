@@ -20,7 +20,7 @@ const Header = () => {
 
         <Link
           href="/about-us"
-          className="hidden lg:flex w-[91px] justify-center items-center"
+          className="hidden lg:flex w-32 justify-center items-center hover:bg-black hover:bg-opacity-5 transition duration-100 rounded-full "
         >
           <p className="text-[18px] text-[#2e2414] oxygen">Conócenos</p>
         </Link>

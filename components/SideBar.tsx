@@ -23,7 +23,7 @@ const SideBar = () => {
   return (
     <Sheet>
       <SheetTrigger>
-        <div className="flex lg:w-32 lg:h-[37.5px] justify-center items-center">
+        <div className="flex lg:w-[30px] lg:h-[37.5px] justify-center items-center">
           <Image
             src={hamburger}
             alt="hamburger"

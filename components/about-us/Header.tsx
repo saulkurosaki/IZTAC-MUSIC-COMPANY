@@ -14,7 +14,7 @@ const Header = () => {
       </span>
 
       <div className="w-full h-full py-6">
-        <div className="container w-[1320px] h-full px-[15px]">
+        <div className="container xl:w-[1320px] max-xl:w-[960px] h-full px-[15px]">
           <h1 className="w-full h-full mb-2 text-white text-6xl oxygen z-10 relative flex items-center">
             Sobre Nosotros
           </h1>

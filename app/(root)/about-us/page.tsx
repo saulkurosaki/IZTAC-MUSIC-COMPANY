@@ -1,3 +1,4 @@
+import Achievements from "@/components/about-us/Achievements";
 import Header from "@/components/about-us/Header";
 import WhoAreWe from "@/components/about-us/WhoAreWe";
 
@@ -7,6 +8,8 @@ const AboutUsPage = () => {
       <Header />
 
       <WhoAreWe />
+
+      <Achievements />
     </div>
   );
 };

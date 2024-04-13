@@ -19,9 +19,9 @@ const WhoAreWe = () => {
               of Music y países como Francia, La India, Estonia y Estados Unidos
             </p>
           </div>
-          {/* <div className="w-[550px] h-full ml-auto p-4">
+          <div className="w-[550px] h-full ml-auto p-4">
             <Image src={Banner_Img} alt="image" width={520} height={520} />
-          </div> */}
+          </div>
         </div>
       </div>
     </section>

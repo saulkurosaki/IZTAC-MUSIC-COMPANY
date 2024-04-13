@@ -9,11 +9,11 @@ const Achievements = () => {
       <div className="container w-[1320px] h-full px-0">
         <div className="w-full h-full flex items-center">
           <div className="w-[50%] h-full flex justify-center items-center">
-            {/* <Image
+            <Image
               src={BgImage}
               alt="achievements"
               className="w-[395px] h-full"
-            /> */}
+            />
           </div>
           {/* <div className="w-[550px] h-full p-4 ml-auto">
             // <h2 className="w-full h-[53px] text-white text-5xl oxygen mb-2">

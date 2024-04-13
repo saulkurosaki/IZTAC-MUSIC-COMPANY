@@ -5,9 +5,9 @@ import Link from "next/link";
 
 const Achievements = () => {
   return (
-    <section className="w-full xl:h-[576px] lg:h-[616px] pt-32 pb-8">
+    <section className="w-full xl:h-[576px] lg:h-[616px] md:h-[771px] lg:pt-32 max-lg:pt-8 pb-8">
       <div className="container xl:w-[1320px] lg:w-[960px] h-full px-0">
-        <div className="w-full h-full flex items-center">
+        <div className="w-full h-full flex max-lg:flex-col items-center">
           <div className="w-[50%] h-full flex justify-center items-center">
             <Image
               src={BgImage}
@@ -15,11 +15,11 @@ const Achievements = () => {
               className="w-[395px] h-full"
             />
           </div>
-          <div className="xl:w-[550px] lg:w-[400px] h-full p-4 ml-auto">
-            <h2 className="w-full h-[53px] text-white text-5xl oxygen mb-2">
+          <div className="xl:w-[550px] lg:w-[400px] max-lg:w-full h-full p-4 ml-auto">
+            <h2 className="w-full lg:h-[53px] max-lg:h-10 text-white text-5xl oxygen lg:mb-2 max-lg:mb-1">
               Nuestros
             </h2>
-            <h2 className="w-full h-[53px] text-white text-5xl oxygen mb-20">
+            <h2 className="w-full lg:h-[53px] max-lg:h-10 text-white text-5xl oxygen lg:mb-20 max-lg:mb-14">
               Logros
             </h2>
             <p className="w-full xl:h-[86px] lg:h-36 text-white text-lg oxygen mb-4">

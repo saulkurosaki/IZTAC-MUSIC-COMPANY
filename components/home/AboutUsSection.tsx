@@ -6,7 +6,7 @@ import Logo from "../../assets/iztac_logo_white.png";
 
 const AboutUsSection = () => {
   return (
-    <section className="w-full xl:h-[727px] lg:h-[572px] md:h-[1143px] max-md:h-[800px] pt-8 pb-32 max-md:pb-20 about-us-sec-img no bg-no-repeat bg-bottom bg-cover max-lg:bg-contain max-md:bg-contain flex justify-center items-center">
+    <section className="w-full xl:h-[727px] lg:h-[572px] md:h-[1143px] max-md:h-[800px] pt-8 pb-32 max-md:pb-20 about-us-sec-img bg-no-repeat bg-bottom bg-cover max-lg:bg-contain max-md:bg-contain flex justify-center items-center">
       <div className="container xl:w-[1320px] lg:w-[960px] md:w-[720px] xl:h-[567px] lg:h-[412px] md:h-[983px] max-md:h-[696px] p-0">
         <div className="flex w-full h-full items-center max-lg:flex-col">
           {/* Info Section */}

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Achievements = () => {
   return (
-    <section className="w-full xl:h-[576px] lg:h-[616px] md:h-[771px] lg:pt-32 max-lg:pt-8 pb-8">
+    <section className="w-full xl:h-[576px] lg:h-[616px] md:h-[771px] lg:pt-32 max-lg:pt-8 pb-8 bg-[#2e2414] relative z-10">
       <div className="container xl:w-[1320px] lg:w-[960px] h-full px-0">
         <div className="w-full h-full flex max-lg:flex-col items-center">
           <div className="w-[50%] h-full flex justify-center items-center">

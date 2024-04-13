@@ -22,11 +22,11 @@ const Achievements = () => {
             <h2 className="w-full h-[53px] text-white text-5xl oxygen mb-20">
               Logros
             </h2>
-            {/* <p className="w-full h-20 text-white text-lg oxygen mb-6">
+            <p className="w-full h-20 text-white text-lg oxygen mb-6">
               Parte de nuestros reconocimientos son premios internacionales por
               mejores composiciones para cine y televisión, celebración de
               festivales y artistas cumpliendo sus metas
-            </p> */}
+            </p>
             {/* <div className="w-full h-10">
               <Link
                 href="/blog"

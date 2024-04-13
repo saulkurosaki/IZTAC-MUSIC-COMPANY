@@ -4,7 +4,7 @@ import Banner_Img from "../../assets/who_are_we_banner_img.svg";
 
 const WhoAreWe = () => {
   return (
-    <section className="w-full xl:h-[712px] lg:h-[562px] md:h-[1142px] max-md:h-[911px] pt-8 pb-32 about-us-sec-img bg-no-repeat bg-bottom bg-cover">
+    <section className="w-full xl:h-[712px] lg:h-[562px] md:h-[1142px] max-md:h-[911px] pt-8 pb-32 about-us-sec-img bg-no-repeat bg-bottom bg-cover bg-[#2e2414] relative z-10">
       <div className="container xl:w-[1320px] lg:w-[960px] md:w-[720px] h-full px-0">
         <div className="w-full h-full flex max-lg:flex-col max-lg:justify-between items-center">
           <div className="lg:w-[50%] max-lg:w-full lg:h-[269px] md:h-[260px] max-md:h-[324px] p-4 flex flex-col md:justify-between">

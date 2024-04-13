@@ -16,13 +16,13 @@ const Achievements = () => {
             />
           </div>
           <div className="xl:w-[550px] lg:w-[400px] max-lg:w-full h-full p-4 ml-auto">
-            <h2 className="w-full lg:h-[53px] max-lg:h-10 text-white text-5xl oxygen lg:mb-2 max-lg:mb-1">
+            <h2 className="w-full lg:h-[53px] max-lg:h-10 text-white md:text-5xl max-md:text-4xl oxygen lg:mb-2 max-lg:mb-1">
               Nuestros
             </h2>
-            <h2 className="w-full lg:h-[53px] max-lg:h-10 text-white text-5xl oxygen lg:mb-20 max-lg:mb-14">
+            <h2 className="w-full lg:h-[53px] max-lg:h-10 text-white md:text-5xl max-md:text-4xl oxygen lg:mb-20 max-lg:mb-14">
               Logros
             </h2>
-            <p className="w-full xl:h-[86px] lg:h-36 text-white text-lg oxygen mb-4">
+            <p className="w-full xl:h-[86px] lg:h-36 text-white md:text-lg max-md:text-base oxygen mb-4">
               Parte de nuestros reconocimientos son premios internacionales por
               mejores composiciones para cine y televisión, celebración de
               festivales y artistas cumpliendo sus metas

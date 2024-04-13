@@ -27,14 +27,14 @@ const Achievements = () => {
               mejores composiciones para cine y televisión, celebración de
               festivales y artistas cumpliendo sus metas
             </p>
-            {/* <div className="w-full h-10">
+            <div className="w-full h-10">
               <Link
                 href="/blog"
                 className="w-[168px] h-full bg-[#B99253] rounded-lg flex justify-center items-center text-[#3f3f3f] text-lg oxygen"
               >
                 Historias de Éxito
               </Link>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>

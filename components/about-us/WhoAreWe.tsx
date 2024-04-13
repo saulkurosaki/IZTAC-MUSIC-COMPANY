@@ -11,13 +11,13 @@ const WhoAreWe = () => {
             <h2 className="h-[53px] text-white text-5xl oxygen flex items-center px-2">
               Que es IMC
             </h2>
-            {/* <p className="h-[140px] text-white text-lg oxygen">
+            <p className="h-[140px] text-white text-lg oxygen">
               Iztac Music Company es una productora musical especializada en la
               composición para media. En su equipo se encuentran compositores
               entrenados por los mejores profesores y en las mejores escuelas
               alrededor del mundo incluyendo instituciones como Berklee College
               of Music y países como Francia, La India, Estonia y Estados Unidos
-            </p> */}
+            </p>
           </div>
           {/* <div className="w-[550px] h-full ml-auto p-4">
             <Image src={Banner_Img} alt="image" width={520} height={520} />

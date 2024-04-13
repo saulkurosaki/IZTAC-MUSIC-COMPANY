@@ -15,27 +15,27 @@ const Achievements = () => {
               className="w-[395px] h-full"
             />
           </div>
-          {/* <div className="w-[550px] h-full p-4 ml-auto">
-            // <h2 className="w-full h-[53px] text-white text-5xl oxygen mb-2">
-            //   Nuestros
-            // </h2>
-            // <h2 className="w-full h-[53px] text-white text-5xl oxygen mb-20">
-            //   Logros
-            // </h2>
-            // <p className="w-full h-20 text-white text-lg oxygen mb-6">
-            //   Parte de nuestros reconocimientos son premios internacionales por
-            //   mejores composiciones para cine y televisión, celebración de
-            //   festivales y artistas cumpliendo sus metas
-            // </p>
-            // <div className="w-full h-10">
-            //   <Link
-            //     href="/blog"
-            //     className="w-[168px] h-full bg-[#B99253] rounded-lg flex justify-center items-center text-[#3f3f3f] text-lg oxygen"
-            //   >
-            //     Historias de Éxito
-            //   </Link>
-            // </div>
-          </div> */}
+          <div className="w-[550px] h-full p-4 ml-auto">
+            {/* <h2 className="w-full h-[53px] text-white text-5xl oxygen mb-2">
+              Nuestros
+            </h2>
+            <h2 className="w-full h-[53px] text-white text-5xl oxygen mb-20">
+              Logros
+            </h2> */}
+            {/* <p className="w-full h-20 text-white text-lg oxygen mb-6">
+              Parte de nuestros reconocimientos son premios internacionales por
+              mejores composiciones para cine y televisión, celebración de
+              festivales y artistas cumpliendo sus metas
+            </p> */}
+            {/* <div className="w-full h-10">
+              <Link
+                href="/blog"
+                className="w-[168px] h-full bg-[#B99253] rounded-lg flex justify-center items-center text-[#3f3f3f] text-lg oxygen"
+              >
+                Historias de Éxito
+              </Link>
+            </div> */}
+          </div>
         </div>
       </div>
     </section>

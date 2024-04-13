@@ -8,9 +8,9 @@ const WhoAreWe = () => {
       <div className="container w-[1320px] h-full px-0">
         <div className="w-full h-full flex items-center">
           <div className="w-[50%] h-[269px] p-4 flex flex-col justify-between">
-            {/* <h2 className="h-[53px] text-white text-5xl oxygen flex items-center px-2">
+            <h2 className="h-[53px] text-white text-5xl oxygen flex items-center px-2">
               Que es IMC
-            </h2> */}
+            </h2>
             {/* <p className="h-[140px] text-white text-lg oxygen">
               Iztac Music Company es una productora musical especializada en la
               composición para media. En su equipo se encuentran compositores

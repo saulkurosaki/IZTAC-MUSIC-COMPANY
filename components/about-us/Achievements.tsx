@@ -16,12 +16,12 @@ const Achievements = () => {
             />
           </div>
           <div className="w-[550px] h-full p-4 ml-auto">
-            {/* <h2 className="w-full h-[53px] text-white text-5xl oxygen mb-2">
+            <h2 className="w-full h-[53px] text-white text-5xl oxygen mb-2">
               Nuestros
             </h2>
             <h2 className="w-full h-[53px] text-white text-5xl oxygen mb-20">
               Logros
-            </h2> */}
+            </h2>
             {/* <p className="w-full h-20 text-white text-lg oxygen mb-6">
               Parte de nuestros reconocimientos son premios internacionales por
               mejores composiciones para cine y televisión, celebración de

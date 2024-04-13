@@ -5,8 +5,8 @@ import Link from "next/link";
 
 const Achievements = () => {
   return (
-    <section className="w-full h-[576px] pt-32 pb-8">
-      <div className="container w-[1320px] h-full px-0">
+    <section className="w-full xl:h-[576px] lg:h-[616px] pt-32 pb-8">
+      <div className="container xl:w-[1320px] lg:w-[960px] h-full px-0">
         <div className="w-full h-full flex items-center">
           <div className="w-[50%] h-full flex justify-center items-center">
             <Image
@@ -15,14 +15,14 @@ const Achievements = () => {
               className="w-[395px] h-full"
             />
           </div>
-          <div className="w-[550px] h-full p-4 ml-auto">
+          <div className="xl:w-[550px] lg:w-[400px] h-full p-4 ml-auto">
             <h2 className="w-full h-[53px] text-white text-5xl oxygen mb-2">
               Nuestros
             </h2>
             <h2 className="w-full h-[53px] text-white text-5xl oxygen mb-20">
               Logros
             </h2>
-            <p className="w-full h-20 text-white text-lg oxygen mb-6">
+            <p className="w-full xl:h-[86px] lg:h-36 text-white text-lg oxygen mb-4">
               Parte de nuestros reconocimientos son premios internacionales por
               mejores composiciones para cine y televisión, celebración de
               festivales y artistas cumpliendo sus metas

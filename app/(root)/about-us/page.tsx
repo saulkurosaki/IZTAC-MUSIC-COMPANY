@@ -1,5 +1,6 @@
 import Achievements from "@/components/about-us/Achievements";
 import Header from "@/components/about-us/Header";
+import OurTeam from "@/components/about-us/OurTeam";
 import WhoAreWe from "@/components/about-us/WhoAreWe";
 
 const AboutUsPage = () => {
@@ -10,6 +11,8 @@ const AboutUsPage = () => {
       <WhoAreWe />
 
       <Achievements />
+
+      <OurTeam />
     </div>
   );
 };

@@ -33,9 +33,7 @@ const OurTeam = () => {
       </div>
       <div className="w-full h-[657px] py-12 bg-[#2e2414] relative z-10">
         <div className="container w-[1320px] h-full px-0">
-          {/* Inicio Container */}
           <div className="w-full h-full flex flex-wrap">
-            {/* Card 1 */}
             <div className="w-[50%] h-[50%] py-6">
               <div className="flex w-full h-full">
                 <div className="w-[220px] h-full px-[15px] flex items-center">
@@ -57,7 +55,6 @@ const OurTeam = () => {
                 </div>
               </div>
             </div>
-            {/* Card 2 */}
             <div className="w-[50%] h-[50%] py-6">
               <div className="flex w-full h-full">
                 <div className="w-[220px] h-full px-[15px] flex items-center">
@@ -77,7 +74,6 @@ const OurTeam = () => {
                 </div>
               </div>
             </div>
-            {/* Card 3 */}
             <div className="w-[50%] h-[50%] py-6">
               <div className="flex w-full h-full">
                 <div className="w-[220px] h-full px-[15px] flex items-center">
@@ -97,7 +93,6 @@ const OurTeam = () => {
                 </div>
               </div>
             </div>
-            {/* Card 4 */}
             <div className="w-[50%] h-[50%] py-6">
               <div className="flex w-full h-full">
                 <div className="w-[220px] h-full px-[15px] flex items-center">
@@ -111,14 +106,13 @@ const OurTeam = () => {
                   <h4 className="w-full text-white text-3xl oxygen mb-6">
                     Beni Choi, Asistente
                   </h4>
-                  {/* <p className="w-full text-white text-lg oxygen">
+                  <p className="w-full text-white text-lg oxygen">
                     Asistente en los diversos departamentos
-                  </p> */}
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-          {/* Final Container */}
         </div>
       </div>
     </section>

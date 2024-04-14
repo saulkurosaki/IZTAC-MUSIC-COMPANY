@@ -32,27 +32,20 @@ const OurTeam = () => {
         </div>
       </div>
       <div className="w-full h-[657px] py-12 bg-[#2e2414] relative z-10">
-        <div className="container w-[1320px] h-full px-0"></div>
-      </div>
-    </section>
-  );
-};
-
-export default OurTeam;
-
-// 4 Cards
-{
-  /* <div className="w-full h-full flex flex-wrap">
+        <div className="container w-[1320px] h-full px-0">
+          {/* Inicio Container */}
+          <div className="w-full h-full flex flex-wrap">
+            {/* Card 1 */}
             <div className="w-[50%] h-[50%] py-6">
               <div className="flex w-full h-full">
-                <div className="w-[220px] h-full px-[15px] flex items-center">
+                {/* <div className="w-[220px] h-full px-[15px] flex items-center">
                   <Image
                     src={Member_1}
                     alt="team_member_img"
                     className="w-[190px] h-[190px] rounded-full"
                   />
-                </div>
-                <div className="w-[440px] h-full px-[15px]">
+                </div> */}
+                {/* <div className="w-[440px] h-full px-[15px]">
                   <h4 className="w-full text-white text-3xl oxygen mb-6">
                     Isaac Maldonado, CEO
                   </h4>
@@ -61,10 +54,11 @@ export default OurTeam;
                     coach y asesor artístico con más de 10 años de experiencia
                     en la industria
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
-            <div className="w-[50%] h-[50%] py-6">
+            {/* Card 2 */}
+            {/* <div className="w-[50%] h-[50%] py-6">
               <div className="flex w-full h-full">
                 <div className="w-[220px] h-full px-[15px] flex items-center">
                   <Image
@@ -82,8 +76,9 @@ export default OurTeam;
                   </p>
                 </div>
               </div>
-            </div>
-            <div className="w-[50%] h-[50%] py-6">
+            </div> */}
+            {/* Card 3 */}
+            {/* <div className="w-[50%] h-[50%] py-6">
               <div className="flex w-full h-full">
                 <div className="w-[220px] h-full px-[15px] flex items-center">
                   <Image
@@ -101,8 +96,9 @@ export default OurTeam;
                   </p>
                 </div>
               </div>
-            </div>
-            <div className="w-[50%] h-[50%] py-6">
+            </div> */}
+            {/* Card 4 */}
+            {/* <div className="w-[50%] h-[50%] py-6">
               <div className="flex w-full h-full">
                 <div className="w-[220px] h-full px-[15px] flex items-center">
                   <Image
@@ -120,6 +116,13 @@ export default OurTeam;
                   </p>
                 </div>
               </div>
-            </div>
-          </div> */
-}
+            </div> */}
+          </div>
+          {/* Final Container */}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default OurTeam;

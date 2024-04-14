@@ -98,25 +98,25 @@ const OurTeam = () => {
               </div>
             </div>
             {/* Card 4 */}
-            {/* <div className="w-[50%] h-[50%] py-6">
+            <div className="w-[50%] h-[50%] py-6">
               <div className="flex w-full h-full">
-                <div className="w-[220px] h-full px-[15px] flex items-center">
+                {/* <div className="w-[220px] h-full px-[15px] flex items-center">
                   <Image
                     src={Member_4}
                     alt="team_member_img"
                     className="w-[190px] h-[190px] rounded-full"
                   />
-                </div>
-                <div className="w-[440px] h-full px-[15px]">
+                </div> */}
+                {/* <div className="w-[440px] h-full px-[15px]">
                   <h4 className="w-full text-white text-3xl oxygen mb-6">
                     Beni Choi, Asistente
                   </h4>
                   <p className="w-full text-white text-lg oxygen">
                     Asistente en los diversos departamentos
                   </p>
-                </div>
+                </div> */}
               </div>
-            </div> */}
+            </div>
           </div>
           {/* Final Container */}
         </div>

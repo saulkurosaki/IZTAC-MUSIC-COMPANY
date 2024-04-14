@@ -18,23 +18,19 @@ const OurTeam = () => {
             className="w-full h-full object-cover fixed top-0 left-0 object-top opacity-60"
           />
         </span>
+        <div className="w-full h-full absolute overflow-hidden top-0">
+          <Image
+            src={Port_Top_Waves}
+            alt="Top Waves"
+            className="w-full h-auto object-contain"
+          />
+        </div>
       </div>
     </section>
   );
 };
 
 export default OurTeam;
-
-// Top section waves image
-{
-  /* <div className="w-full h-full absolute overflow-hidden top-0">
-          <Image
-            src={Port_Top_Waves}
-            alt="Top Waves"
-            className="w-full h-auto object-contain"
-          />
-        </div> */
-}
 
 // Top section title
 {

@@ -10,23 +10,20 @@ import Member_4 from "../../assets/our_team_img_4.webp";
 const OurTeam = () => {
   return (
     <section className="w-full h-[1037px] relative">
-      <div className="relative w-full h-[380px] pt-64 pb-10"></div>
-    </section>
-  );
-};
-
-export default OurTeam;
-
-// Top section fixed background
-{
-  /* <span className="absolute inset-0 z-0">
+      <div className="relative w-full h-[380px] pt-64 pb-10">
+        <span className="absolute inset-0 z-0">
           <Image
             src={BgImage}
             alt="background"
             className="w-full h-full object-cover fixed top-0 left-0 object-top opacity-60"
           />
-        </span> */
-}
+        </span>
+      </div>
+    </section>
+  );
+};
+
+export default OurTeam;
 
 // Top section waves image
 {

@@ -2,10 +2,8 @@ import Image from "next/image";
 
 import BgImage from "../../assets/our_team_bg_img.jpg";
 import Port_Top_Waves from "../../assets/portfolio_top_waves.svg";
-import Member_1 from "../../assets/our_team_img_1.webp";
-import Member_2 from "../../assets/our_team_img_2.webp";
-import Member_3 from "../../assets/our_team_img_3.webp";
-import Member_4 from "../../assets/our_team_img_4.webp";
+import TeamCard from "./TeamCard";
+import { teamMembers } from "@/lib/constants";
 
 const OurTeam = () => {
   return (
@@ -34,84 +32,26 @@ const OurTeam = () => {
       <div className="w-full h-[657px] py-12 bg-[#2e2414] relative z-10">
         <div className="container w-[1320px] h-full px-0">
           <div className="w-full h-full flex flex-wrap">
-            <div className="w-[50%] h-[50%] py-6">
-              <div className="flex w-full h-full">
-                <div className="w-[220px] h-full px-[15px] flex items-center">
-                  <Image
-                    src={Member_1}
-                    alt="team_member_img"
-                    className="w-[190px] h-[190px] rounded-full"
-                  />
-                </div>
-                <div className="w-[440px] h-full px-[15px]">
-                  <h4 className="w-full text-white text-3xl oxygen mb-6">
-                    Isaac Maldonado, CEO
-                  </h4>
-                  <p className="w-full text-white text-lg oxygen">
-                    Fundador y director de IMC. También es compositor, vocal
-                    coach y asesor artístico con más de 10 años de experiencia
-                    en la industria
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="w-[50%] h-[50%] py-6">
-              <div className="flex w-full h-full">
-                <div className="w-[220px] h-full px-[15px] flex items-center">
-                  <Image
-                    src={Member_2}
-                    alt="team_member_img"
-                    className="w-[190px] h-[190px] rounded-full"
-                  />
-                </div>
-                <div className="w-[440px] h-full px-[15px]">
-                  <h4 className="w-full text-white text-3xl oxygen mb-6">
-                    Giselle Maldonado, Liricista
-                  </h4>
-                  <p className="w-full text-white text-lg oxygen">
-                    Compositora, liricista y Creadora creativa
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="w-[50%] h-[50%] py-6">
-              <div className="flex w-full h-full">
-                <div className="w-[220px] h-full px-[15px] flex items-center">
-                  <Image
-                    src={Member_3}
-                    alt="team_member_img"
-                    className="w-[190px] h-[190px] rounded-full"
-                  />
-                </div>
-                <div className="w-[440px] h-full px-[15px]">
-                  <h4 className="w-full text-white text-3xl oxygen mb-6">
-                    Roxana Ceballos, Administradora
-                  </h4>
-                  <p className="w-full text-white text-lg oxygen">
-                    Encargada de Administración y relaciones internacionales
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="w-[50%] h-[50%] py-6">
-              <div className="flex w-full h-full">
-                <div className="w-[220px] h-full px-[15px] flex items-center">
-                  <Image
-                    src={Member_4}
-                    alt="team_member_img"
-                    className="w-[190px] h-[190px] rounded-full"
-                  />
-                </div>
-                <div className="w-[440px] h-full px-[15px]">
-                  <h4 className="w-full text-white text-3xl oxygen mb-6">
-                    Beni Choi, Asistente
-                  </h4>
-                  <p className="w-full text-white text-lg oxygen">
-                    Asistente en los diversos departamentos
-                  </p>
-                </div>
-              </div>
-            </div>
+            <TeamCard
+              memberImage={teamMembers.Isaac.image}
+              name={teamMembers.Isaac.name}
+              description={teamMembers.Isaac.description}
+            />
+            <TeamCard
+              memberImage={teamMembers.Giselle.image}
+              name={teamMembers.Giselle.name}
+              description={teamMembers.Giselle.description}
+            />
+            <TeamCard
+              memberImage={teamMembers.Roxana.image}
+              name={teamMembers.Roxana.name}
+              description={teamMembers.Roxana.description}
+            />
+            <TeamCard
+              memberImage={teamMembers.Beni.image}
+              name={teamMembers.Beni.name}
+              description={teamMembers.Beni.description}
+            />
           </div>
         </div>
       </div>

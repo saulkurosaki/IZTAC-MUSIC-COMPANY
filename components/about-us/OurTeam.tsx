@@ -25,6 +25,11 @@ const OurTeam = () => {
             className="w-full h-auto object-contain"
           />
         </div>
+        <div className="container w-[1320px] h-full px-[15px]">
+          <h2 className="w-full h-full mb-2 text-white text-[65px] oxygen relative z-10 flex justify-center items-center">
+            NUESTRO EQUIPO
+          </h2>
+        </div>
       </div>
     </section>
   );
@@ -32,16 +37,7 @@ const OurTeam = () => {
 
 export default OurTeam;
 
-// Top section title
-{
-  /* <div className="container w-[1320px] h-full px-[15px]">
-          <h2 className="w-full h-full mb-2 text-white text-[65px] oxygen relative z-10 flex justify-center items-center">
-            NUESTRO EQUIPO
-          </h2>
-        </div> */
-}
-
-// Images flex container
+//
 {
   /* <div className="w-full h-[657px] py-12 bg-[#2e2414] relative z-10">
         <div className="container w-[1320px] h-full px-0">

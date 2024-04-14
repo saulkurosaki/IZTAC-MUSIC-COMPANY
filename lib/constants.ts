@@ -4,6 +4,10 @@ import OurServices3 from "../assets/our_services_image_3.webp";
 import Portfolio_Image_1 from "../assets/portfolio_image_1.webp";
 import Portfolio_Image_2 from "../assets/portfolio_image_2.webp";
 import Portfolio_Image_3 from "../assets/portfolio_image_3.webp";
+import Member_1 from "../assets/our_team_img_1.webp";
+import Member_2 from "../assets/our_team_img_2.webp";
+import Member_3 from "../assets/our_team_img_3.webp";
+import Member_4 from "../assets/our_team_img_4.webp";
 
 export const services = {
   coaching: {
@@ -38,5 +42,29 @@ export const portfolioSongs = {
   3: {
     image: Portfolio_Image_3,
     song: "https://soundcloud.com/zackarymc101/frustration?si=b4fa00fffa494e2db8b0d6eff2440bcd&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+  },
+};
+
+export const teamMembers = {
+  Isaac: {
+    image: Member_1,
+    name: "Isaac Maldonado, CEO",
+    description:
+      "Fundador y director de IMC. También es compositor, vocal coach y asesor artístico con más de 10 años de experiencia en la industria",
+  },
+  Giselle: {
+    image: Member_2,
+    name: "Giselle Maldonado, Liricista",
+    description: "Compositora, liricista y Creadora creativa",
+  },
+  Roxana: {
+    image: Member_3,
+    name: "Roxana Ceballos, Administradora",
+    description: "Encargada de Administración y relaciones internacionales",
+  },
+  Beni: {
+    image: Member_4,
+    name: "Beni Choi, Asistente",
+    description: "Asistente en los diversos departamentos",
   },
 };

@@ -31,20 +31,14 @@ const OurTeam = () => {
           </h2>
         </div>
       </div>
+      <div className="w-full h-[657px] py-12 bg-[#2e2414] relative z-10">
+        <div className="container w-[1320px] h-full px-0"></div>
+      </div>
     </section>
   );
 };
 
 export default OurTeam;
-
-//
-{
-  /* <div className="w-full h-[657px] py-12 bg-[#2e2414] relative z-10">
-        <div className="container w-[1320px] h-full px-0">
-
-        </div>
-      </div> */
-}
 
 // 4 Cards
 {

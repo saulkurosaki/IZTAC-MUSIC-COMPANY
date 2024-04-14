@@ -68,9 +68,9 @@ const OurTeam = () => {
                   />
                 </div>
                 <div className="w-[440px] h-full px-[15px]">
-                  {/* <h4 className="w-full text-white text-3xl oxygen mb-6">
+                  <h4 className="w-full text-white text-3xl oxygen mb-6">
                     Giselle Maldonado, Liricista
-                  </h4> */}
+                  </h4>
                   {/* <p className="w-full text-white text-lg oxygen">
                     Compositora, liricista y Creadora creativa
                   </p> */}

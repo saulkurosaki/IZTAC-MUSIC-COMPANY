@@ -49,11 +49,11 @@ const OurTeam = () => {
                   <h4 className="w-full text-white text-3xl oxygen mb-6">
                     Isaac Maldonado, CEO
                   </h4>
-                  {/* <p className="w-full text-white text-lg oxygen">
+                  <p className="w-full text-white text-lg oxygen">
                     Fundador y director de IMC. También es compositor, vocal
                     coach y asesor artístico con más de 10 años de experiencia
                     en la industria
-                  </p> */}
+                  </p>
                 </div>
               </div>
             </div>

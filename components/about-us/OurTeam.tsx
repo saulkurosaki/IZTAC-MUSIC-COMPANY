@@ -91,9 +91,9 @@ const OurTeam = () => {
                   <h4 className="w-full text-white text-3xl oxygen mb-6">
                     Roxana Ceballos, Administradora
                   </h4>
-                  {/* <p className="w-full text-white text-lg oxygen">
+                  <p className="w-full text-white text-lg oxygen">
                     Encargada de Administración y relaciones internacionales
-                  </p> */}
+                  </p>
                 </div>
               </div>
             </div>

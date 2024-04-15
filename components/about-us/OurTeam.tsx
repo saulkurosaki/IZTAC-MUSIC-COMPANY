@@ -7,9 +7,9 @@ import { teamMembers } from "@/lib/constants";
 
 const OurTeam = () => {
   return (
-    <section className="w-full xl:h-[1037px] lg:h-[895px] relative">
+    <section className="w-full xl:h-[1037px] lg:h-[895px] md:h-[2392px] relative">
       {/* Bottom Section */}
-      <div className="relative w-full xl:h-[380px] lg:h-[373px] pt-64 pb-10">
+      <div className="relative w-full xl:h-[380px] lg:h-[373px] md:h-[363px] pt-64 pb-10">
         <span className="absolute inset-0 z-0">
           <Image
             src={BgImage}
@@ -25,16 +25,16 @@ const OurTeam = () => {
           />
         </div>
         <div className="container xl:w-[1320px] lg:w-[960px] h-full px-[15px]">
-          <h2 className="w-full h-full mb-2 text-white xl:text-[65px] lg:text-6xl oxygen relative z-10 flex justify-center items-center">
+          <h2 className="w-full h-full mb-2 text-white xl:text-[65px] lg:text-6xl md:text-5xl oxygen relative z-10 flex justify-center items-center">
             NUESTRO EQUIPO
           </h2>
         </div>
       </div>
 
       {/* Bottom Section */}
-      <div className="w-full xl:h-[657px] lg:h-[522px] py-12 bg-[#2e2414] relative z-10">
-        <div className="container xl:w-[1320px] lg:w-[960px] h-full px-0">
-          <div className="w-full h-full flex flex-wrap">
+      <div className="w-full xl:h-[657px] lg:h-[522px] md:h-[2029px] py-12 bg-[#2e2414] relative z-10">
+        <div className="container xl:w-[1320px] lg:w-[960px] md:w-[720px] h-full px-0">
+          <div className="w-full h-full flex flex-wrap max-lg:flex-col">
             <TeamCard
               memberImage={teamMembers.Isaac.image}
               name={teamMembers.Isaac.name}

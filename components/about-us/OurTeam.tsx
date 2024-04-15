@@ -7,8 +7,9 @@ import { teamMembers } from "@/lib/constants";
 
 const OurTeam = () => {
   return (
-    <section className="w-full h-[1037px] relative">
-      <div className="relative w-full h-[380px] pt-64 pb-10">
+    <section className="w-full xl:h-[1037px] lg:h-[895px] relative">
+      {/* Bottom Section */}
+      <div className="relative w-full xl:h-[380px] lg:h-[373px] pt-64 pb-10">
         <span className="absolute inset-0 z-0">
           <Image
             src={BgImage}
@@ -23,14 +24,16 @@ const OurTeam = () => {
             className="w-full h-auto object-contain"
           />
         </div>
-        <div className="container w-[1320px] h-full px-[15px]">
-          <h2 className="w-full h-full mb-2 text-white text-[65px] oxygen relative z-10 flex justify-center items-center">
+        <div className="container xl:w-[1320px] lg:w-[960px] h-full px-[15px]">
+          <h2 className="w-full h-full mb-2 text-white xl:text-[65px] lg:text-6xl oxygen relative z-10 flex justify-center items-center">
             NUESTRO EQUIPO
           </h2>
         </div>
       </div>
-      <div className="w-full h-[657px] py-12 bg-[#2e2414] relative z-10">
-        <div className="container w-[1320px] h-full px-0">
+
+      {/* Bottom Section */}
+      <div className="w-full xl:h-[657px] lg:h-[522px] py-12 bg-[#2e2414] relative z-10">
+        <div className="container xl:w-[1320px] lg:w-[960px] h-full px-0">
           <div className="w-full h-full flex flex-wrap">
             <TeamCard
               memberImage={teamMembers.Isaac.image}

@@ -25,7 +25,7 @@ const OurTeam = () => {
           />
         </div>
         <div className="container xl:w-[1320px] lg:w-[960px] h-full px-[15px]">
-          <h2 className="w-full h-full mb-2 text-white xl:text-[65px] lg:text-6xl md:text-5xl oxygen relative z-10 flex justify-center items-center">
+          <h2 className="w-full h-full mb-2 text-white xl:text-[65px] lg:text-6xl md:text-5xl max-md:text-4xl oxygen relative z-10 flex justify-center items-center text-center">
             NUESTRO EQUIPO
           </h2>
         </div>

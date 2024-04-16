@@ -14,11 +14,11 @@ const TeamCard = ({ memberImage, name, description }: TeamCardProps) => {
           <Image
             src={memberImage}
             alt="team_member_img"
-            className="xl:w-[190px] xl:h-[190px] lg:w-[130px] lg:h-[130px] md:w-[285px] md:h-[285px] rounded-full"
+            className="xl:w-[190px] xl:h-[190px] lg:w-[130px] lg:h-[130px] md:w-[285px] md:h-[285px] max-md:w-[200px] max-md:h-[200px] rounded-full"
           />
         </div>
-        <div className="xl:w-[440px] lg:w-[320px] h-full px-[15px] max-lg:pt-3">
-          <h4 className="w-full text-white xl:text-3xl lg:text-2xl md:text-3xl oxygen mb-6">
+        <div className="xl:w-[440px] lg:w-[320px] h-full px-[15px] max-lg:pt-3 max-md:pt-5">
+          <h4 className="w-full text-white xl:text-3xl lg:text-2xl max-lg:text-3xl oxygen md:mb-6 max-md:mb-4">
             {name}
           </h4>
           <p className="w-full text-white xl:text-lg lg:text-base md:text-lg oxygen">

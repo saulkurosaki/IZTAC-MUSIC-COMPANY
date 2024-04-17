@@ -1,5 +1,6 @@
 import OurServicesSection from "@/components/OurServicesSection";
 import Header from "@/components/our-services/Header";
+import OurReferences from "@/components/our-services/OurReferences";
 
 const OurServicesPage = () => {
   return (
@@ -7,6 +8,8 @@ const OurServicesPage = () => {
       <Header />
 
       <OurServicesSection />
+
+      <OurReferences />
     </div>
   );
 };

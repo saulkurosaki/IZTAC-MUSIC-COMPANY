@@ -2,7 +2,7 @@ import AboutUsSection from "@/components/home/AboutUsSection";
 import ContactUsSection from "@/components/home/ContactUsSection";
 import Footer from "@/components/Footer";
 import HeroBanner from "@/components/home/HeroBanner";
-import OurServicesSection from "@/components/home/OurServicesSection";
+import OurServicesSection from "@/components/OurServicesSection";
 import PortfolioSection from "@/components/home/PortfolioSection";
 
 export default function Home() {

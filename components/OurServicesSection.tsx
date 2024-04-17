@@ -1,4 +1,4 @@
-import ServiceCard from "./ServiceCard";
+import ServiceCard from "./home/ServiceCard";
 import { services } from "@/lib/constants";
 
 const OurServicesSection = () => (

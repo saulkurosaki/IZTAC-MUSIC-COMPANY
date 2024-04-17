@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Achievements from "@/components/about-us/Achievements";
 import Header from "@/components/about-us/Header";
 import OurTeam from "@/components/about-us/OurTeam";
@@ -13,6 +14,8 @@ const AboutUsPage = () => {
       <Achievements />
 
       <OurTeam />
+
+      <Footer />
     </div>
   );
 };

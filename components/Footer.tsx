@@ -8,7 +8,7 @@ import iztacLogo from "../assets/iztac_logo_white.png";
 
 const Footer = () => {
   return (
-    <footer className="w-full xl:h-[438px] lg:h-[377px] max-md:h-[640px] bg-[#2e2414]">
+    <footer className="relative w-full xl:h-[438px] lg:h-[377px] max-md:h-[640px] bg-[#2e2414] z-20">
       <div className="w-full xl:h-[381px] lg:h-[320px]">
         <div className="w-full md:h-[138px] max-md:h-64 pt-4">
           <div className="container w-full h-full px-[15px]">

@@ -1,13 +1,16 @@
-import { CarouselApi } from "../ui/carousel";
+import { CarouselApi } from "./ui/carousel";
 
 type TrackerProps = {
   api: CarouselApi | undefined;
   current: number;
+  top: string;
 };
 
-const CarouselTracker = ({ api, current }: TrackerProps) => {
+const CarouselTracker = ({ api, current, top }: TrackerProps) => {
   return (
-    <section className="w-full h-4 absolute top-[784px] z-2 flex mb-[1rem] list-none justify-center gap-[6px]">
+    <section
+      className={`w-full h-4 absolute ${top} z-2 flex mb-[1rem] list-none justify-center gap-[6px]`}
+    >
       <div
         onClick={() => {
           api && api.scrollTo(0);

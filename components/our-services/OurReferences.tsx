@@ -92,11 +92,11 @@ const OurReferences = () => {
                     <Image src={QuoteSvg} alt="quote" />
                   </div>
                   <div className="w-[597px] h-full bg-white p-6 flex flex-col justify-between">
-                    {/* <p className="w-full h-[90px] oxygen text-black text-2xl italic font-light">
+                    <p className="w-full h-[90px] oxygen text-black text-2xl italic font-light">
                       Con las asesorías en IMC logré expandir mi zona de confort
                       con seguridad y logré conseguir mi papel soñado en mi
                       musical favorito
-                    </p> */}
+                    </p>
                     {/* <div className="w-full h-10 flex items-center">
                       <Image
                         src={Reference2}

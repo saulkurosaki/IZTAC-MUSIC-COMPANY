@@ -146,7 +146,7 @@ const OurReferences = () => {
             </div>
           </CarouselItem>
         </CarouselContent>
-        {/* <CarouselPrevious className="absolute top-1/2 left-6 w-16 h-16 max-md:hidden" /> */}
+        <CarouselPrevious className="absolute top-1/2 left-6 w-16 h-16 max-md:hidden" />
         {/* <CarouselNext className="absolute top-1/2 right-6 w-16 h-16 max-md:hidden" /> */}
       </Carousel>
 

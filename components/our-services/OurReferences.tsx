@@ -74,9 +74,9 @@ const OurReferences = () => {
                         height={40}
                         className="rounded-full mr-3"
                       />
-                      {/* <p className="w-auto h-auto text-xl text-[#959595] font-semibold italic oxygen">
+                      <p className="w-auto h-auto text-xl text-[#959595] font-semibold italic oxygen">
                         María José - Alumna becada de UVM
-                      </p> */}
+                      </p>
                     </div>
                   </div>
                 </div>

@@ -17,7 +17,7 @@ import Banner_2 from "../../assets/banner_image_2.webp";
 import Banner_3 from "../../assets/banner_image_3.jpg";
 import Banner_2_lines from "../../assets/banner_2_lines.svg";
 import Banner_3_waves from "../../assets/banner_3_waves.svg";
-import CarouselTracker from "./CarouselTracker";
+import CarouselTracker from "../CarouselTracker";
 import Link from "next/link";
 import {
   generateClipPathBottomStyle,
@@ -163,7 +163,7 @@ const HeroBanner = () => {
         <CarouselNext className="absolute top-1/2 right-6 w-16 h-16 max-md:hidden" />
       </Carousel>
 
-      <CarouselTracker api={api} current={current} />
+      <CarouselTracker api={api} current={current} top="top-[784px]" />
     </>
   );
 };

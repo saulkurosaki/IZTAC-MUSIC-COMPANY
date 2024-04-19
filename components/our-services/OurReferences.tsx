@@ -1,23 +1,23 @@
 "use client";
 
-// import Image from "next/image";
-// import Link from "next/link";
-// import Autoplay from "embla-carousel-autoplay";
+import Image from "next/image";
+import Link from "next/link";
+import Autoplay from "embla-carousel-autoplay";
 import {
   Carousel,
   CarouselContent,
-  //   CarouselItem,
-  //   CarouselNext,
-  //   CarouselPrevious,
-  //   type CarouselApi,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+  type CarouselApi,
 } from "../ui/carousel";
-// import { useEffect, useState } from "react";
-// import CarouselTracker from "../CarouselTracker";
+import { useEffect, useState } from "react";
+import CarouselTracker from "../CarouselTracker";
 
-// import Reference1 from "../../assets/reference_img_1.jpg";
-// import Reference2 from "../../assets/reference_img_2.jpg";
-// import Reference3 from "../../assets/reference_img_3.jpg";
-// import QuoteSvg from "../../assets/quote_svg.png";
+import Reference1 from "../../assets/reference_img_1.jpg";
+import Reference2 from "../../assets/reference_img_2.jpg";
+import Reference3 from "../../assets/reference_img_3.jpg";
+import QuoteSvg from "../../assets/quote_svg.png";
 
 const OurReferences = () => {
   //   const [api, setApi] = useState<CarouselApi>();

@@ -105,9 +105,9 @@ const OurReferences = () => {
                         height={40}
                         className="rounded-full mr-3"
                       />
-                      {/* <p className="w-auto h-auto text-xl text-[#959595] font-semibold italic oxygen">
+                      <p className="w-auto h-auto text-xl text-[#959595] font-semibold italic oxygen">
                         Victoria - Estelar en Heathers
-                      </p> */}
+                      </p>
                     </div>
                   </div>
                 </div>

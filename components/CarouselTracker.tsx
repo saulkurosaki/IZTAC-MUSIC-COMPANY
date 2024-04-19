@@ -3,13 +3,15 @@ import { CarouselApi } from "./ui/carousel";
 type TrackerProps = {
   api: CarouselApi | undefined;
   current: number;
-  top: string;
+  isReferenceCard?: boolean;
 };
 
-const CarouselTracker = ({ api, current, top }: TrackerProps) => {
+const CarouselTracker = ({ api, current, isReferenceCard }: TrackerProps) => {
   return (
     <section
-      className={`w-full h-4 absolute ${top} z-2 flex mb-[1rem] list-none justify-center gap-[6px]`}
+      className={`w-full h-4 absolute ${
+        isReferenceCard ? "bottom-2" : "top-[784px]"
+      } z-2 flex mb-[1rem] list-none justify-center gap-[6px]`}
     >
       <div
         onClick={() => {

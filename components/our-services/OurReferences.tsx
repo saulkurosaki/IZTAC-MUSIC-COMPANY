@@ -65,11 +65,11 @@ const OurReferences = () => {
           </CarouselItem>
           {/* Item 2 */}
           <CarouselItem className="pl-0">
-            {/* <ReferenceCard
+            <ReferenceCard
               quote={referencesInfo.Victoria.quote}
               author={referencesInfo.Victoria.author}
               avatar={referencesInfo.Victoria.avatar}
-            /> */}
+            />
           </CarouselItem>
           {/* Item 3 */}
           <CarouselItem className="pl-0">

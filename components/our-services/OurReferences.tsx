@@ -115,10 +115,10 @@ const OurReferences = () => {
             </div>
           </CarouselItem>
           {/* Item 3 */}
-          {/* <CarouselItem className="pl-0">
+          <CarouselItem className="pl-0">
             <div className="w-full h-full py-20">
               <div className="container w-[1320px] h-full px-[15px]">
-                <div className="w-[645px] h-full mx-auto flex">
+                {/* <div className="w-[645px] h-full mx-auto flex">
                   <div className="w-12 h-12 bg-[#2e2414] rounded-tl-lg rounded-bl-lg p-3">
                     <Image src={QuoteSvg} alt="quote" />
                   </div>
@@ -141,10 +141,10 @@ const OurReferences = () => {
                       </p>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
-          </CarouselItem> */}
+          </CarouselItem>
         </CarouselContent>
         {/* <CarouselPrevious className="absolute top-1/2 left-6 w-16 h-16 max-md:hidden" /> */}
         {/* <CarouselNext className="absolute top-1/2 right-6 w-16 h-16 max-md:hidden" /> */}

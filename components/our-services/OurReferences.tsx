@@ -67,13 +67,13 @@ const OurReferences = () => {
                       para una beca exitosa en la universidad que quería
                     </p>
                     <div className="w-full h-10 flex items-center">
-                      {/* <Image
+                      <Image
                         src={Reference1}
                         alt="reference_img"
                         width={40}
                         height={40}
                         className="rounded-full mr-3"
-                      /> */}
+                      />
                       {/* <p className="w-auto h-auto text-xl text-[#959595] font-semibold italic oxygen">
                         María José - Alumna becada de UVM
                       </p> */}

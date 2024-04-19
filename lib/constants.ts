@@ -8,6 +8,9 @@ import Member_1 from "../assets/our_team_img_1.webp";
 import Member_2 from "../assets/our_team_img_2.webp";
 import Member_3 from "../assets/our_team_img_3.webp";
 import Member_4 from "../assets/our_team_img_4.webp";
+import Reference1 from "../assets/reference_img_1.jpg";
+import Reference2 from "../assets/reference_img_2.jpg";
+import Reference3 from "../assets/reference_img_3.jpg";
 
 export const services = {
   coaching: {
@@ -66,5 +69,26 @@ export const teamMembers = {
     image: Member_4,
     name: "Beni Choi, Asistente",
     description: "Asistente en los diversos departamentos",
+  },
+};
+
+export const referencesInfo = {
+  Majo: {
+    quote:
+      "Gracias a las asesorías en IMC pude tener una audición para una beca exitosa en la universidad que quería",
+    author: "María José - Alumna becada de UVM",
+    avatar: Reference1,
+  },
+  Victoria: {
+    quote:
+      "Con las asesorías en IMC logré expandir mi zona de confort con seguridad y logré conseguir mi papel soñado en mi musical favorito",
+    author: "Victoria - Estelar en Heathers",
+    avatar: Reference2,
+  },
+  Victor: {
+    quote:
+      "Estudiar en IMC me ayudo a mejorar mis técnicas y asi lograr tener mi primer papel en un musical semi-profesional",
+    author: "Victor Villas - Protagónico en The Heights",
+    avatar: Reference3,
   },
 };

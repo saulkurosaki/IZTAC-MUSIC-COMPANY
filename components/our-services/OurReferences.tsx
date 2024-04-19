@@ -20,20 +20,20 @@ import Reference3 from "../../assets/reference_img_3.jpg";
 import QuoteSvg from "../../assets/quote_svg.png";
 
 const OurReferences = () => {
-  //   const [api, setApi] = useState<CarouselApi>();
-  //   const [current, setCurrent] = useState(0);
+  const [api, setApi] = useState<CarouselApi>();
+  const [current, setCurrent] = useState(0);
 
-  //   useEffect(() => {
-  //     if (!api) {
-  //       return;
-  //     }
+  useEffect(() => {
+    if (!api) {
+      return;
+    }
 
-  //     setCurrent(api.selectedScrollSnap() + 1);
+    setCurrent(api.selectedScrollSnap() + 1);
 
-  //     api.on("select", () => {
-  //       setCurrent(api.selectedScrollSnap() + 1);
-  //     });
-  //   }, [api]);
+    api.on("select", () => {
+      setCurrent(api.selectedScrollSnap() + 1);
+    });
+  }, [api]);
 
   return (
     <section className="w-full h-[354px] bg-[#B99253]">
@@ -49,7 +49,7 @@ const OurReferences = () => {
             //   }),
           ]
         }
-        // setApi={setApi}
+        setApi={setApi}
         className="bg-[#B99253] h-[354px]"
       >
         <CarouselContent className="-ml-0 h-[354px]">

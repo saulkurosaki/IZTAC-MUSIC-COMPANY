@@ -73,11 +73,11 @@ const OurReferences = () => {
           </CarouselItem>
           {/* Item 3 */}
           <CarouselItem className="pl-0">
-            {/* <ReferenceCard
+            <ReferenceCard
               quote={referencesInfo.Victor.quote}
               author={referencesInfo.Victor.author}
               avatar={referencesInfo.Victor.avatar}
-            /> */}
+            />
           </CarouselItem>
         </CarouselContent>
         <CarouselPrevious className="absolute top-1/2 left-6 w-16 h-16 max-md:hidden" />

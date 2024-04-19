@@ -97,18 +97,18 @@ const OurReferences = () => {
                       con seguridad y logré conseguir mi papel soñado en mi
                       musical favorito
                     </p>
-                    {/* <div className="w-full h-10 flex items-center">
-                      <Image
+                    <div className="w-full h-10 flex items-center">
+                      {/* <Image
                         src={Reference2}
                         alt="reference_img"
                         width={40}
                         height={40}
                         className="rounded-full mr-3"
-                      />
-                      <p className="w-auto h-auto text-xl text-[#959595] font-semibold italic oxygen">
+                      /> */}
+                      {/* <p className="w-auto h-auto text-xl text-[#959595] font-semibold italic oxygen">
                         Victoria - Estelar en Heathers
-                      </p>
-                    </div> */}
+                      </p> */}
+                    </div>
                   </div>
                 </div>
               </div>

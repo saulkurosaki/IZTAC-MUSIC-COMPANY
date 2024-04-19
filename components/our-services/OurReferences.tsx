@@ -147,7 +147,7 @@ const OurReferences = () => {
           </CarouselItem>
         </CarouselContent>
         <CarouselPrevious className="absolute top-1/2 left-6 w-16 h-16 max-md:hidden" />
-        {/* <CarouselNext className="absolute top-1/2 right-6 w-16 h-16 max-md:hidden" /> */}
+        <CarouselNext className="absolute top-1/2 right-6 w-16 h-16 max-md:hidden" />
       </Carousel>
 
       {/* <CarouselTracker api={api} current={current} top="top-[1275px]" /> */}

@@ -1,8 +1,5 @@
 "use client";
 
-import Image from "next/image";
-import Link from "next/link";
-import Autoplay from "embla-carousel-autoplay";
 import {
   Carousel,
   CarouselContent,
@@ -11,13 +8,10 @@ import {
   CarouselPrevious,
   type CarouselApi,
 } from "../ui/carousel";
+import Autoplay from "embla-carousel-autoplay";
 import { useEffect, useState } from "react";
 import CarouselTracker from "../CarouselTracker";
 
-import Reference1 from "../../assets/reference_img_1.jpg";
-import Reference2 from "../../assets/reference_img_2.jpg";
-import Reference3 from "../../assets/reference_img_3.jpg";
-import QuoteSvg from "../../assets/quote_svg.png";
 import ReferenceCard from "./ReferenceCard";
 import { referencesInfo } from "@/lib/constants";
 
@@ -38,7 +32,7 @@ const OurReferences = () => {
   }, [api]);
 
   return (
-    <section className="w-full h-[354px] bg-[#B99253]">
+    <section className="w-full xl:h-[354px] lg:h-[384px] bg-[#B99253]">
       <Carousel
         opts={{
           align: "start",
@@ -52,9 +46,9 @@ const OurReferences = () => {
           ]
         }
         setApi={setApi}
-        className="bg-[#B99253] h-[354px]"
+        className="bg-[#B99253] xl:h-[354px] lg:h-[384px]"
       >
-        <CarouselContent className="-ml-0 h-[354px]">
+        <CarouselContent className="-ml-0 xl:h-[354px] lg:h-[384px]">
           {/* Item 1 */}
           <CarouselItem className="pl-0">
             <ReferenceCard
@@ -84,7 +78,7 @@ const OurReferences = () => {
         <CarouselNext className="absolute top-1/2 right-6 w-16 h-16 max-md:hidden" />
       </Carousel>
 
-      <CarouselTracker api={api} current={current} top="top-[1275px]" />
+      <CarouselTracker api={api} current={current} isReferenceCard />
     </section>
   );
 };

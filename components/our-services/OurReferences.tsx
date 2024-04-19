@@ -32,23 +32,21 @@ const OurReferences = () => {
   }, [api]);
 
   return (
-    <section className="w-full xl:h-[354px] lg:h-[384px] md:h-[500px] bg-[#B99253]">
+    <section className="w-full xl:h-[354px] lg:h-[384px] md:h-[500px] max-md:h-[440px] bg-[#B99253]">
       <Carousel
         opts={{
           align: "start",
           loop: true,
         }}
-        plugins={
-          [
-            //   Autoplay({
-            //     delay: 10000,
-            //   }),
-          ]
-        }
+        plugins={[
+          Autoplay({
+            delay: 10000,
+          }),
+        ]}
         setApi={setApi}
-        className="bg-[#B99253] xl:h-[354px] lg:h-[384px] md:h-[500px]"
+        className="bg-[#B99253] xl:h-[354px] lg:h-[384px] md:h-[500px] max-md:h-[440px]"
       >
-        <CarouselContent className="-ml-0 xl:h-[354px] lg:h-[384px] md:h-[500px]">
+        <CarouselContent className="-ml-0 xl:h-[354px] lg:h-[384px] md:h-[500px] max-md:h-[440px]">
           {/* Item 1 */}
           <CarouselItem className="pl-0">
             <ReferenceCard

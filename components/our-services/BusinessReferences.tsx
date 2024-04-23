@@ -12,10 +12,10 @@ const BusinessReferences = () => {
     <section className="w-full lg:h-[380px] md:h-[1425px] bg-white pt-12 pb-8">
       <div className="container xl:w-[1320px] lg:w-[960px] md:w-[720px] h-full max-lg:h-[1335px] px-[15px] flex flex-col">
         <div className="w-full h-[150px] flex flex-col max-lg:mb-10">
-          <h2 className="w-full h-[70px] text-[42px] oxygen flex items-center justify-center">
+          <h2 className="w-full h-[70px] md:text-[42px] max-md:text-3xl oxygen flex items-center justify-center">
             Nuestras Referencias
           </h2>
-          <p className="w-full h-[30px] text-lg oxygen text-[#7a7a7a] flex items-center justify-center">
+          <p className="w-full h-[30px] md:text-lg max-md:text-base oxygen text-[#7a7a7a] text-center">
             Algunas de las empresas con las que hemos colaborado.
           </p>
         </div>

@@ -38,12 +38,12 @@ const BusinessReferences = () => {
             width={215}
             className="object-contain"
           />
-          {/* <Image
+          <Image
             src={Reference_4}
             alt="reference_image"
             width={215}
             className="object-contain"
-          /> */}
+          />
           {/* <Image
             src={Reference_5}
             alt="reference_image"

@@ -9,8 +9,8 @@ type TrackerProps = {
 const CarouselTracker = ({ api, current, isReferenceCard }: TrackerProps) => {
   return (
     <section
-      className={`w-full h-4 absolute ${
-        isReferenceCard ? "bottom-2" : "top-[784px]"
+      className={`w-full h-4 relative ${
+        isReferenceCard ? "bottom-10" : "bottom-11"
       } z-2 flex mb-[1rem] list-none justify-center gap-[6px]`}
     >
       <div

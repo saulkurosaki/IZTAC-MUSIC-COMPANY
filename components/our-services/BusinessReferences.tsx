@@ -1,11 +1,11 @@
-// import Image from "next/image";
+import Image from "next/image";
 
-// import Reference_1 from "../../assets/business_references_img_1.svg";
-// import Reference_2 from "../../assets/business_references_img_2.svg";
-// import Reference_3 from "../../assets/business_references_img_3.svg";
-// import Reference_4 from "../../assets/business_references_img_4.svg";
-// import Reference_5 from "../../assets/business_references_img_5.svg";
-// import Reference_6 from "../../assets/business_references_img_6.svg";
+import Reference_1 from "../../assets/business_references_img_1.svg";
+import Reference_2 from "../../assets/business_references_img_2.svg";
+import Reference_3 from "../../assets/business_references_img_3.svg";
+import Reference_4 from "../../assets/business_references_img_4.svg";
+import Reference_5 from "../../assets/business_references_img_5.svg";
+import Reference_6 from "../../assets/business_references_img_6.svg";
 
 const BusinessReferences = () => {
   return (

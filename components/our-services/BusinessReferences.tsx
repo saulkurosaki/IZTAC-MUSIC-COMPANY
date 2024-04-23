@@ -50,12 +50,12 @@ const BusinessReferences = () => {
             width={215}
             className="object-contain"
           />
-          {/* <Image
+          <Image
             src={Reference_6}
             alt="reference_image"
             width={215}
             className="object-contain"
-          /> */}
+          />
         </div>
       </div>
     </section>

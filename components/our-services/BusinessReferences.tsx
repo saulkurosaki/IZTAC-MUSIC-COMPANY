@@ -10,7 +10,7 @@ import Reference_6 from "../../assets/business_references_img_6.svg";
 const BusinessReferences = () => {
   return (
     <section className="w-full h-[380px] bg-white pt-12 pb-8">
-      <div className="container w-[1320px] h-full px-[15px] flex flex-col">
+      <div className="container xl:w-[1320px] lg:w-[960px] h-full px-[15px] flex flex-col">
         <div className="w-full h-[150px] flex flex-col">
           <h2 className="w-full h-[70px] text-[42px] oxygen flex items-center justify-center">
             Nuestras Referencias
@@ -23,38 +23,32 @@ const BusinessReferences = () => {
           <Image
             src={Reference_1}
             alt="reference_image"
-            width={215}
-            className="object-contain"
+            className="xl:w-[215px] lg:w-[155px] h-full object-contain"
           />
           <Image
             src={Reference_2}
             alt="reference_image"
-            width={215}
-            className="object-contain"
+            className="xl:w-[215px] lg:w-[155px] h-full object-contain"
           />
           <Image
             src={Reference_3}
             alt="reference_image"
-            width={215}
-            className="object-contain"
+            className="xl:w-[215px] lg:w-[155px] h-full object-contain"
           />
           <Image
             src={Reference_4}
             alt="reference_image"
-            width={215}
-            className="object-contain"
+            className="xl:w-[215px] lg:w-[155px] h-full object-contain"
           />
           <Image
             src={Reference_5}
             alt="reference_image"
-            width={215}
-            className="object-contain"
+            className="xl:w-[215px] lg:w-[155px] h-full object-contain"
           />
           <Image
             src={Reference_6}
             alt="reference_image"
-            width={215}
-            className="object-contain"
+            className="xl:w-[215px] lg:w-[155px] h-full object-contain"
           />
         </div>
       </div>

@@ -15,9 +15,9 @@ const BusinessReferences = () => {
           <h2 className="w-full h-[70px] text-[42px] oxygen flex items-center justify-center">
             Nuestras Referencias
           </h2>
-          {/* <p className="w-full h-[30px] text-lg oxygen text-[#7a7a7a] flex items-center justify-center">
+          <p className="w-full h-[30px] text-lg oxygen text-[#7a7a7a] flex items-center justify-center">
             Algunas de las empresas con las que hemos colaborado.
-          </p> */}
+          </p>
         </div>
         {/* <div className="w-full h-[150px] flex pb-12">
           <Image

@@ -19,44 +19,44 @@ const BusinessReferences = () => {
             Algunas de las empresas con las que hemos colaborado.
           </p>
         </div>
-        {/* <div className="w-full h-[150px] flex pb-12">
-          <Image
+        <div className="w-full h-[150px] flex pb-12">
+          {/* <Image
             src={Reference_1}
             alt="reference_image"
             width={215}
             className="object-contain"
-          />
-          <Image
+          /> */}
+          {/* <Image
             src={Reference_2}
             alt="reference_image"
             width={215}
             className="object-contain"
-          />
-          <Image
+          /> */}
+          {/* <Image
             src={Reference_3}
             alt="reference_image"
             width={215}
             className="object-contain"
-          />
-          <Image
+          /> */}
+          {/* <Image
             src={Reference_4}
             alt="reference_image"
             width={215}
             className="object-contain"
-          />
-          <Image
+          /> */}
+          {/* <Image
             src={Reference_5}
             alt="reference_image"
             width={215}
             className="object-contain"
-          />
-          <Image
+          /> */}
+          {/* <Image
             src={Reference_6}
             alt="reference_image"
             width={215}
             className="object-contain"
-          />
-        </div> */}
+          /> */}
+        </div>
       </div>
     </section>
   );

@@ -20,12 +20,12 @@ const BusinessReferences = () => {
           </p>
         </div>
         <div className="w-full h-[150px] flex pb-12">
-          {/* <Image
+          <Image
             src={Reference_1}
             alt="reference_image"
             width={215}
             className="object-contain"
-          /> */}
+          />
           {/* <Image
             src={Reference_2}
             alt="reference_image"

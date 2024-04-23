@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import OurServicesSection from "@/components/OurServicesSection";
 import BusinessReferences from "@/components/our-services/BusinessReferences";
 import Header from "@/components/our-services/Header";
@@ -13,6 +14,8 @@ const OurServicesPage = () => {
       <OurReferences />
 
       <BusinessReferences />
+
+      <Footer />
     </div>
   );
 };

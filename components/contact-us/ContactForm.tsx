@@ -46,8 +46,8 @@ const ContactForm = () => {
               empresa o servicios. <br />
               Haremos todo lo posible para contactarle lo antes posible.
             </p>
-            {/* <div className="w-full h-[402px]">
-              <Form {...form}>
+            <div className="w-full h-[402px]">
+              {/* <Form {...form}>
                 <form
                   onSubmit={form.handleSubmit(onSubmit)}
                   className="w-full h-full flex flex-col"
@@ -190,8 +190,8 @@ const ContactForm = () => {
                     </Button>
                   </div>
                 </form>
-              </Form>
-            </div> */}
+              </Form> */}
+            </div>
           </div>
           {/* <div className="w-[440px] h-full px-[15px]"></div> */}
         </div>

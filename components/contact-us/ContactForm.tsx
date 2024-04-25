@@ -169,10 +169,10 @@ const ContactForm = () => {
                                 &nbsp;*
                               </span>
                             </p>
-                            {/* <Textarea
+                            <Textarea
                               {...field}
                               className="w-[665px] min-h-full border-[#3d3d3d36]"
-                            /> */}
+                            />
                           </div>
                         </FormControl>
                       </FormItem>

@@ -193,7 +193,7 @@ const ContactForm = () => {
               </Form>
             </div>
           </div>
-          {/* <div className="w-[440px] h-full px-[15px]"></div> */}
+          <div className="w-[440px] h-full px-[15px]"></div>
         </div>
       </div>
     </div>

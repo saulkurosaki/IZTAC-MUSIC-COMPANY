@@ -40,13 +40,13 @@ const ContactForm = () => {
     <div className="w-full h-[546px] bg-white py-10">
       <div className="container w-[1320px] h-full px-0">
         <div className="w-full h-full flex">
-          {/* <div className="w-[880px] h-full px-[15px]">
+          <div className="w-[880px] h-full px-[15px]">
             <p className="w-full h-12 mb-4 text-lg text-[#727272] flex items-center oxygen">
               Mándenos mensaje sobre cualquier cosa relacionada con nuestra
               empresa o servicios. <br />
               Haremos todo lo posible para contactarle lo antes posible.
             </p>
-            <div className="w-full h-[402px]">
+            {/* <div className="w-full h-[402px]">
               <Form {...form}>
                 <form
                   onSubmit={form.handleSubmit(onSubmit)}
@@ -191,8 +191,8 @@ const ContactForm = () => {
                   </div>
                 </form>
               </Form>
-            </div>
-          </div> */}
+            </div> */}
+          </div>
           {/* <div className="w-[440px] h-full px-[15px]"></div> */}
         </div>
       </div>

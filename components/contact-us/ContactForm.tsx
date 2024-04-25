@@ -163,12 +163,12 @@ const ContactForm = () => {
                       <FormItem className="w-full h-[78px] flex items-center py-2">
                         <FormControl>
                           <div className="w-full h-full flex">
-                            {/* <p className="w-[185px] h-full flex items-center text-lg text-[#727272] oxygen">
+                            <p className="w-[185px] h-full flex items-center text-lg text-[#727272] oxygen">
                               Pregunta
                               <span className="text-sm text-[#ff4141]">
                                 &nbsp;*
                               </span>
-                            </p> */}
+                            </p>
                             {/* <Textarea
                               {...field}
                               className="w-[665px] min-h-full border-[#3d3d3d36]"

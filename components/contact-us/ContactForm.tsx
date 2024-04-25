@@ -162,18 +162,18 @@ const ContactForm = () => {
                     render={({ field }) => (
                       <FormItem className="w-full h-[78px] flex items-center py-2">
                         <FormControl>
-                          {/* <div className="w-full h-full flex">
-                            <p className="w-[185px] h-full flex items-center text-lg text-[#727272] oxygen">
+                          <div className="w-full h-full flex">
+                            {/* <p className="w-[185px] h-full flex items-center text-lg text-[#727272] oxygen">
                               Pregunta
                               <span className="text-sm text-[#ff4141]">
                                 &nbsp;*
                               </span>
-                            </p>
-                            <Textarea
+                            </p> */}
+                            {/* <Textarea
                               {...field}
                               className="w-[665px] min-h-full border-[#3d3d3d36]"
-                            />
-                          </div> */}
+                            /> */}
+                          </div>
                         </FormControl>
                       </FormItem>
                     )}

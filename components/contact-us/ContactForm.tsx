@@ -147,10 +147,10 @@ const ContactForm = () => {
                                 &nbsp;*
                               </span>
                             </p>
-                            {/* <Input
+                            <Input
                               {...field}
                               className="w-[665px] h-full border-[#3d3d3d36]"
-                            /> */}
+                            />
                           </div>
                         </FormControl>
                       </FormItem>

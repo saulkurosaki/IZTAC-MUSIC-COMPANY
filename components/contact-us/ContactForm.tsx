@@ -31,10 +31,10 @@ const ContactForm = () => {
     },
   });
 
-  //   const onSubmit = (values: z.infer<typeof contactFormSchema>) => {
-  //     console.log(values);
-  //     form.reset();
-  //   };
+  const onSubmit = (values: z.infer<typeof contactFormSchema>) => {
+    console.log(values);
+    form.reset();
+  };
 
   return (
     <div className="w-full h-[546px] bg-white py-10">

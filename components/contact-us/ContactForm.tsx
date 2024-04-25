@@ -180,14 +180,14 @@ const ContactForm = () => {
                   />
 
                   <div className="w-full h-[54px] py-2 pl-[185px]">
-                    {/* <Button
+                    <Button
                       type="submit"
                       size="lg"
                       disabled={form.formState.isSubmitting}
                       className="w-[77px] h-full bg-[#B99253] text-lg text-[#494848] oxygen hover:bg-[#bf9e69]"
                     >
                       Enviar
-                    </Button> */}
+                    </Button>
                   </div>
                 </form>
               </Form>

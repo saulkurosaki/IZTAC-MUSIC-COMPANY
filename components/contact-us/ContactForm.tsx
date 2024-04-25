@@ -19,17 +19,17 @@ import { useForm } from "react-hook-form";
 import { contactFormSchema } from "@/lib/validator";
 
 const ContactForm = () => {
-  //   const form = useForm<z.infer<typeof contactFormSchema>>({
-  //     resolver: zodResolver(contactFormSchema),
-  //     defaultValues: {
-  //       name: "",
-  //       number: "+52 ",
-  //       email: "",
-  //       company: "",
-  //       matter: "",
-  //       description: "",
-  //     },
-  //   });
+  const form = useForm<z.infer<typeof contactFormSchema>>({
+    resolver: zodResolver(contactFormSchema),
+    defaultValues: {
+      name: "",
+      number: "+52 ",
+      email: "",
+      company: "",
+      matter: "",
+      description: "",
+    },
+  });
 
   //   const onSubmit = (values: z.infer<typeof contactFormSchema>) => {
   //     console.log(values);

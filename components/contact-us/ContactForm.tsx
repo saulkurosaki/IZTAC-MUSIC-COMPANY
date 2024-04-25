@@ -100,12 +100,12 @@ const ContactForm = () => {
                       <FormItem className="w-full flex-grow flex items-center py-2">
                         <FormControl>
                           <div className="w-full h-full flex">
-                            {/* <p className="w-[185px] h-full flex items-center text-lg text-[#727272] oxygen">
+                            <p className="w-[185px] h-full flex items-center text-lg text-[#727272] oxygen">
                               Correo electrónico
                               <span className="text-sm text-[#ff4141]">
                                 &nbsp;*
                               </span>
-                            </p> */}
+                            </p>
                             {/* <Input
                               {...field}
                               className="w-[665px] h-full border-[#3d3d3d36]"

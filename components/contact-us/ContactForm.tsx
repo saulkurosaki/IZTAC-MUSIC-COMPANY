@@ -93,13 +93,13 @@ const ContactForm = () => {
                       </FormItem>
                     )}
                   />
-                  {/* <FormField
+                  <FormField
                     control={form.control}
                     name="email"
                     render={({ field }) => (
                       <FormItem className="w-full flex-grow flex items-center py-2">
                         <FormControl>
-                          <div className="w-full h-full flex">
+                          {/* <div className="w-full h-full flex">
                             <p className="w-[185px] h-full flex items-center text-lg text-[#727272] oxygen">
                               Correo electrónico
                               <span className="text-sm text-[#ff4141]">
@@ -110,11 +110,11 @@ const ContactForm = () => {
                               {...field}
                               className="w-[665px] h-full border-[#3d3d3d36]"
                             />
-                          </div>
+                          </div> */}
                         </FormControl>
                       </FormItem>
                     )}
-                  /> */}
+                  />
                   {/* <FormField
                     control={form.control}
                     name="company"

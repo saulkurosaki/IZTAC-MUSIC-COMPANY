@@ -47,12 +47,12 @@ const ContactForm = () => {
               Haremos todo lo posible para contactarle lo antes posible.
             </p>
             <div className="w-full h-[402px]">
-              {/* <Form {...form}>
+              <Form {...form}>
                 <form
                   onSubmit={form.handleSubmit(onSubmit)}
                   className="w-full h-full flex flex-col"
                 >
-                  <FormField
+                  {/* <FormField
                     control={form.control}
                     name="name"
                     render={({ field }) => (
@@ -73,8 +73,8 @@ const ContactForm = () => {
                         </FormControl>
                       </FormItem>
                     )}
-                  />
-                  <FormField
+                  /> */}
+                  {/* <FormField
                     control={form.control}
                     name="number"
                     render={({ field }) => (
@@ -92,8 +92,8 @@ const ContactForm = () => {
                         </FormControl>
                       </FormItem>
                     )}
-                  />
-                  <FormField
+                  /> */}
+                  {/* <FormField
                     control={form.control}
                     name="email"
                     render={({ field }) => (
@@ -114,8 +114,8 @@ const ContactForm = () => {
                         </FormControl>
                       </FormItem>
                     )}
-                  />
-                  <FormField
+                  /> */}
+                  {/* <FormField
                     control={form.control}
                     name="company"
                     render={({ field }) => (
@@ -133,8 +133,8 @@ const ContactForm = () => {
                         </FormControl>
                       </FormItem>
                     )}
-                  />
-                  <FormField
+                  /> */}
+                  {/* <FormField
                     control={form.control}
                     name="matter"
                     render={({ field }) => (
@@ -155,8 +155,8 @@ const ContactForm = () => {
                         </FormControl>
                       </FormItem>
                     )}
-                  />
-                  <FormField
+                  /> */}
+                  {/* <FormField
                     control={form.control}
                     name="description"
                     render={({ field }) => (
@@ -177,9 +177,9 @@ const ContactForm = () => {
                         </FormControl>
                       </FormItem>
                     )}
-                  />
+                  /> */}
 
-                  <div className="w-full h-[54px] py-2 pl-[185px]">
+                  {/* <div className="w-full h-[54px] py-2 pl-[185px]">
                     <Button
                       type="submit"
                       size="lg"
@@ -188,9 +188,9 @@ const ContactForm = () => {
                     >
                       Enviar
                     </Button>
-                  </div>
+                  </div> */}
                 </form>
-              </Form> */}
+              </Form>
             </div>
           </div>
           {/* <div className="w-[440px] h-full px-[15px]"></div> */}

@@ -84,10 +84,10 @@ const ContactForm = () => {
                             <p className="w-[185px] h-full flex items-center text-lg text-[#727272] oxygen">
                               Número de teléfono
                             </p>
-                            {/* <Input
+                            <Input
                               {...field}
                               className="w-[665px] h-full border-[#3d3d3d36]"
-                            /> */}
+                            />
                           </div>
                         </FormControl>
                       </FormItem>

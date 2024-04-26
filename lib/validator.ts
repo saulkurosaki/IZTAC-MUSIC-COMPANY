@@ -16,5 +16,5 @@ export const contactFormSchema = z.object({
   description: z
     .string()
     .min(15, "La descripción debe contener al menos 15 caracteres")
-    .max(200, "La descripción debe contener como máximo 200 caracteres"),
+    .max(300, "La descripción debe contener como máximo 300 caracteres"),
 });

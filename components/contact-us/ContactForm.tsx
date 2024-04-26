@@ -22,7 +22,7 @@ const ContactForm = () => {
     resolver: zodResolver(contactFormSchema),
     defaultValues: {
       name: "",
-      number: "+52 ",
+      number: "+52",
       email: "",
       company: "",
       matter: "",

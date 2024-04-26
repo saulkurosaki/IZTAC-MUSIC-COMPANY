@@ -21,7 +21,7 @@ import Image from "next/image";
 import MailLogo from "../../assets/mail_logo.png";
 import LocationLogo from "../../assets/location_img.svg";
 
-const ContactForm = () => {
+const ContactSection = () => {
   const form = useForm<z.infer<typeof contactFormSchema>>({
     resolver: zodResolver(contactFormSchema),
     defaultValues: {
@@ -229,4 +229,4 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;
+export default ContactSection;

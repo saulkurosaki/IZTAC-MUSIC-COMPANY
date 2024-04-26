@@ -58,7 +58,7 @@ const ContactForm = () => {
                   />
                 </div>
               </FormControl>
-              <FormMessage className="absolute top-[328px] text-xs" />
+              <FormMessage className="absolute xl:top-[328px] lg:top-[344px] text-xs" />
             </FormItem>
           )}
         />
@@ -78,7 +78,7 @@ const ContactForm = () => {
                   />
                 </div>
               </FormControl>
-              <FormMessage className="absolute top-[382px] text-xs" />
+              <FormMessage className="absolute xl:top-[382px] lg:top-[398px] text-xs" />
             </FormItem>
           )}
         />
@@ -99,7 +99,7 @@ const ContactForm = () => {
                   />
                 </div>
               </FormControl>
-              <FormMessage className="absolute top-[435px] text-xs" />
+              <FormMessage className="absolute xl:top-[435px] lg:top-[448px] text-xs" />
             </FormItem>
           )}
         />
@@ -119,7 +119,7 @@ const ContactForm = () => {
                   />
                 </div>
               </FormControl>
-              <FormMessage className="absolute top-[490px] text-xs" />
+              <FormMessage className="absolute xl:top-[490px] lg:top-[506px] text-xs" />
             </FormItem>
           )}
         />
@@ -140,7 +140,7 @@ const ContactForm = () => {
                   />
                 </div>
               </FormControl>
-              <FormMessage className="absolute top-[544px] text-xs" />
+              <FormMessage className="absolute xl:top-[544px] lg:top-[560px] text-xs" />
             </FormItem>
           )}
         />
@@ -161,7 +161,7 @@ const ContactForm = () => {
                   />
                 </div>
               </FormControl>
-              <FormMessage className="absolute top-[623px] text-xs" />
+              <FormMessage className="absolute xl:top-[623px] lg:top-[638px] text-xs" />
             </FormItem>
           )}
         />

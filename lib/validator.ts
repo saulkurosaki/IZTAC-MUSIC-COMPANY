@@ -8,7 +8,7 @@ export const contactFormSchema = z.object({
   email: z.string().email("Correo invalido"),
   company: z
     .string()
-    .max(30, "El nombre de la empresa debe contener como máximo 30 caracteres"),
+    .max(30, "La empresa debe contener como máximo 30 caracteres"),
   matter: z
     .string()
     .min(5, "El asunto debe contener al menos 5 caracteres")
@@ -16,5 +16,5 @@ export const contactFormSchema = z.object({
   description: z
     .string()
     .min(15, "La descripción debe contener al menos 15 caracteres")
-    .max(300, "La descripción debe contener como máximo 300 caracteres"),
+    .max(300, "La descripción debe contener máximo 300 caracteres"),
 });

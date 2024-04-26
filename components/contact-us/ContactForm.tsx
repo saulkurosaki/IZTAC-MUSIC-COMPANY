@@ -201,14 +201,14 @@ const ContactForm = () => {
               <p className="w-full h-6 text-[#6C757D] oxygen">
                 IMC (Iztac Music Company)
               </p>
-              {/* <p className="w-full h-6 flex text-[#6C757D] oxygen">
+              <p className="w-full h-6 flex text-[#6C757D] oxygen">
                 <Image
                   src={LocationLogo}
                   alt="location_logo"
                   className="w-[21px] h-full mr-2 p-[2px]"
                 />
-                <span>Blvd. Universitario 399-21, Plaza Palmas II</span>
-              </p> */}
+                {/* <span>Blvd. Universitario 399-21, Plaza Palmas II</span> */}
+              </p>
               {/* <p className="w-full h-6 text-[#6C757D] oxygen">
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Oficina 16 •
                 Juriquilla QRO 76230 • México

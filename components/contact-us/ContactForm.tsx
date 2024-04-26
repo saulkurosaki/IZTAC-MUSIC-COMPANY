@@ -207,7 +207,7 @@ const ContactForm = () => {
                   alt="location_logo"
                   className="w-[21px] h-full mr-2 p-[2px]"
                 />
-                {/* <span>Blvd. Universitario 399-21, Plaza Palmas II</span> */}
+                <span>Blvd. Universitario 399-21, Plaza Palmas II</span>
               </p>
               {/* <p className="w-full h-6 text-[#6C757D] oxygen">
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Oficina 16 •

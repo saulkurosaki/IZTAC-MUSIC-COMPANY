@@ -219,7 +219,7 @@ const ContactForm = () => {
                   alt="mail_logo"
                   className="w-[21px] h-full mr-2 px-[2px] pt-[3px] pb-[1px] object-contain"
                 />
-                {/* <span>iztacmusicofficial@gmail.com</span> */}
+                <span>iztacmusicofficial@gmail.com</span>
               </p>
             </div>
           </div>

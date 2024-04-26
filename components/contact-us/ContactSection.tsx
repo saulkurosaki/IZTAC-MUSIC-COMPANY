@@ -3,7 +3,6 @@
 import {
   Form,
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
   FormLabel,
@@ -62,18 +61,19 @@ const ContactSection = () => {
                       <FormItem className="w-full flex-grow flex items-center py-2">
                         <FormControl>
                           <div className="w-full h-full flex">
-                            <p className="w-[185px] h-full flex items-center text-lg text-[#727272] oxygen">
+                            <FormLabel className="w-[185px] h-full flex items-center text-lg text-[#727272] oxygen">
                               Nombre
                               <span className="text-sm text-[#ff4141]">
                                 &nbsp;*
                               </span>
-                            </p>
+                            </FormLabel>
                             <Input
                               {...field}
                               className="w-[665px] h-full border-[#3d3d3d36]"
                             />
                           </div>
                         </FormControl>
+                        <FormMessage className="absolute top-[328px] text-xs" />
                       </FormItem>
                     )}
                   />
@@ -84,15 +84,16 @@ const ContactSection = () => {
                       <FormItem className="w-full flex-grow flex items-center py-2">
                         <FormControl>
                           <div className="w-full h-full flex">
-                            <p className="w-[185px] h-full flex items-center text-lg text-[#727272] oxygen">
+                            <FormLabel className="w-[185px] h-full flex items-center text-lg text-[#727272] oxygen">
                               Número de teléfono
-                            </p>
+                            </FormLabel>
                             <Input
                               {...field}
                               className="w-[665px] h-full border-[#3d3d3d36]"
                             />
                           </div>
                         </FormControl>
+                        <FormMessage className="absolute top-[382px] text-xs" />
                       </FormItem>
                     )}
                   />
@@ -103,18 +104,19 @@ const ContactSection = () => {
                       <FormItem className="w-full flex-grow flex items-center py-2">
                         <FormControl>
                           <div className="w-full h-full flex">
-                            <p className="w-[185px] h-full flex items-center text-lg text-[#727272] oxygen">
+                            <FormLabel className="w-[185px] h-full flex items-center text-lg text-[#727272] oxygen">
                               Correo electrónico
                               <span className="text-sm text-[#ff4141]">
                                 &nbsp;*
                               </span>
-                            </p>
+                            </FormLabel>
                             <Input
                               {...field}
                               className="w-[665px] h-full border-[#3d3d3d36]"
                             />
                           </div>
                         </FormControl>
+                        <FormMessage className="absolute top-[435px] text-xs" />
                       </FormItem>
                     )}
                   />
@@ -125,15 +127,16 @@ const ContactSection = () => {
                       <FormItem className="w-full flex-grow flex items-center py-2">
                         <FormControl>
                           <div className="w-full h-full flex">
-                            <p className="w-[185px] h-full flex items-center text-lg text-[#727272] oxygen">
+                            <FormLabel className="w-[185px] h-full flex items-center text-lg text-[#727272] oxygen">
                               Empresa
-                            </p>
+                            </FormLabel>
                             <Input
                               {...field}
                               className="w-[665px] h-full border-[#3d3d3d36]"
                             />
                           </div>
                         </FormControl>
+                        <FormMessage className="absolute top-[490px] text-xs" />
                       </FormItem>
                     )}
                   />
@@ -144,18 +147,19 @@ const ContactSection = () => {
                       <FormItem className="w-full flex-grow flex items-center py-2">
                         <FormControl>
                           <div className="w-full h-full flex">
-                            <p className="w-[185px] h-full flex items-center text-lg text-[#727272] oxygen">
+                            <FormLabel className="w-[185px] h-full flex items-center text-lg text-[#727272] oxygen">
                               Asunto
                               <span className="text-sm text-[#ff4141]">
                                 &nbsp;*
                               </span>
-                            </p>
+                            </FormLabel>
                             <Input
                               {...field}
                               className="w-[665px] h-full border-[#3d3d3d36]"
                             />
                           </div>
                         </FormControl>
+                        <FormMessage className="absolute top-[544px] text-xs" />
                       </FormItem>
                     )}
                   />
@@ -166,18 +170,19 @@ const ContactSection = () => {
                       <FormItem className="w-full h-[78px] flex items-center py-2">
                         <FormControl>
                           <div className="w-full h-full flex">
-                            <p className="w-[185px] h-full flex items-center text-lg text-[#727272] oxygen">
+                            <FormLabel className="w-[185px] h-full flex items-center text-lg text-[#727272] oxygen">
                               Pregunta
                               <span className="text-sm text-[#ff4141]">
                                 &nbsp;*
                               </span>
-                            </p>
+                            </FormLabel>
                             <Textarea
                               {...field}
                               className="w-[665px] min-h-full border-[#3d3d3d36]"
                             />
                           </div>
                         </FormControl>
+                        <FormMessage className="absolute top-[623px] text-xs" />
                       </FormItem>
                     )}
                   />

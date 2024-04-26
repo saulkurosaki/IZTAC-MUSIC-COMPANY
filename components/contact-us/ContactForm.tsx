@@ -213,14 +213,14 @@ const ContactForm = () => {
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Oficina 16 •
                 Juriquilla QRO 76230 • México
               </p>
-              {/* <p className="w-full h-6 flex text-[#6C757D] oxygen">
+              <p className="w-full h-6 flex text-[#6C757D] oxygen">
                 <Image
                   src={MailLogo}
                   alt="mail_logo"
                   className="w-[21px] h-full mr-2 px-[2px] pt-[3px] pb-[1px] object-contain"
                 />
-                <span>iztacmusicofficial@gmail.com</span>
-              </p> */}
+                {/* <span>iztacmusicofficial@gmail.com</span> */}
+              </p>
             </div>
           </div>
         </div>

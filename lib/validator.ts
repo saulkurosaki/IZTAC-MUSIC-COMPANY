@@ -1,20 +1,20 @@
 import * as z from "zod";
 
 export const contactFormSchema = z.object({
-  name: z.string().min(2, "El nombre debe contener al menos 2 caracteres"),
+  name: z.string().min(3, "El nombre debe contener al menos 3 caracteres"),
   number: z
     .string()
-    .min(8, "El numero debe contener al menos 8 caracteres")
     .max(14, "El numero debe contener como máximo 14 caracteres"),
-  email: z.string().email(),
+  email: z.string().email("Correo invalido"),
   company: z
     .string()
-    .min(3, "El nombre de la empresa debe contener al menos 2 caracteres"),
+    .max(30, "El nombre de la empresa debe contener como máximo 30 caracteres"),
   matter: z
     .string()
     .min(5, "El asunto debe contener al menos 5 caracteres")
     .max(120, "El asunto debe contener como máximo 120 caracteres"),
   description: z
     .string()
-    .min(15, "La descripción debe contener al menos 15 caracteres"),
+    .min(15, "La descripción debe contener al menos 15 caracteres")
+    .max(200, "La descripción debe contener como máximo 200 caracteres"),
 });

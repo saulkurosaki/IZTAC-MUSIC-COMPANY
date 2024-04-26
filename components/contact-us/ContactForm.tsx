@@ -17,6 +17,9 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 
 import { contactFormSchema } from "@/lib/validator";
+import Image from "next/image";
+import MailLogo from "../../assets/mail_logo.png";
+import LocationLogo from "../../assets/location_img.svg";
 
 const ContactForm = () => {
   const form = useForm<z.infer<typeof contactFormSchema>>({
@@ -193,7 +196,33 @@ const ContactForm = () => {
               </Form>
             </div>
           </div>
-          <div className="w-[440px] h-full px-[15px]"></div>
+          <div className="w-[440px] h-full px-[15px]">
+            <div className="w-[410px] h-24 pl-2">
+              <p className="w-full h-6 text-[#6C757D] oxygen">
+                IMC (Iztac Music Company)
+              </p>
+              {/* <p className="w-full h-6 flex text-[#6C757D] oxygen">
+                <Image
+                  src={LocationLogo}
+                  alt="location_logo"
+                  className="w-[21px] h-full mr-2 p-[2px]"
+                />
+                <span>Blvd. Universitario 399-21, Plaza Palmas II</span>
+              </p> */}
+              {/* <p className="w-full h-6 text-[#6C757D] oxygen">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Oficina 16 •
+                Juriquilla QRO 76230 • México
+              </p> */}
+              {/* <p className="w-full h-6 flex text-[#6C757D] oxygen">
+                <Image
+                  src={MailLogo}
+                  alt="mail_logo"
+                  className="w-[21px] h-full mr-2 px-[2px] pt-[3px] pb-[1px] object-contain"
+                />
+                <span>iztacmusicofficial@gmail.com</span>
+              </p> */}
+            </div>
+          </div>
         </div>
       </div>
     </div>

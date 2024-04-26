@@ -5,11 +5,11 @@ import ContactForm from "./ContactForm";
 
 const ContactSection = () => {
   return (
-    <div className="w-full h-[546px] bg-white py-10">
-      <div className="container w-[1320px] h-full px-0">
+    <section className="w-full xl:h-[546px] max-xl:h-[570px] bg-white py-10">
+      <div className="container xl:w-[1320px] max-xl:w-[960px] h-full px-0">
         <div className="w-full h-full flex">
-          <div className="w-[880px] h-full px-[15px]">
-            <p className="w-full h-12 mb-4 text-lg text-[#727272] flex items-center oxygen">
+          <div className="xl:w-[880px] max-xl:w-[640px] h-full px-[15px]">
+            <p className="w-full xl:h-12 max-xl:h-[72px] mb-4 text-lg text-[#727272] flex items-center oxygen">
               Mándenos mensaje sobre cualquier cosa relacionada con nuestra
               empresa o servicios. <br />
               Haremos todo lo posible para contactarle lo antes posible.
@@ -18,12 +18,12 @@ const ContactSection = () => {
               <ContactForm />
             </div>
           </div>
-          <div className="w-[440px] h-full px-[15px]">
-            <div className="w-[410px] h-24 pl-2">
+          <div className="xl:w-[440px] max-xl:w-[320px] h-full px-[15px]">
+            <div className="xl:w-[410px] max-xl:w-[290px] xl:h-24 max-xl:h-36 pl-2">
               <p className="w-full h-6 text-[#6C757D] oxygen">
                 IMC (Iztac Music Company)
               </p>
-              <p className="w-full h-6 flex text-[#6C757D] oxygen">
+              <p className="w-full xl:h-6 max-xl:h-12 flex text-[#6C757D] oxygen">
                 <Image
                   src={LocationLogo}
                   alt="location_logo"
@@ -31,9 +31,8 @@ const ContactSection = () => {
                 />
                 <span>Blvd. Universitario 399-21, Plaza Palmas II</span>
               </p>
-              <p className="w-full h-6 text-[#6C757D] oxygen">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Oficina 16 •
-                Juriquilla QRO 76230 • México
+              <p className="w-full xl:h-6 max-xl:h-12 text-[#6C757D] oxygen">
+                Oficina 16 • Juriquilla QRO 76230 • México
               </p>
               <p className="w-full h-6 flex text-[#6C757D] oxygen">
                 <Image
@@ -47,7 +46,7 @@ const ContactSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

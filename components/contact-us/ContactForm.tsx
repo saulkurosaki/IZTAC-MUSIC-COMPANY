@@ -45,16 +45,16 @@ const ContactForm = () => {
           control={form.control}
           name="name"
           render={({ field }) => (
-            <FormItem className="w-full flex-grow flex items-center py-2">
+            <FormItem className="w-full max-md:h-[92px] md:flex-grow flex items-center py-2">
               <FormControl>
-                <div className="w-full h-full flex">
-                  <FormLabel className="w-[185px] h-full items-center text-lg text-[#727272] oxygen mr-4">
+                <div className="w-full h-full flex max-md:flex-col">
+                  <FormLabel className="w-[185px] md:h-full max-md:h-[38px] items-center text-lg text-[#727272] oxygen mr-4">
                     Nombre
                     <span className="text-sm text-[#ff4141]">&nbsp;*</span>
                   </FormLabel>
                   <Input
                     {...field}
-                    className="xl:w-[665px] max-xl:w-[440px] h-full border-[#3d3d3d36]"
+                    className="xl:w-[665px] md:w-[440px] max-md:w-full md:h-full max-md:h-[38px] border-[#3d3d3d36]"
                   />
                 </div>
               </FormControl>
@@ -66,15 +66,15 @@ const ContactForm = () => {
           control={form.control}
           name="number"
           render={({ field }) => (
-            <FormItem className="w-full flex-grow flex items-center py-2">
+            <FormItem className="w-full max-md:h-[92px] md:flex-grow flex items-center py-2">
               <FormControl>
-                <div className="w-full h-full flex">
-                  <FormLabel className="w-[185px] h-full flex items-center text-lg text-[#727272] oxygen mr-4">
+                <div className="w-full h-full flex max-md:flex-col">
+                  <FormLabel className="w-[185px] md:h-full max-md:h-[38px] items-center text-lg text-[#727272] oxygen mr-4">
                     Número de teléfono
                   </FormLabel>
                   <Input
                     {...field}
-                    className="xl:w-[665px] max-xl:w-[440px] h-full border-[#3d3d3d36]"
+                    className="xl:w-[665px] max-xl:w-[440px] max-md:w-full md:h-full max-md:h-[38px] border-[#3d3d3d36]"
                   />
                 </div>
               </FormControl>
@@ -86,16 +86,16 @@ const ContactForm = () => {
           control={form.control}
           name="email"
           render={({ field }) => (
-            <FormItem className="w-full flex-grow flex items-center py-2">
+            <FormItem className="w-full max-md:h-[92px] md:flex-grow flex items-center py-2">
               <FormControl>
-                <div className="w-full h-full flex">
-                  <FormLabel className="w-[185px] h-full flex items-center text-lg text-[#727272] oxygen mr-4">
+                <div className="w-full h-full flex max-md:flex-col">
+                  <FormLabel className="w-[185px] md:h-full max-md:h-[38px] items-center text-lg text-[#727272] oxygen mr-4">
                     Correo electrónico
                     <span className="text-sm text-[#ff4141]">&nbsp;*</span>
                   </FormLabel>
                   <Input
                     {...field}
-                    className="xl:w-[665px] max-xl:w-[440px] h-full border-[#3d3d3d36]"
+                    className="xl:w-[665px] max-xl:w-[440px] max-md:w-full md:h-full max-md:h-[38px] border-[#3d3d3d36]"
                   />
                 </div>
               </FormControl>
@@ -107,15 +107,15 @@ const ContactForm = () => {
           control={form.control}
           name="company"
           render={({ field }) => (
-            <FormItem className="w-full flex-grow flex items-center py-2">
+            <FormItem className="w-full max-md:h-[92px] md:flex-grow flex items-center py-2">
               <FormControl>
-                <div className="w-full h-full flex">
-                  <FormLabel className="w-[185px] h-full flex items-center text-lg text-[#727272] oxygen mr-4">
+                <div className="w-full h-full flex max-md:flex-col">
+                  <FormLabel className="w-[185px] md:h-full max-md:h-[38px] items-center text-lg text-[#727272] oxygen mr-4">
                     Empresa
                   </FormLabel>
                   <Input
                     {...field}
-                    className="xl:w-[665px] max-xl:w-[440px] h-full border-[#3d3d3d36]"
+                    className="xl:w-[665px] max-xl:w-[440px] max-md:w-full md:h-full max-md:h-[38px] border-[#3d3d3d36]"
                   />
                 </div>
               </FormControl>
@@ -127,16 +127,16 @@ const ContactForm = () => {
           control={form.control}
           name="matter"
           render={({ field }) => (
-            <FormItem className="w-full flex-grow flex items-center py-2">
+            <FormItem className="w-full max-md:h-[92px] md:flex-grow flex items-center py-2">
               <FormControl>
-                <div className="w-full h-full flex">
-                  <FormLabel className="w-[185px] h-full flex items-center text-lg text-[#727272] oxygen mr-4">
+                <div className="w-full h-full flex max-md:flex-col">
+                  <FormLabel className="w-[185px] md:h-full max-md:h-[38px] items-center text-lg text-[#727272] oxygen mr-4">
                     Asunto
                     <span className="text-sm text-[#ff4141]">&nbsp;*</span>
                   </FormLabel>
                   <Input
                     {...field}
-                    className="xl:w-[665px] max-xl:w-[440px] h-full border-[#3d3d3d36]"
+                    className="xl:w-[665px] max-xl:w-[440px] max-md:w-full md:h-full max-md:h-[38px] border-[#3d3d3d36]"
                   />
                 </div>
               </FormControl>
@@ -148,16 +148,16 @@ const ContactForm = () => {
           control={form.control}
           name="description"
           render={({ field }) => (
-            <FormItem className="w-full h-[78px] flex items-center py-2">
+            <FormItem className="w-full md:h-[78px] max-md:h-[116px] flex items-center py-2">
               <FormControl>
-                <div className="w-full h-full flex">
-                  <FormLabel className="w-[185px] h-full flex text-lg text-[#727272] oxygen mr-4">
+                <div className="w-full h-full flex max-md:flex-col">
+                  <FormLabel className="w-[185px] md:h-full max-md:h-[38px] text-lg text-[#727272] oxygen mr-4">
                     Pregunta
                     <span className="text-sm text-[#ff4141]">&nbsp;*</span>
                   </FormLabel>
                   <Textarea
                     {...field}
-                    className="xl:w-[665px] max-xl:w-[440px] min-h-full border-[#3d3d3d36]"
+                    className="xl:w-[665px] max-xl:w-[440px] max-md:w-full md:min-h-full max-md:min-h-[62px] border-[#3d3d3d36]"
                   />
                 </div>
               </FormControl>
@@ -166,7 +166,7 @@ const ContactForm = () => {
           )}
         />
 
-        <div className="w-full h-[54px] py-2 xl:pl-[198px] max-xl:pl-[192px]">
+        <div className="w-full h-[54px] py-2 xl:pl-[198px] lg:pl-[192px] md:pl-[202px]">
           <Button
             type="submit"
             size="lg"

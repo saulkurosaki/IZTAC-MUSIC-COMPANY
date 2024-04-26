@@ -58,7 +58,7 @@ const ContactForm = () => {
                   />
                 </div>
               </FormControl>
-              <FormMessage className="absolute xl:top-[328px] lg:top-[344px] text-xs" />
+              <FormMessage className="absolute xl:top-[328px] lg:top-[344px] md:top-[348px] text-xs" />
             </FormItem>
           )}
         />
@@ -78,7 +78,7 @@ const ContactForm = () => {
                   />
                 </div>
               </FormControl>
-              <FormMessage className="absolute xl:top-[382px] lg:top-[398px] text-xs" />
+              <FormMessage className="absolute xl:top-[382px] lg:top-[398px] md:top-[403px] text-xs" />
             </FormItem>
           )}
         />
@@ -99,7 +99,7 @@ const ContactForm = () => {
                   />
                 </div>
               </FormControl>
-              <FormMessage className="absolute xl:top-[435px] lg:top-[448px] text-xs" />
+              <FormMessage className="absolute xl:top-[435px] lg:top-[448px] md:top-[452px] text-xs" />
             </FormItem>
           )}
         />
@@ -119,7 +119,7 @@ const ContactForm = () => {
                   />
                 </div>
               </FormControl>
-              <FormMessage className="absolute xl:top-[490px] lg:top-[506px] text-xs" />
+              <FormMessage className="absolute xl:top-[490px] lg:top-[506px] md:top-[511px] text-xs" />
             </FormItem>
           )}
         />
@@ -140,7 +140,7 @@ const ContactForm = () => {
                   />
                 </div>
               </FormControl>
-              <FormMessage className="absolute xl:top-[544px] lg:top-[560px] text-xs" />
+              <FormMessage className="absolute xl:top-[544px] lg:top-[560px] md:top-[565px] text-xs" />
             </FormItem>
           )}
         />
@@ -161,7 +161,7 @@ const ContactForm = () => {
                   />
                 </div>
               </FormControl>
-              <FormMessage className="absolute xl:top-[623px] lg:top-[638px] text-xs" />
+              <FormMessage className="absolute xl:top-[623px] lg:top-[638px] md:top-[643px] text-xs" />
             </FormItem>
           )}
         />

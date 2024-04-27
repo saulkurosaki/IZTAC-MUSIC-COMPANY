@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import ContactSection from "@/components/contact-us/ContactSection";
 import Header from "@/components/contact-us/Header";
 
@@ -7,6 +8,8 @@ const ContactUsPage = () => {
       <Header />
 
       <ContactSection />
+
+      <Footer />
     </div>
   );
 };

@@ -14,10 +14,14 @@ import { Textarea } from "../ui/textarea";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
+import emailjs from "@emailjs/browser";
 
 import { contactFormSchema } from "@/lib/validator";
+import { useRouter } from "next/navigation";
 
 const ContactForm = () => {
+  const router = useRouter();
+
   const form = useForm<z.infer<typeof contactFormSchema>>({
     resolver: zodResolver(contactFormSchema),
     defaultValues: {
@@ -30,9 +34,31 @@ const ContactForm = () => {
     },
   });
 
-  const onSubmit = (values: z.infer<typeof contactFormSchema>) => {
-    console.log(values);
-    form.reset();
+  const onSubmit = async (values: z.infer<typeof contactFormSchema>) => {
+    emailjs
+      .send(
+        "service_dof7msg",
+        "template_j6oyaus",
+        {
+          name: values.name,
+          number: values.number,
+          email: values.email,
+          company: values.company,
+          matter: values.matter,
+          description: values.description,
+        },
+        "x-yZSvF_JQZavQDdp"
+      )
+      .then(
+        () => {
+          form.reset();
+          router.push("/contact-us/thank-you");
+        },
+        (error) => {
+          console.error(error);
+          alert("Ahh, something went wrong. Please try again.");
+        }
+      );
   };
 
   return (

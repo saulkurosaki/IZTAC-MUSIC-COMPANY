@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 import MailLogo from "../../assets/mail_logo.png";
 import LocationLogo from "../../assets/location_img.svg";
 import ContactForm from "./ContactForm";

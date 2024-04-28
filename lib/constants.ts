@@ -140,16 +140,16 @@ export const allBlogPosts = [
     isAchievement: false,
     url: "/blog/reconocimientos/nuestro-compositor-es-reconocido-en-berklee",
   },
-  // {
-  //   author: "Isaac Ceballos",
-  //   title: "Premio Internacional A Mejor Soundtrack",
-  //   description:
-  //     'Una Obra Digna De Laurel La colaboración de IMC con el equipo del director queretano Didier Richards para su corto "Infierno" Dio frutos al ser presentado en diversos festivales a nivel internacional ...',
-  //   date: "12 feb. 2024",
-  //   image: BlogPostImage5,
-  //   isAchievement: false,
-  //   url: "/blog/reconocimientos/premio-internacional-a-mejor-soundtrack",
-  // },
+  {
+    author: "Isaac Ceballos",
+    title: "Premio Internacional A Mejor Soundtrack",
+    description:
+      'Una Obra Digna De Laurel La colaboración de IMC con el equipo del director queretano Didier Richards para su corto "Infierno" Dio frutos al ser presentado en diversos festivales a nivel internacional ...',
+    date: "12 feb. 2024",
+    image: BlogPostImage5,
+    isAchievement: false,
+    url: "/blog/reconocimientos/premio-internacional-a-mejor-soundtrack",
+  },
   // {
   //   author: "Isaac Ceballos",
   //   title:

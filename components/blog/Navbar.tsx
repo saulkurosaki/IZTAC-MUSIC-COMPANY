@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Navbar = () => {
   return (
     <nav className="w-full md:h-14 max-md:h-auto mt-4 px-4 py-2 bg-[#B99253]">
@@ -6,13 +8,13 @@ const Navbar = () => {
           Logros:
         </div>
         <div className="md:w-[66px] max-md:w-full md:h-full max-md:h-10 flex items-center md:justify-center text-lg text-[#222222] font-bold oxygen">
-          Todos
+          <Link href="/blog">Todos</Link>
         </div>
-        <div className="md:w-[162px] max-md:w-full md:h-full max-md:h-10 flex items-center md:justify-center text-lg text-[#1e1e1e81] font-bold oxygen">
-          Reconocimientos
+        <div className="md:w-[162px] max-md:w-full md:h-full max-md:h-10 flex items-center md:justify-center text-lg text-[#1e1e1e81] hover:text-[#1e1e1ec9] transition hover:duration-150 font-bold oxygen">
+          <Link href="/blog/reconocimientos">Reconocimientos</Link>
         </div>
-        <div className="md:w-[159px] max-md:w-full md:h-full max-md:h-10 flex items-center md:justify-center text-lg text-[#1e1e1e81] font-bold oxygen">
-          Metas cumplidas
+        <div className="md:w-[159px] max-md:w-full md:h-full max-md:h-10 flex items-center md:justify-center text-lg text-[#1e1e1e81] hover:text-[#1e1e1ec9] transition hover:duration-150 font-bold oxygen">
+          <Link href="/blog/metas-cumplidas">Metas cumplidas</Link>
         </div>
       </div>
     </nav>

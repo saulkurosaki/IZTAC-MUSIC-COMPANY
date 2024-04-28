@@ -11,9 +11,9 @@ const Navbar = () => {
         <div className="w-[162px] h-full flex items-center justify-center text-lg text-[#1e1e1e81] font-bold oxygen">
           Reconocimientos
         </div>
-        {/* <div className="w-[159px] h-full flex items-center justify-center text-lg text-[#1e1e1e81] font-bold oxygen">
+        <div className="w-[159px] h-full flex items-center justify-center text-lg text-[#1e1e1e81] font-bold oxygen">
           Metas cumplidas
-        </div> */}
+        </div>
       </div>
     </nav>
   );

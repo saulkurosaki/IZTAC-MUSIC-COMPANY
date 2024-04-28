@@ -24,9 +24,9 @@ const Header = () => {
         <div className="container w-[1320px] h-full px-[15px]">
           <div className="w-full h-full">
             <div className="w-[89px] h-[29px] rounded-md bg-[#f4f4f4] px-auto mb-2">
-              {/* <p className="text-2xl text-[#383838] text-center oxygen">
+              <p className="text-2xl text-[#383838] text-center oxygen">
                 Último
-              </p> */}
+              </p>
             </div>
             {/* <Link
               href="/blog/metas-cumplidas/imc-manda-a-sus-artistas-a-nivel-internacional"

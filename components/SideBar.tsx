@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import {
@@ -18,10 +18,12 @@ import mail_logo from "../assets/mail_logo.png";
 import iztacLogo from "../assets/iztac_logo_white.png";
 
 const SideBar = () => {
+  const [open, setOpen] = useState(false);
+
   const size = useWindowSize();
 
   return (
-    <Sheet>
+    <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger>
         <div className="flex lg:w-[30px] lg:h-[37.5px] justify-center items-center">
           <Image
@@ -52,11 +54,21 @@ const SideBar = () => {
           <SheetDescription className="h-full text-lg text-[#252525b8]">
             <div className="flex flex-col justify-between h-full">
               <ul className="flex flex-col h-[40%] justify-between items-start oxygen">
-                <Link href="/">Inicio</Link>
-                <Link href="/our-services">Servicios</Link>
-                <Link href="/blog">Nuestros Logros</Link>
-                <Link href="/about-us">Sobre Nosotros</Link>
-                <Link href="/contact-us">Contáctenos</Link>
+                <Link href="/" onClick={() => setOpen(false)}>
+                  Inicio
+                </Link>
+                <Link href="/our-services" onClick={() => setOpen(false)}>
+                  Servicios
+                </Link>
+                <Link href="/blog" onClick={() => setOpen(false)}>
+                  Nuestros Logros
+                </Link>
+                <Link href="/about-us" onClick={() => setOpen(false)}>
+                  Sobre Nosotros
+                </Link>
+                <Link href="/contact-us" onClick={() => setOpen(false)}>
+                  Contáctenos
+                </Link>
 
                 <div className="w-full border-b-[1px] border-[#25252562] mt-4 mb-16" />
 
@@ -77,6 +89,7 @@ const SideBar = () => {
 
               <Link
                 href="/contact-us"
+                onClick={() => setOpen(false)}
                 className="flex w-full h-9 bg-[#2e2414] rounded-lg justify-center items-center"
               >
                 <p className="text-white text-[15px] oxygen">Contáctenos</p>

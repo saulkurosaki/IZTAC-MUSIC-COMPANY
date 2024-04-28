@@ -25,7 +25,7 @@ const Main = () => {
               <div className="w-full h-[33px] flex justify-center items-center">
                 <hr className="w-[60%] bg-[#000]" />
               </div>
-              {/* <div className="w-full flex justify-center items-center mb-2">
+              <div className="w-full flex justify-center items-center mb-2">
                 <Image
                   src={Tick}
                   alt="tick_img"
@@ -35,7 +35,7 @@ const Main = () => {
                   Su mensaje ha sido enviado{" "}
                   <span className="font-bold">correctamente</span>
                 </h5>
-              </div> */}
+              </div>
               {/* <p className="w-full h-6 mb-4 flex justify-center items-center text-lg font-light oxygen">
                 Le contestaremos en breve.
               </p> */}

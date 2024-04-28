@@ -12,13 +12,13 @@ const Main = () => {
         <div className="container w-[1320px] h-full px-0">
           <div className="w-full h-full flex">
             <div className="w-[660px] h-full px-[15px] mr-[220px]">
-              {/* <div className="w-28 h-28 mx-auto mb-[19px] p-5 rounded-full bg-[#B99253]">
+              <div className="w-28 h-28 mx-auto mb-[19px] p-5 rounded-full bg-[#B99253]">
                 <Image
                   src={ThumbsUp}
                   alt="thumb_img"
                   className="w-full h-full opacity-80"
                 />
-              </div> */}
+              </div>
               {/* <h1 className="w-full h-[74px] mb-2 text-center text-[62px] oxygen">
                 ¡Gracias!
               </h1> */}

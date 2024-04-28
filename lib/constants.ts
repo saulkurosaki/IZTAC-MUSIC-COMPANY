@@ -171,14 +171,14 @@ export const allBlogPosts = [
     isAchievement: true,
     url: "/blog/metas-cumplidas/victoria-obtiene-papel-estelar-en-heathers",
   },
-  // {
-  //   author: "Isaac Ceballos",
-  //   title: "Victor Consigue Papel Estelar Para la Obra In The Heights",
-  //   description:
-  //     "¡Felicidades! Después de meses de preparación nuestro alumno Víctor que empezó con sus asesorías en IMC logró pasar por el proceso de audición para conseguir un papel Estelar en la adaptación al españ...",
-  //   date: "12 feb. 2024",
-  //   image: BlogPostImage4,
-  //   isAchievement: true,
-  //   url: "/blog/metas-cumplidas/victor-consigue-papel-estelar-para-la-obra-in-the-heights",
-  // },
+  {
+    author: "Isaac Ceballos",
+    title: "Victor Consigue Papel Estelar Para la Obra In The Heights",
+    description:
+      "¡Felicidades! Después de meses de preparación nuestro alumno Víctor que empezó con sus asesorías en IMC logró pasar por el proceso de audición para conseguir un papel Estelar en la adaptación al españ...",
+    date: "12 feb. 2024",
+    image: BlogPostImage4,
+    isAchievement: true,
+    url: "/blog/metas-cumplidas/victor-consigue-papel-estelar-para-la-obra-in-the-heights",
+  },
 ];

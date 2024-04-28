@@ -1,3 +1,4 @@
+import BlogPosts from "@/components/blog/BlogPosts";
 import Header from "@/components/blog/Header";
 import Navbar from "@/components/blog/Navbar";
 
@@ -7,6 +8,8 @@ const BlogPage = () => {
       <Header />
 
       <Navbar />
+
+      <BlogPosts />
     </div>
   );
 };

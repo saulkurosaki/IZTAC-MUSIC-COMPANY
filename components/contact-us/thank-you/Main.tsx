@@ -40,32 +40,32 @@ const Main = () => {
                 Le contestaremos en breve.
               </p>
             </div>
-            {/* <div className="xl:w-[440px] lg:w-[320px] md:w-[720px] max-md:w-[320px] lg:h-full md:h-[96px] max-md:h-[144px] max-lg:mt-6 px-[15px]">
+            <div className="xl:w-[440px] lg:w-[320px] md:w-[720px] max-md:w-[320px] lg:h-full md:h-[96px] max-md:h-[144px] max-lg:mt-6 px-[15px]">
               <div className="xl:w-[410px] lg:w-[290px] md:w-[690px] max-md:w-[290px] xl:h-24 lg:h-36 max-lg:h-full pl-2">
-                <p className="w-full h-6 text-[#6C757D] oxygen">
+                {/* <p className="w-full h-6 text-[#6C757D] oxygen">
                   IMC (Iztac Music Company)
-                </p>
-                <p className="w-full xl:h-6 lg:h-12 md:h-6 max-md:h-12 flex text-[#6C757D] oxygen">
+                </p> */}
+                {/* <p className="w-full xl:h-6 lg:h-12 md:h-6 max-md:h-12 flex text-[#6C757D] oxygen">
                   <Image
                     src={LocationLogo}
                     alt="location_logo"
                     className="w-[21px] h-full mr-2 p-[2px]"
                   />
                   <span>Blvd. Universitario 399-21, Plaza Palmas II</span>
-                </p>
-                <p className="w-full xl:h-6 lg:h-12 md:h-6 max-md:h-12 text-[#6C757D] oxygen">
+                </p> */}
+                {/* <p className="w-full xl:h-6 lg:h-12 md:h-6 max-md:h-12 text-[#6C757D] oxygen">
                   Oficina 16 • Juriquilla QRO 76230 • México
-                </p>
-                <p className="w-full h-6 flex text-[#6C757D] oxygen">
+                </p> */}
+                {/* <p className="w-full h-6 flex text-[#6C757D] oxygen">
                   <Image
                     src={MailLogo}
                     alt="mail_logo"
                     className="w-[21px] h-full mr-2 px-[2px] pt-[3px] pb-[1px] object-contain"
                   />
                   <span>iztacmusicofficial@gmail.com</span>
-                </p>
+                </p> */}
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>

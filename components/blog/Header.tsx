@@ -20,9 +20,9 @@ const Header = () => {
         />
       </span>
 
-      {/* <div className="absolute inset-0 py-12 z-20">
+      <div className="absolute inset-0 py-12 z-20">
         <div className="container w-[1320px] h-full px-[15px]">
-          <div className="w-full h-full">
+          {/* <div className="w-full h-full">
             <div className="w-[89px] h-[29px] rounded-md bg-[#f4f4f4] px-auto mb-2">
               <p className="text-2xl text-[#383838] text-center oxygen">
                 Último
@@ -37,9 +37,9 @@ const Header = () => {
               </h1>
               <h5 className="text-xl font-light">10 de Enero de 2019</h5>
             </Link>
-          </div>
+          </div> */}
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

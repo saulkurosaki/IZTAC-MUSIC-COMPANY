@@ -32,9 +32,9 @@ const Header = () => {
               href="/blog/metas-cumplidas/imc-manda-a-sus-artistas-a-nivel-internacional"
               className="w-full text-[#eee] hover:opacity-70 oxygen"
             >
-              {/* <h1 className="text-6xl font-light mb-2">
+              <h1 className="text-6xl font-light mb-2">
                 IMC Manda a Sus Artistas a Nivel Internacional
-              </h1> */}
+              </h1>
               {/* <h5 className="text-xl font-light">10 de Enero de 2019</h5> */}
             </Link>
           </div>

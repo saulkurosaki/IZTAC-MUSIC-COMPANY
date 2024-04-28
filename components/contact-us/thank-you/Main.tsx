@@ -19,9 +19,9 @@ const Main = () => {
                   className="w-full h-full opacity-80"
                 />
               </div>
-              {/* <h1 className="w-full h-[74px] mb-2 text-center text-[62px] oxygen">
+              <h1 className="w-full h-[74px] mb-2 text-center text-[62px] oxygen">
                 ¡Gracias!
-              </h1> */}
+              </h1>
               {/* <div className="w-full h-[33px] flex justify-center items-center">
                 <hr className="w-[60%] bg-[#000]" />
               </div> */}

@@ -110,16 +110,16 @@ export const allBlogPosts = [
     isAchievement: true,
     url: "/blog/metas-cumplidas/imc-manda-a-sus-artistas-a-nivel-internacional",
   },
-  // {
-  //   author: "Isaac Ceballos",
-  //   title: "IMC en la Global Game Jam",
-  //   description:
-  //     "IMC participa a nivel internacional El fin de semana del 28 de Enero IMC participó en la Global Game Jam, un reto a nivel global donde en 48 horas se les pide a varios equipos elaborar un videojuego c...",
-  //   date: "12 feb. 2024",
-  //   image: BlogPostImage2,
-  //   isAchievement: false,
-  //   url: "/blog/reconocimientos/imc-en-la-global-game-jam",
-  // },
+  {
+    author: "Isaac Ceballos",
+    title: "IMC en la Global Game Jam",
+    description:
+      "IMC participa a nivel internacional El fin de semana del 28 de Enero IMC participó en la Global Game Jam, un reto a nivel global donde en 48 horas se les pide a varios equipos elaborar un videojuego c...",
+    date: "12 feb. 2024",
+    image: BlogPostImage2,
+    isAchievement: false,
+    url: "/blog/reconocimientos/imc-en-la-global-game-jam",
+  },
   // {
   //   author: "Isaac Ceballos",
   //   title: "Nuestra Liricista Gana Premio Estatal",

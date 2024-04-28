@@ -7,11 +7,11 @@ import LocationLogo from "@/assets/location_img.svg";
 
 const Main = () => {
   return (
-    <section className="w-full 2xl:h-[636px] max-2xl:h-[410px] bg-white">
-      <div className="w-full h-[405px] py-10">
-        <div className="container w-[1320px] h-full px-0">
+    <section className="w-full 2xl:h-[636px] xl:h-[410px] max-xl:h-[471px] bg-white">
+      <div className="w-full xl:h-[405px] max-xl:h-[398px] py-10">
+        <div className="container xl:w-[1320px] max-xl:w-[960px] h-full px-0">
           <div className="w-full h-full flex">
-            <div className="w-[660px] h-full px-[15px] mr-[220px]">
+            <div className="xl:w-[660px] max-xl:w-[560px] h-full px-[15px] mr-auto">
               <div className="w-28 h-28 mx-auto mb-[19px] p-5 rounded-full bg-[#B99253]">
                 <Image
                   src={ThumbsUp}
@@ -23,7 +23,7 @@ const Main = () => {
                 ¡Gracias!
               </h1>
               <div className="w-full h-[33px] flex justify-center items-center">
-                <hr className="w-[60%] bg-[#000]" />
+                <div className="w-[60%] border border-t-[#000]" />
               </div>
               <div className="w-full flex justify-center items-center mb-2">
                 <Image

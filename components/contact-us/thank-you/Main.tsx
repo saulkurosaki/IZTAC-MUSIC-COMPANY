@@ -1,9 +1,9 @@
-// import Image from "next/image";
+import Image from "next/image";
 
-// import ThumbsUp from "@/assets/thumbs_up_img.png";
-// import Tick from "@/assets/tick_img.svg";
-// import MailLogo from "@/assets/mail_logo.png";
-// import LocationLogo from "@/assets/location_img.svg";
+import ThumbsUp from "@/assets/thumbs_up_img.png";
+import Tick from "@/assets/tick_img.svg";
+import MailLogo from "@/assets/mail_logo.png";
+import LocationLogo from "@/assets/location_img.svg";
 
 const Main = () => {
   return (

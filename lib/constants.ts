@@ -161,16 +161,16 @@ export const allBlogPosts = [
     isAchievement: true,
     url: "/blog/metas-cumplidas/maria-jose-obtiene-beca-al-quedar-en-el-ensamble-de-su-preparatoria",
   },
-  // {
-  //   author: "Isaac Ceballos",
-  //   title: "Victoria Obtiene Papel Estelar En Heathers",
-  //   description:
-  //     '¡Que Bello! Victoria, una de nuestras artistas tomando asesorías en IMC logro obtener lo que ella describe como su "Papel Soñado" una vez que se abrieron las audiciones para la adaptación al español d...',
-  //   date: "12 feb. 2024",
-  //   image: BlogPostImage7,
-  //   isAchievement: true,
-  //   url: "/blog/metas-cumplidas/victoria-obtiene-papel-estelar-en-heathers",
-  // },
+  {
+    author: "Isaac Ceballos",
+    title: "Victoria Obtiene Papel Estelar En Heathers",
+    description:
+      '¡Que Bello! Victoria, una de nuestras artistas tomando asesorías en IMC logro obtener lo que ella describe como su "Papel Soñado" una vez que se abrieron las audiciones para la adaptación al español d...',
+    date: "12 feb. 2024",
+    image: BlogPostImage7,
+    isAchievement: true,
+    url: "/blog/metas-cumplidas/victoria-obtiene-papel-estelar-en-heathers",
+  },
   // {
   //   author: "Isaac Ceballos",
   //   title: "Victor Consigue Papel Estelar Para la Obra In The Heights",

@@ -45,14 +45,14 @@ const Main = () => {
                 <p className="w-full h-6 text-[#6C757D] oxygen">
                   IMC (Iztac Music Company)
                 </p>
-                {/* <p className="w-full xl:h-6 lg:h-12 md:h-6 max-md:h-12 flex text-[#6C757D] oxygen">
+                <p className="w-full xl:h-6 lg:h-12 md:h-6 max-md:h-12 flex text-[#6C757D] oxygen">
                   <Image
                     src={LocationLogo}
                     alt="location_logo"
                     className="w-[21px] h-full mr-2 p-[2px]"
                   />
                   <span>Blvd. Universitario 399-21, Plaza Palmas II</span>
-                </p> */}
+                </p>
                 {/* <p className="w-full xl:h-6 lg:h-12 md:h-6 max-md:h-12 text-[#6C757D] oxygen">
                   Oficina 16 • Juriquilla QRO 76230 • México
                 </p> */}

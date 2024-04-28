@@ -1,7 +1,7 @@
-// import Image from "next/image";
+import Image from "next/image";
 
-// import HeaderBg from "@/assets/business_references_img_6.svg";
-// import Link from "next/link";
+import HeaderBg from "@/assets/business_references_img_6.svg";
+import Link from "next/link";
 
 const Header = () => {
   return (

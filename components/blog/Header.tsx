@@ -35,7 +35,7 @@ const Header = () => {
               <h1 className="text-6xl font-light mb-2">
                 IMC Manda a Sus Artistas a Nivel Internacional
               </h1>
-              {/* <h5 className="text-xl font-light">10 de Enero de 2019</h5> */}
+              <h5 className="text-xl font-light">10 de Enero de 2019</h5>
             </Link>
           </div>
         </div>

@@ -10,22 +10,22 @@ const Main = () => {
     <section className="w-full h-[636px] bg-white">
       <div className="w-full h-[405px] py-10">
         <div className="container w-[1320px] h-full px-0">
-          {/* <div className="w-full h-full flex">
+          <div className="w-full h-full flex">
             <div className="w-[660px] h-full px-[15px] mr-[220px]">
-              <div className="w-28 h-28 mx-auto mb-[19px] p-5 rounded-full bg-[#B99253]">
+              {/* <div className="w-28 h-28 mx-auto mb-[19px] p-5 rounded-full bg-[#B99253]">
                 <Image
                   src={ThumbsUp}
                   alt="thumb_img"
                   className="w-full h-full opacity-80"
                 />
-              </div>
-              <h1 className="w-full h-[74px] mb-2 text-center text-[62px] oxygen">
+              </div> */}
+              {/* <h1 className="w-full h-[74px] mb-2 text-center text-[62px] oxygen">
                 ¡Gracias!
-              </h1>
-              <div className="w-full h-[33px] flex justify-center items-center">
+              </h1> */}
+              {/* <div className="w-full h-[33px] flex justify-center items-center">
                 <hr className="w-[60%] bg-[#000]" />
-              </div>
-              <div className="w-full flex justify-center items-center mb-2">
+              </div> */}
+              {/* <div className="w-full flex justify-center items-center mb-2">
                 <Image
                   src={Tick}
                   alt="tick_img"
@@ -35,12 +35,12 @@ const Main = () => {
                   Su mensaje ha sido enviado{" "}
                   <span className="font-bold">correctamente</span>
                 </h5>
-              </div>
-              <p className="w-full h-6 mb-4 flex justify-center items-center text-lg font-light oxygen">
+              </div> */}
+              {/* <p className="w-full h-6 mb-4 flex justify-center items-center text-lg font-light oxygen">
                 Le contestaremos en breve.
-              </p>
+              </p> */}
             </div>
-            <div className="xl:w-[440px] lg:w-[320px] md:w-[720px] max-md:w-[320px] lg:h-full md:h-[96px] max-md:h-[144px] max-lg:mt-6 px-[15px]">
+            {/* <div className="xl:w-[440px] lg:w-[320px] md:w-[720px] max-md:w-[320px] lg:h-full md:h-[96px] max-md:h-[144px] max-lg:mt-6 px-[15px]">
               <div className="xl:w-[410px] lg:w-[290px] md:w-[690px] max-md:w-[290px] xl:h-24 lg:h-36 max-lg:h-full pl-2">
                 <p className="w-full h-6 text-[#6C757D] oxygen">
                   IMC (Iztac Music Company)
@@ -65,8 +65,8 @@ const Main = () => {
                   <span>iztacmusicofficial@gmail.com</span>
                 </p>
               </div>
-            </div>
-          </div> */}
+            </div> */}
+          </div>
         </div>
       </div>
     </section>

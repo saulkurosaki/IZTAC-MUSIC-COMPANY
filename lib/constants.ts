@@ -150,17 +150,17 @@ export const allBlogPosts = [
     isAchievement: false,
     url: "/blog/reconocimientos/premio-internacional-a-mejor-soundtrack",
   },
-  // {
-  //   author: "Isaac Ceballos",
-  //   title:
-  //     "María José Obtiene Beca Al Quedar En El Ensamble De Su Preparatoria",
-  //   description:
-  //     "¡Felicidades! María José pudo obtener una beca para entrar a la preparatoria de su preferencia después de tomar asesorías en IMC. Sus habilidades vocales le dieron acceso a una beca artística como voc...",
-  //   date: "12 feb. 2024",
-  //   image: BlogPostImage4,
-  //   isAchievement: true,
-  //   url: "/blog/metas-cumplidas/maria-jose-obtiene-beca-al-quedar-en-el-ensamble-de-su-preparatoria",
-  // },
+  {
+    author: "Isaac Ceballos",
+    title:
+      "María José Obtiene Beca Al Quedar En El Ensamble De Su Preparatoria",
+    description:
+      "¡Felicidades! María José pudo obtener una beca para entrar a la preparatoria de su preferencia después de tomar asesorías en IMC. Sus habilidades vocales le dieron acceso a una beca artística como voc...",
+    date: "12 feb. 2024",
+    image: BlogPostImage4,
+    isAchievement: true,
+    url: "/blog/metas-cumplidas/maria-jose-obtiene-beca-al-quedar-en-el-ensamble-de-su-preparatoria",
+  },
   // {
   //   author: "Isaac Ceballos",
   //   title: "Victoria Obtiene Papel Estelar En Heathers",

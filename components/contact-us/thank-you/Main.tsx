@@ -7,7 +7,7 @@ import LocationLogo from "@/assets/location_img.svg";
 
 const Main = () => {
   return (
-    <section className="w-full h-[636px] bg-white">
+    <section className="w-full 2xl:h-[636px] max-2xl:h-[410px] bg-white">
       <div className="w-full h-[405px] py-10">
         <div className="container w-[1320px] h-full px-0">
           <div className="w-full h-full flex">

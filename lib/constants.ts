@@ -120,16 +120,16 @@ export const allBlogPosts = [
     isAchievement: false,
     url: "/blog/reconocimientos/imc-en-la-global-game-jam",
   },
-  // {
-  //   author: "Isaac Ceballos",
-  //   title: "Nuestra Liricista Gana Premio Estatal",
-  //   description:
-  //     '¡Una canción muy queretana! El día 29 de noviembre de 2022 Nuestra liricista Giselle Maldonado ganó un premio estatal por parte de la competencia de SEJUVE Querétaro " Canta a la queretana" por su com...',
-  //   date: "12 feb. 2024",
-  //   image: BlogPostImage3,
-  //   isAchievement: false,
-  //   url: "/blog/reconocimientos/nuestra-liricista-gana-premio-estatal",
-  // },
+  {
+    author: "Isaac Ceballos",
+    title: "Nuestra Liricista Gana Premio Estatal",
+    description:
+      '¡Una canción muy queretana! El día 29 de noviembre de 2022 Nuestra liricista Giselle Maldonado ganó un premio estatal por parte de la competencia de SEJUVE Querétaro " Canta a la queretana" por su com...',
+    date: "12 feb. 2024",
+    image: BlogPostImage3,
+    isAchievement: false,
+    url: "/blog/reconocimientos/nuestra-liricista-gana-premio-estatal",
+  },
   // {
   //   author: "Isaac Ceballos",
   //   title: "Nuestro Compositor Es Reconocido En Berklee",

@@ -6,19 +6,19 @@ import Link from "next/link";
 const Header = () => {
   return (
     <div className="relative w-full h-[251px] bg-white z-10">
-      {/* <span className="relative block w-full h-full">
+      <span className="relative block w-full h-full">
         <Image
           src={HeaderBg}
           alt="background"
           className="w-full h-full object-cover bg-cover bg-fixed bg-center z-0"
         />
-        <div
+        {/* <div
           className="absolute inset-0 z-10"
           style={{
             backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.45))`,
           }}
-        />
-      </span> */}
+        /> */}
+      </span>
 
       {/* <div className="absolute inset-0 py-12 z-20">
         <div className="container w-[1320px] h-full px-[15px]">

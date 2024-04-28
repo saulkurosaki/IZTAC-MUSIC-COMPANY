@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <div className="relative w-full h-[251px] bg-white z-10">
+    <section className="relative w-full xl:h-[251px] max-xl:h-[306px] bg-white z-10">
       <span className="relative block w-full h-full">
         <Image
           src={HeaderBg}
@@ -21,7 +21,7 @@ const Header = () => {
       </span>
 
       <div className="absolute inset-0 py-12 z-20">
-        <div className="container w-[1320px] h-full px-[15px]">
+        <div className="container xl:w-[1320px] max-xl:w-[960px] h-full px-[15px]">
           <div className="w-full h-full">
             <div className="w-[89px] h-[29px] rounded-md bg-[#f4f4f4] px-auto mb-2">
               <p className="text-2xl text-[#383838] text-center oxygen">
@@ -40,7 +40,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

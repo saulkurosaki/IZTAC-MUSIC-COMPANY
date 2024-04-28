@@ -56,14 +56,14 @@ const Main = () => {
                 <p className="w-full xl:h-6 lg:h-12 md:h-6 max-md:h-12 text-[#6C757D] oxygen">
                   Oficina 16 • Juriquilla QRO 76230 • México
                 </p>
-                {/* <p className="w-full h-6 flex text-[#6C757D] oxygen">
+                <p className="w-full h-6 flex text-[#6C757D] oxygen">
                   <Image
                     src={MailLogo}
                     alt="mail_logo"
                     className="w-[21px] h-full mr-2 px-[2px] pt-[3px] pb-[1px] object-contain"
                   />
                   <span>iztacmusicofficial@gmail.com</span>
-                </p> */}
+                </p>
               </div>
             </div>
           </div>

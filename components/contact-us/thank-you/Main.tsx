@@ -53,9 +53,9 @@ const Main = () => {
                   />
                   <span>Blvd. Universitario 399-21, Plaza Palmas II</span>
                 </p>
-                {/* <p className="w-full xl:h-6 lg:h-12 md:h-6 max-md:h-12 text-[#6C757D] oxygen">
+                <p className="w-full xl:h-6 lg:h-12 md:h-6 max-md:h-12 text-[#6C757D] oxygen">
                   Oficina 16 • Juriquilla QRO 76230 • México
-                </p> */}
+                </p>
                 {/* <p className="w-full h-6 flex text-[#6C757D] oxygen">
                   <Image
                     src={MailLogo}

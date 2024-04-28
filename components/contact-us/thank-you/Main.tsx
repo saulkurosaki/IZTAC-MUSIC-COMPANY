@@ -36,9 +36,9 @@ const Main = () => {
                   <span className="font-bold">correctamente</span>
                 </h5>
               </div>
-              {/* <p className="w-full h-6 mb-4 flex justify-center items-center text-lg font-light oxygen">
+              <p className="w-full h-6 mb-4 flex justify-center items-center text-lg font-light oxygen">
                 Le contestaremos en breve.
-              </p> */}
+              </p>
             </div>
             {/* <div className="xl:w-[440px] lg:w-[320px] md:w-[720px] max-md:w-[320px] lg:h-full md:h-[96px] max-md:h-[144px] max-lg:mt-6 px-[15px]">
               <div className="xl:w-[410px] lg:w-[290px] md:w-[690px] max-md:w-[290px] xl:h-24 lg:h-36 max-lg:h-full pl-2">

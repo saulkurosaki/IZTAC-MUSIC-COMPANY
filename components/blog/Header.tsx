@@ -22,13 +22,13 @@ const Header = () => {
 
       <div className="absolute inset-0 py-12 z-20">
         <div className="container w-[1320px] h-full px-[15px]">
-          {/* <div className="w-full h-full">
+          <div className="w-full h-full">
             <div className="w-[89px] h-[29px] rounded-md bg-[#f4f4f4] px-auto mb-2">
-              <p className="text-2xl text-[#383838] text-center oxygen">
+              {/* <p className="text-2xl text-[#383838] text-center oxygen">
                 Último
-              </p>
+              </p> */}
             </div>
-            <Link
+            {/* <Link
               href="/blog/metas-cumplidas/imc-manda-a-sus-artistas-a-nivel-internacional"
               className="w-full text-[#eee] hover:opacity-70 oxygen"
             >
@@ -36,8 +36,8 @@ const Header = () => {
                 IMC Manda a Sus Artistas a Nivel Internacional
               </h1>
               <h5 className="text-xl font-light">10 de Enero de 2019</h5>
-            </Link>
-          </div> */}
+            </Link> */}
+          </div>
         </div>
       </div>
     </div>

@@ -1,16 +1,22 @@
-import OurServices1 from "../assets/our_services_image_1.webp";
-import OurServices2 from "../assets/our_services_image_2.webp";
-import OurServices3 from "../assets/our_services_image_3.webp";
-import Portfolio_Image_1 from "../assets/portfolio_image_1.webp";
-import Portfolio_Image_2 from "../assets/portfolio_image_2.webp";
-import Portfolio_Image_3 from "../assets/portfolio_image_3.webp";
-import Member_1 from "../assets/our_team_img_1.webp";
-import Member_2 from "../assets/our_team_img_2.webp";
-import Member_3 from "../assets/our_team_img_3.webp";
-import Member_4 from "../assets/our_team_img_4.webp";
-import Reference1 from "../assets/reference_img_1.jpg";
-import Reference2 from "../assets/reference_img_2.jpg";
-import Reference3 from "../assets/reference_img_3.jpg";
+import OurServices1 from "@/assets/our_services_image_1.webp";
+import OurServices2 from "@/assets/our_services_image_2.webp";
+import OurServices3 from "@/assets/our_services_image_3.webp";
+import Portfolio_Image_1 from "@/assets/portfolio_image_1.webp";
+import Portfolio_Image_2 from "@/assets/portfolio_image_2.webp";
+import Portfolio_Image_3 from "@/assets/portfolio_image_3.webp";
+import Member_1 from "@/assets/our_team_img_1.webp";
+import Member_2 from "@/assets/our_team_img_2.webp";
+import Member_3 from "@/assets/our_team_img_3.webp";
+import Member_4 from "@/assets/our_team_img_4.webp";
+import Reference1 from "@/assets/reference_img_1.jpg";
+import Reference2 from "@/assets/reference_img_2.jpg";
+import Reference3 from "@/assets/reference_img_3.jpg";
+import BlogPostImage1 from "@/assets/business_references_img_6.svg";
+import BlogPostImage2 from "@/assets/business_references_img_1.svg";
+import BlogPostImage3 from "@/assets/blog_post_img_3.jpeg";
+import BlogPostImage4 from "@/assets/portfolio_image_3.webp";
+import BlogPostImage5 from "@/assets/portfolio_image_1.webp";
+import BlogPostImage7 from "@/assets/banner_image_1.png";
 
 export const services = {
   coaching: {
@@ -92,3 +98,87 @@ export const referencesInfo = {
     avatar: Reference3,
   },
 };
+
+export const allBlogPosts = [
+  {
+    author: "Isaac Ceballos",
+    title: "IMC Manda a Sus Artistas a Nivel Internacional",
+    description:
+      "¡IMC se vuelve internacional! IMC se alía con JMI para el programa Ethno, un taller en donde artistas de 18 a 30 años de diversos países se juntan para aprender de canciones folclóricas de alrededor d...",
+    date: "12 feb. 2024",
+    image: BlogPostImage1,
+    isAchievement: true,
+    url: "/blog/metas-cumplidas/imc-manda-a-sus-artistas-a-nivel-internacional",
+  },
+  // {
+  //   author: "Isaac Ceballos",
+  //   title: "IMC en la Global Game Jam",
+  //   description:
+  //     "IMC participa a nivel internacional El fin de semana del 28 de Enero IMC participó en la Global Game Jam, un reto a nivel global donde en 48 horas se les pide a varios equipos elaborar un videojuego c...",
+  //   date: "12 feb. 2024",
+  //   image: BlogPostImage2,
+  //   isAchievement: false,
+  //   url: "/blog/reconocimientos/imc-en-la-global-game-jam",
+  // },
+  // {
+  //   author: "Isaac Ceballos",
+  //   title: "Nuestra Liricista Gana Premio Estatal",
+  //   description:
+  //     '¡Una canción muy queretana! El día 29 de noviembre de 2022 Nuestra liricista Giselle Maldonado ganó un premio estatal por parte de la competencia de SEJUVE Querétaro " Canta a la queretana" por su com...',
+  //   date: "12 feb. 2024",
+  //   image: BlogPostImage3,
+  //   isAchievement: false,
+  //   url: "/blog/reconocimientos/nuestra-liricista-gana-premio-estatal",
+  // },
+  // {
+  //   author: "Isaac Ceballos",
+  //   title: "Nuestro Compositor Es Reconocido En Berklee",
+  //   description:
+  //     "Isaac Maldonado (Nuestro compositor) Reconocido en Berklee El pasado 28 de Agosto de 2023, Isaac Maldonado apareció en un artículo en la página oficial de instagram de Berklee College of Music en dond...",
+  //   date: "12 feb. 2024",
+  //   image: BlogPostImage4,
+  //   isAchievement: false,
+  //   url: "/blog/reconocimientos/nuestro-compositor-es-reconocido-en-berklee",
+  // },
+  // {
+  //   author: "Isaac Ceballos",
+  //   title: "Premio Internacional A Mejor Soundtrack",
+  //   description:
+  //     'Una Obra Digna De Laurel La colaboración de IMC con el equipo del director queretano Didier Richards para su corto "Infierno" Dio frutos al ser presentado en diversos festivales a nivel internacional ...',
+  //   date: "12 feb. 2024",
+  //   image: BlogPostImage5,
+  //   isAchievement: false,
+  //   url: "/blog/reconocimientos/premio-internacional-a-mejor-soundtrack",
+  // },
+  // {
+  //   author: "Isaac Ceballos",
+  //   title:
+  //     "María José Obtiene Beca Al Quedar En El Ensamble De Su Preparatoria",
+  //   description:
+  //     "¡Felicidades! María José pudo obtener una beca para entrar a la preparatoria de su preferencia después de tomar asesorías en IMC. Sus habilidades vocales le dieron acceso a una beca artística como voc...",
+  //   date: "12 feb. 2024",
+  //   image: BlogPostImage4,
+  //   isAchievement: true,
+  //   url: "/blog/metas-cumplidas/maria-jose-obtiene-beca-al-quedar-en-el-ensamble-de-su-preparatoria",
+  // },
+  // {
+  //   author: "Isaac Ceballos",
+  //   title: "Victoria Obtiene Papel Estelar En Heathers",
+  //   description:
+  //     '¡Que Bello! Victoria, una de nuestras artistas tomando asesorías en IMC logro obtener lo que ella describe como su "Papel Soñado" una vez que se abrieron las audiciones para la adaptación al español d...',
+  //   date: "12 feb. 2024",
+  //   image: BlogPostImage7,
+  //   isAchievement: true,
+  //   url: "/blog/metas-cumplidas/victoria-obtiene-papel-estelar-en-heathers",
+  // },
+  // {
+  //   author: "Isaac Ceballos",
+  //   title: "Victor Consigue Papel Estelar Para la Obra In The Heights",
+  //   description:
+  //     "¡Felicidades! Después de meses de preparación nuestro alumno Víctor que empezó con sus asesorías en IMC logró pasar por el proceso de audición para conseguir un papel Estelar en la adaptación al españ...",
+  //   date: "12 feb. 2024",
+  //   image: BlogPostImage4,
+  //   isAchievement: true,
+  //   url: "/blog/metas-cumplidas/victor-consigue-papel-estelar-para-la-obra-in-the-heights",
+  // },
+];

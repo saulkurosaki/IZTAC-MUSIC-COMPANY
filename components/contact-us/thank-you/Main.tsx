@@ -42,9 +42,9 @@ const Main = () => {
             </div>
             <div className="xl:w-[440px] lg:w-[320px] md:w-[720px] max-md:w-[320px] lg:h-full md:h-[96px] max-md:h-[144px] max-lg:mt-6 px-[15px]">
               <div className="xl:w-[410px] lg:w-[290px] md:w-[690px] max-md:w-[290px] xl:h-24 lg:h-36 max-lg:h-full pl-2">
-                {/* <p className="w-full h-6 text-[#6C757D] oxygen">
+                <p className="w-full h-6 text-[#6C757D] oxygen">
                   IMC (Iztac Music Company)
-                </p> */}
+                </p>
                 {/* <p className="w-full xl:h-6 lg:h-12 md:h-6 max-md:h-12 flex text-[#6C757D] oxygen">
                   <Image
                     src={LocationLogo}

@@ -22,9 +22,9 @@ const Main = () => {
               <h1 className="w-full h-[74px] mb-2 text-center text-[62px] oxygen">
                 ¡Gracias!
               </h1>
-              {/* <div className="w-full h-[33px] flex justify-center items-center">
+              <div className="w-full h-[33px] flex justify-center items-center">
                 <hr className="w-[60%] bg-[#000]" />
-              </div> */}
+              </div>
               {/* <div className="w-full flex justify-center items-center mb-2">
                 <Image
                   src={Tick}

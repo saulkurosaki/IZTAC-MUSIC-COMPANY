@@ -130,16 +130,16 @@ export const allBlogPosts = [
     isAchievement: false,
     url: "/blog/reconocimientos/nuestra-liricista-gana-premio-estatal",
   },
-  // {
-  //   author: "Isaac Ceballos",
-  //   title: "Nuestro Compositor Es Reconocido En Berklee",
-  //   description:
-  //     "Isaac Maldonado (Nuestro compositor) Reconocido en Berklee El pasado 28 de Agosto de 2023, Isaac Maldonado apareció en un artículo en la página oficial de instagram de Berklee College of Music en dond...",
-  //   date: "12 feb. 2024",
-  //   image: BlogPostImage4,
-  //   isAchievement: false,
-  //   url: "/blog/reconocimientos/nuestro-compositor-es-reconocido-en-berklee",
-  // },
+  {
+    author: "Isaac Ceballos",
+    title: "Nuestro Compositor Es Reconocido En Berklee",
+    description:
+      "Isaac Maldonado (Nuestro compositor) Reconocido en Berklee El pasado 28 de Agosto de 2023, Isaac Maldonado apareció en un artículo en la página oficial de instagram de Berklee College of Music en dond...",
+    date: "12 feb. 2024",
+    image: BlogPostImage4,
+    isAchievement: false,
+    url: "/blog/reconocimientos/nuestro-compositor-es-reconocido-en-berklee",
+  },
   // {
   //   author: "Isaac Ceballos",
   //   title: "Premio Internacional A Mejor Soundtrack",

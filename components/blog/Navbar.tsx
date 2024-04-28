@@ -5,9 +5,9 @@ const Navbar = () => {
         <div className="w-[66px] h-full flex items-center text-lg text-[#5050507e] oxygen">
           Logros:
         </div>
-        {/* <div className="w-[66px] h-full flex items-center justify-center text-lg text-[#222222] font-bold oxygen">
+        <div className="w-[66px] h-full flex items-center justify-center text-lg text-[#222222] font-bold oxygen">
           Todos
-        </div> */}
+        </div>
         {/* <div className="w-[162px] h-full flex items-center justify-center text-lg text-[#1e1e1e81] font-bold oxygen">
           Reconocimientos
         </div> */}

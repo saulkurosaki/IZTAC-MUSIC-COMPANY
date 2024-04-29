@@ -47,9 +47,9 @@ const BlogCard = ({
         </div>
 
         <div className="w-full h-[17px] flex justify-between">
-          {/* <p className="w-[85px] h-full px-auto text-sm text-[#4f4f4f] font-bold oxygen">
+          <p className="w-[85px] h-full px-auto text-sm text-[#4f4f4f] font-bold oxygen">
             {date}
-          </p> */}
+          </p>
           {/* <div
             className={`${
               achievement === "goals" ? "w-[133px]" : "w-[136px]"

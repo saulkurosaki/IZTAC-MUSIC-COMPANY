@@ -31,14 +31,14 @@ const BlogCard = ({
             alt="post_image"
             className="w-full h-[175px] object-cover z-0 rounded-md"
           />
-          {/* <div
+          <div
             className="w-full h-10 p-2 pt-4 flex items-center absolute inset-0 top-[135px] z-10 rounded-md text-[#ededed] oxygen"
             style={{
               backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0.55), rgba(255, 255, 255, 0))`,
             }}
           >
             {author}
-          </div> */}
+          </div>
         </Link>
 
         {/* <div className="w-full mt-4">

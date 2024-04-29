@@ -13,14 +13,15 @@ type BlogCardProps = {
   url: string;
 };
 
-const BlogCard = ({}: //   author,
-//   title,
-//   description,
-//   date,
-//   image,
-//   achievement,
-//   url,
-BlogCardProps) => {
+const BlogCard = ({
+  author,
+  title,
+  description,
+  date,
+  image,
+  achievement,
+  url,
+}: BlogCardProps) => {
   return (
     <div className="w-[440px] h-[378px] px-[15px] pb-6">
       <article className="w-full h-full">

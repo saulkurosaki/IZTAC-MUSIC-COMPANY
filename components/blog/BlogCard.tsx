@@ -4,13 +4,13 @@ import Link from "next/link";
 import FolderImg from "@/assets/folder_img.svg";
 
 type BlogCardProps = {
-  //   author: string;
-  //   title: string;
-  //   description: string;
-  //   date: string;
-  //   image: StaticImageData;
-  //   achievement: string;
-  //   url: string;
+  author: string;
+  title: string;
+  description: string;
+  date: string;
+  image: StaticImageData;
+  achievement: string;
+  url: string;
 };
 
 const BlogCard = ({}: //   author,

@@ -62,7 +62,7 @@ const BlogCard = ({
               height={14}
               className="mr-1 pb-[1px] opacity-65"
             />
-            {/* <Link
+            <Link
               href={
                 achievement === "goals"
                   ? "/metas-cumplidas"
@@ -74,7 +74,7 @@ const BlogCard = ({
                   ? "Metas cumplidas"
                   : "Reconocimientos"}
               </p>
-            </Link> */}
+            </Link>
           </div>
         </div>
       </article>

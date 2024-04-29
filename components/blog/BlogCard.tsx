@@ -50,7 +50,7 @@ const BlogCard = ({
           <p className="w-[85px] h-full px-auto text-sm text-[#4f4f4f] font-bold oxygen">
             {date}
           </p>
-          {/* <div
+          <div
             className={`${
               achievement === "goals" ? "w-[133px]" : "w-[136px]"
             } h-full px-2 flex`}
@@ -62,7 +62,7 @@ const BlogCard = ({
               height={14}
               className="mr-1 pb-[1px] opacity-65"
             />
-            <Link
+            {/* <Link
               href={
                 achievement === "goals"
                   ? "/metas-cumplidas"
@@ -74,8 +74,8 @@ const BlogCard = ({
                   ? "Metas cumplidas"
                   : "Reconocimientos"}
               </p>
-            </Link>
-          </div> */}
+            </Link> */}
+          </div>
         </div>
       </article>
     </div>

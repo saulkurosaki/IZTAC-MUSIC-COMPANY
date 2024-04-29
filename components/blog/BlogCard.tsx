@@ -25,28 +25,28 @@ const BlogCard = ({
   return (
     <div className="w-[440px] h-[378px] px-[15px] pb-6">
       <article className="w-full h-full">
-        {/* <Link href={url} className="relative">
+        <Link href={url} className="relative">
           <Image
             src={image}
             alt="post_image"
             className="w-full h-[175px] object-cover z-0 rounded-md"
           />
-          <div
+          {/* <div
             className="w-full h-10 p-2 pt-4 flex items-center absolute inset-0 top-[135px] z-10 rounded-md text-[#ededed] oxygen"
             style={{
               backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0.55), rgba(255, 255, 255, 0))`,
             }}
           >
             {author}
-          </div>
+          </div> */}
         </Link>
 
-        <div className="w-full mt-4">
+        {/* <div className="w-full mt-4">
           <h2 className="text-xl text-[#4a4a4a] oxygen mb-2">{title}</h2>
           <p className="text-sm text-[#5c5c5c] oxygen">{description}</p>
-        </div>
+        </div> */}
 
-        <div className="w-full h-[17px] flex justify-between">
+        {/* <div className="w-full h-[17px] flex justify-between">
           <p className="w-[85px] h-full px-auto text-sm text-[#4f4f4f] font-bold oxygen">
             {date}
           </p>

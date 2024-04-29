@@ -1,5 +1,27 @@
+import { allBlogPosts } from "@/lib/constants";
+import BlogCard from "./BlogCard";
+
 const BlogPosts = () => {
-  return <div className="text-black">BlogPosts component initial layout</div>;
+  return (
+    <section className="w-full h-[1181px]">
+      <div className="container w-[1320px] h-full px-0 py-6">
+        <div className="w-full h-full flex flex-wrap">
+          {allBlogPosts.map((post, index) => (
+            <BlogCard
+              key={`card_${index + 1}`}
+              author={post.author}
+              title={post.title}
+              description={post.description}
+              date={post.date}
+              image={post.image}
+              achievement={post.achievement}
+              url={post.url}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default BlogPosts;

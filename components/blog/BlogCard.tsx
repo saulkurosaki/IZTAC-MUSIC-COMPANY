@@ -1,7 +1,7 @@
-// import Image, { StaticImageData } from "next/image";
-// import Link from "next/link";
+import Image, { StaticImageData } from "next/image";
+import Link from "next/link";
 
-// import FolderImg from "@/assets/folder_img.svg";
+import FolderImg from "@/assets/folder_img.svg";
 
 type BlogCardProps = {
   //   author: string;

@@ -3,8 +3,8 @@ import BlogCard from "./BlogCard";
 
 const BlogPosts = () => {
   return (
-    <section className="w-full xl:h-[1181px] lg:h-[1541px] max-lg:h-[1525px]">
-      <div className="container xl:w-[1320px] lg:w-[960px] max-lg:w-[720px] h-full px-0 py-6">
+    <section className="w-full h-auto">
+      <div className="container xl:w-[1320px] lg:w-[960px] md:w-[720px] max-md:w-full h-full px-0 py-6">
         <div className="w-full h-full flex flex-wrap">
           {allBlogPosts.map((post, index) => (
             <BlogCard

@@ -3,7 +3,7 @@ import OurServices2 from "@/assets/our_services_image_2.webp";
 import OurServices3 from "@/assets/our_services_image_3.webp";
 import Portfolio_Image_1 from "@/assets/portfolio_image_1.webp";
 import Portfolio_Image_2 from "@/assets/portfolio_image_2.webp";
-import Portfolio_Image_3 from "@/assets/portfolio_image_3.webp";
+import Portfolio_Image_3 from "@/assets/portfolio_image_3.png";
 import Member_1 from "@/assets/our_team_img_1.webp";
 import Member_2 from "@/assets/our_team_img_2.webp";
 import Member_3 from "@/assets/our_team_img_3.webp";
@@ -14,7 +14,7 @@ import Reference3 from "@/assets/reference_img_3.jpg";
 import BlogPostImage1 from "@/assets/business_references_img_6.svg";
 import BlogPostImage2 from "@/assets/business_references_img_1.svg";
 import BlogPostImage3 from "@/assets/blog_post_img_3.jpeg";
-import BlogPostImage4 from "@/assets/portfolio_image_3.webp";
+import BlogPostImage4 from "@/assets/portfolio_image_3.png";
 import BlogPostImage5 from "@/assets/portfolio_image_1.webp";
 import BlogPostImage7 from "@/assets/banner_image_1.png";
 

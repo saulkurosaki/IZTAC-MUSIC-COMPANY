@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import BlogPosts from "@/components/blog/BlogPosts";
 import Header from "@/components/blog/Header";
 import Navbar from "@/components/blog/Navbar";
@@ -10,6 +11,8 @@ const BlogPage = () => {
       <Navbar />
 
       <BlogPosts />
+
+      <Footer />
     </div>
   );
 };

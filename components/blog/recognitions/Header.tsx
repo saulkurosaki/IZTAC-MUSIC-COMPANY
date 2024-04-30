@@ -25,9 +25,9 @@ const Header = () => {
             <h1 className="lg:text-6xl md:text-5xl max-md:text-4xl">
               Reconocimientos
             </h1>
-            {/* <h5 className="text-xl">
+            <h5 className="text-xl">
               Las menciones que le dan prestigio a la compañía
-            </h5> */}
+            </h5>
           </div>
         </div>
       </div>

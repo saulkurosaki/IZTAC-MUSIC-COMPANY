@@ -23,16 +23,16 @@ const BlogCard = ({
   url,
 }: BlogCardProps) => {
   return (
-    <div className="w-[440px] h-[378px] px-[15px] pb-6">
+    <div className="xl:w-[440px] max-xl:w-[480px] xl:h-[378px] max-xl:h-[347px] px-[15px] pb-6">
       <article className="w-full h-full">
         <Link href={url} className="relative">
           <Image
             src={image}
             alt="post_image"
-            className="w-full h-[175px] object-cover z-0 rounded-md"
+            className="w-full xl:h-[175px] max-xl:h-[189px] object-cover z-0 rounded-md"
           />
           <div
-            className="w-full h-10 p-2 pt-4 flex items-center absolute inset-0 top-[135px] z-10 rounded-md text-[#ededed] oxygen"
+            className="w-full h-10 p-2 pt-4 flex items-center absolute inset-0 xl:top-[135px] max-xl:top-[149px] z-10 rounded-md text-[#ededed] oxygen"
             style={{
               backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0.55), rgba(255, 255, 255, 0))`,
             }}

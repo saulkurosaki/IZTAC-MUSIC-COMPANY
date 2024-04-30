@@ -23,7 +23,7 @@ const BlogCard = ({
   url,
 }: BlogCardProps) => {
   return (
-    <div className="xl:w-[440px] lg:w-[480px] max-lg:w-[360px] xl:h-[378px] lg:h-[347px] max-lg:h-[370px] px-[15px] pb-6">
+    <div className="xl:w-[440px] lg:w-[480px] md:w-[360px] max-md:w-full xl:h-[378px] lg:h-[347px] max-lg:h-[370px] px-[15px] pb-6">
       <article className="w-full h-full">
         <Link href={url} className="relative">
           <Image

@@ -1,5 +1,6 @@
 import Navbar from "@/components/blog/Navbar";
 import Header from "@/components/blog/recognitions/Header";
+import RecognitionsPosts from "@/components/blog/recognitions/RecognitionsPosts";
 
 const RecognitionsPage = () => {
   return (
@@ -7,6 +8,8 @@ const RecognitionsPage = () => {
       <Header />
 
       <Navbar category="recognitions" />
+
+      <RecognitionsPosts />
     </div>
   );
 };

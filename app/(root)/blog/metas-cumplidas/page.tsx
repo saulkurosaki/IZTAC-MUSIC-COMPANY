@@ -1,4 +1,5 @@
 import Navbar from "@/components/blog/Navbar";
+import AchievementsPosts from "@/components/blog/achievements/AchievementsPosts";
 import Header from "@/components/blog/achievements/Header";
 
 const AchievementsPage = () => {
@@ -7,6 +8,8 @@ const AchievementsPage = () => {
       <Header />
 
       <Navbar category="achievements" />
+
+      <AchievementsPosts />
     </div>
   );
 };

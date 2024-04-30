@@ -11,12 +11,12 @@ const Header = () => {
           alt="background"
           className="w-full h-full object-cover bg-cover bg-fixed bg-center z-0"
         />
-        {/* <div
+        <div
           className="absolute inset-0 z-10"
           style={{
             backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4))`,
           }}
-        /> */}
+        />
       </span>
 
       {/* <div className="absolute inset-0 py-12 z-20">

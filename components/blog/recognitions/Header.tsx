@@ -4,7 +4,7 @@ import HeaderBg from "@/assets/recognitions_bg_img.png";
 
 const Header = () => {
   return (
-    <section className="relative w-full h-[215px]">
+    <section className="relative w-full xl:h-[215px] max-xl:h-[208px]">
       <span className="relative block w-full h-full">
         <Image
           src={HeaderBg}
@@ -20,7 +20,7 @@ const Header = () => {
       </span>
 
       <div className="absolute inset-0 py-12 z-20">
-        <div className="container w-[1320px] h-full px-[15px]">
+        <div className="container xl:w-[1320px] max-xl:w-[960px] h-full px-[15px]">
           <div className="w-full text-[#eee] hover:opacity-70 font-light oxygen mt-2">
             <h1 className="lg:text-6xl md:text-5xl max-md:text-4xl">
               Reconocimientos

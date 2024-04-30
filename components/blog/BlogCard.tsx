@@ -65,8 +65,8 @@ const BlogCard = ({
             <Link
               href={
                 achievement === "goals"
-                  ? "/metas-cumplidas"
-                  : "/reconocimientos"
+                  ? "/blog/metas-cumplidas"
+                  : "/blog/reconocimientos"
               }
             >
               <p className="text-xs text-[#aa854a] font-bold">

@@ -32,7 +32,7 @@ const Navbar = ({ category }: NavbarProps) => {
         <div
           className={`md:w-[159px] max-md:w-full md:h-full max-md:h-10 flex items-center md:justify-center text-lg text-[#1e1e1e81] hover:text-[#1e1e1ec9] transition hover:duration-150 font-bold oxygen ${
             category === "achievements"
-              ? "text-[#222222]"
+              ? "text-[#282828]"
               : "text-[#1e1e1e81] hover:text-[#1e1e1ec9]"
           }`}
         >

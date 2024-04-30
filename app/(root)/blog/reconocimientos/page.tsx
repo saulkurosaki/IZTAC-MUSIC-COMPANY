@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Navbar from "@/components/blog/Navbar";
 import Header from "@/components/blog/recognitions/Header";
 import RecognitionsPosts from "@/components/blog/recognitions/RecognitionsPosts";
@@ -10,6 +11,8 @@ const RecognitionsPage = () => {
       <Navbar category="recognitions" />
 
       <RecognitionsPosts />
+
+      <Footer />
     </div>
   );
 };

@@ -1,6 +1,6 @@
-// import Image from "next/image";
+import Image from "next/image";
 
-// import HeaderBg from "@/assets/recognitions_bg_img.png";
+import HeaderBg from "@/assets/recognitions_bg_img.png";
 
 const Header = () => {
   return (

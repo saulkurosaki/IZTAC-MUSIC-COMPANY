@@ -183,26 +183,30 @@ export const allBlogPosts = [
   },
 ];
 
-export const achievementsHeaders = [
+export const achievementsInfo = [
   {
     title: "IMC Manda a Sus Artistas a Nivel Internacional",
     date: "10 de Enero de 2019",
     image: BlogPostImage1,
+    url: "/blog/metas-cumplidas/imc-manda-a-sus-artistas-a-nivel-internacional",
   },
   {
     title:
       "María José Obtiene Beca Al Quedar En El Ensamble De Su Preparatoria",
     date: "15 de Septiembre de 2023",
     image: BlogPostImage4,
+    url: "/blog/metas-cumplidas/maria-jose-obtiene-beca-al-quedar-en-el-ensamble-de-su-preparatoria",
   },
   {
     title: "Victoria Obtiene Papel Estelar En Heathers",
     date: "25 de Diciembre de 2024",
     image: BlogPostImage7,
+    url: "/blog/metas-cumplidas/victoria-obtiene-papel-estelar-en-heathers",
   },
   {
     title: "Victor Consigue Papel Estelar Para la Obra In The Heights",
     date: "28 de Agosto de 2023",
     image: BlogPostImage4,
+    url: "/blog/metas-cumplidas/victor-consigue-papel-estelar-para-la-obra-in-the-heights",
   },
 ];

@@ -10,7 +10,7 @@ type DetailsFooterProps = {
 
 const DetailsFooter = ({ title, date, image }: DetailsFooterProps) => {
   return (
-    <section className="relative w-full h-[373px] flex items-center mt-12">
+    <section className="relative w-full 2xl:h-[373px] max-2xl:h-[298px] flex items-center mt-12">
       <span className="relative block w-full h-full">
         <Image
           src={image}
@@ -25,19 +25,15 @@ const DetailsFooter = ({ title, date, image }: DetailsFooterProps) => {
         />
       </span>
 
-      <div className="absolute inset-0 z-20 container w-[1320px] h-auto text-[#eee] font-light px-[15px] py-12 oxygen">
+      <div className="absolute inset-0 z-20 container w-[1320px] h-auto text-[#eee] font-light px-[15px] 2xl:py-12 max-2xl:py-5 oxygen">
         <h1 className="w-full h-auto mb-2 text-center text-[55px] leading-tight">
           {title}
         </h1>
-        <p className="w-full text-xl flex justify-center mb-7">{date}</p>
-        <div className="w-full h-[75px] flex justify-center">
-          <Image
-            src={RightArrow}
-            alt="right_arrow"
-            width={75}
-            height={75}
-            className=""
-          />
+        <p className="w-full text-xl flex justify-center 2xl:mb-7 max-2xl:mb-3">
+          {date}
+        </p>
+        <div className="w-full 2xl:h-[75px] max-2xl:h-16 flex justify-center">
+          <Image src={RightArrow} alt="right_arrow" className="w-auto h-auto" />
         </div>
       </div>
     </section>

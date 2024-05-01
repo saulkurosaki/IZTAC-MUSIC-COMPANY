@@ -14,7 +14,7 @@ const AchievementsDetailsPage1 = () => {
         image={achievementsHeaders[0].image}
       />
 
-      <section className="container w-[1320px] h-[984px] px-[15px] pt-6 pb-12">
+      <section className="container xl:w-[1320px] max-xl:w-[960px] h-auto px-[15px] pt-6 pb-12">
         <div className="container w-[720px] h-full px-0">
           <div className="w-full h-full">
             <nav className="w-full h-6 mb-4 flex">
@@ -33,7 +33,7 @@ const AchievementsDetailsPage1 = () => {
 
             <div className="w-full h-auto pt-12 pb-6 bg-[#2e2414] mb-11">
               <div className="w-full h-full oxygen">
-                <h2 className="w-full h-auto text-[63px] text-white flex justify-center items-center text-center leading-tight mb-2">
+                <h2 className="w-full h-auto xl:text-[63px] max-xl:text-[58px] text-white flex justify-center items-center text-center leading-tight mb-2">
                   ¡IMC se vuelve internacional!
                 </h2>
                 <p className="w-full h-auto text-[19px] leading-7 text-[#ddd] text-center oxygen mb-4">

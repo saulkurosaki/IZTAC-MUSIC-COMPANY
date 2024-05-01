@@ -182,3 +182,27 @@ export const allBlogPosts = [
     url: "/blog/metas-cumplidas/victor-consigue-papel-estelar-para-la-obra-in-the-heights",
   },
 ];
+
+export const achievementsHeaders = [
+  {
+    title: "IMC Manda a Sus Artistas a Nivel Internacional",
+    date: "10 de Enero de 2019",
+    image: BlogPostImage1,
+  },
+  {
+    title:
+      "María José Obtiene Beca Al Quedar En El Ensamble De Su Preparatoria",
+    date: "15 de Septiembre de 2023",
+    image: BlogPostImage4,
+  },
+  {
+    title: "Victoria Obtiene Papel Estelar En Heathers",
+    date: "25 de Diciembre de 2024",
+    image: BlogPostImage7,
+  },
+  {
+    title: "Victor Consigue Papel Estelar Para la Obra In The Heights",
+    date: "28 de Agosto de 2023",
+    image: BlogPostImage4,
+  },
+];

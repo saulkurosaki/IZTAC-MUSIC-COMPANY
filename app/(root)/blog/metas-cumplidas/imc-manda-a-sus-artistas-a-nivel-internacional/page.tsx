@@ -78,6 +78,7 @@ const AchievementsDetailsPage1 = () => {
         title={achievementsInfo[1].title}
         date={achievementsInfo[1].date}
         image={achievementsInfo[1].image}
+        url={achievementsInfo[1].url}
       />
 
       <Footer />

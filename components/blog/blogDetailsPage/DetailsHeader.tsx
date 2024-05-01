@@ -23,9 +23,9 @@ const DetailsHeader = ({ title, date, image }: DetailsHeaderProps) => {
         />
       </span>
 
-      <div className="absolute inset-0 z-20 container xl:w-[1320px] lg:w-[960px] max-lg:w-[720px] h-full px-[15px] flex items-center">
+      <div className="absolute inset-0 z-20 container xl:w-[1320px] lg:w-[960px] md:w-[720px] max-md:w-full h-full px-[15px] flex items-center">
         <div className="w-full text-[#eee] font-light oxygen">
-          <h1 className="w-full xl:text-[57px] max-xl:text-5xl max-xl:mb-3 flex justify-center text-center">
+          <h1 className="w-full xl:text-[57px] md:text-5xl max-md:text-[35px] mb-3 leading-tight flex justify-center text-center">
             {title}
           </h1>
           <h5 className="w-full text-xl flex justify-center">{date}</h5>

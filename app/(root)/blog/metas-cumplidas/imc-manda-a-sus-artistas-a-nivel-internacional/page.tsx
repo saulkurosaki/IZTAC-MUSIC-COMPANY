@@ -4,6 +4,7 @@ import Image from "next/image";
 import { achievementsHeaders } from "@/lib/constants";
 import DetailsHeader from "@/components/blog/blogDetailsPage/DetailsHeader";
 import CardImage from "@/assets/business_references_img_6.svg";
+import DetailsFooter from "@/components/blog/blogDetailsPage/DetailsFooter";
 
 const AchievementsDetailsPage1 = () => {
   return (
@@ -71,6 +72,8 @@ const AchievementsDetailsPage1 = () => {
           </div>
         </div>
       </section>
+
+      <DetailsFooter />
     </div>
   );
 };

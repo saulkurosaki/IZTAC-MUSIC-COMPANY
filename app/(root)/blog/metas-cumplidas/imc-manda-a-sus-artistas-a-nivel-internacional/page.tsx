@@ -73,7 +73,11 @@ const AchievementsDetailsPage1 = () => {
         </div>
       </section>
 
-      <DetailsFooter />
+      <DetailsFooter
+        title={achievementsHeaders[1].title}
+        date={achievementsHeaders[1].date}
+        image={achievementsHeaders[1].image}
+      />
     </div>
   );
 };

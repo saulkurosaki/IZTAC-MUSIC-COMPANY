@@ -5,6 +5,7 @@ import { achievementsInfo } from "@/lib/constants";
 import DetailsHeader from "@/components/blog/blogDetailsPage/DetailsHeader";
 import CardImage from "@/assets/business_references_img_6.svg";
 import DetailsFooter from "@/components/blog/blogDetailsPage/DetailsFooter";
+import Footer from "@/components/Footer";
 
 const AchievementsDetailsPage1 = () => {
   return (
@@ -78,6 +79,8 @@ const AchievementsDetailsPage1 = () => {
         date={achievementsInfo[1].date}
         image={achievementsInfo[1].image}
       />
+
+      <Footer />
     </div>
   );
 };

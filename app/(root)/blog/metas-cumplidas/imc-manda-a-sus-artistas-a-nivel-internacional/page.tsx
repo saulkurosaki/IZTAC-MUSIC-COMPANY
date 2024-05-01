@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import { achievementsHeaders } from "@/lib/constants";
+import { achievementsInfo } from "@/lib/constants";
 import DetailsHeader from "@/components/blog/blogDetailsPage/DetailsHeader";
 import CardImage from "@/assets/business_references_img_6.svg";
 import DetailsFooter from "@/components/blog/blogDetailsPage/DetailsFooter";
@@ -10,9 +10,9 @@ const AchievementsDetailsPage1 = () => {
   return (
     <div className="relative bg-[#fff] w-full h-full max-md:pt-14 md:pt-[70px] xl:pt-14 lg:pt-14">
       <DetailsHeader
-        title={achievementsHeaders[0].title}
-        date={achievementsHeaders[0].date}
-        image={achievementsHeaders[0].image}
+        title={achievementsInfo[0].title}
+        date={achievementsInfo[0].date}
+        image={achievementsInfo[0].image}
       />
 
       <section className="container xl:w-[1320px] lg:w-[960px] md:w-[720px] max-md:w-full h-auto px-[15px] pt-6 pb-12">
@@ -74,9 +74,9 @@ const AchievementsDetailsPage1 = () => {
       </section>
 
       <DetailsFooter
-        title={achievementsHeaders[1].title}
-        date={achievementsHeaders[1].date}
-        image={achievementsHeaders[1].image}
+        title={achievementsInfo[1].title}
+        date={achievementsInfo[1].date}
+        image={achievementsInfo[1].image}
       />
     </div>
   );

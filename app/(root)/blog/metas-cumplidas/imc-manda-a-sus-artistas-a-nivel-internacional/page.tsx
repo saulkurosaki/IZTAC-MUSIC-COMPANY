@@ -14,36 +14,36 @@ const AchievementsDetailsPage1 = () => {
         image={achievementsHeaders[0].image}
       />
 
-      <section className="container xl:w-[1320px] lg:w-[960px] max-lg:w-[720px] h-auto px-[15px] pt-6 pb-12">
+      <section className="container xl:w-[1320px] lg:w-[960px] md:w-[720px] max-md:w-full h-auto px-[15px] pt-6 pb-12">
         <div className="container lg:w-[720px] max-lg:w-full h-full px-0">
           <div className="w-full h-full">
-            <nav className="w-full h-6 mb-4 flex">
-              <p className="w-auto h-full text-[#a18049] text-lg font-light oxygen flex items-center">
+            <nav className="w-full h-6 md:text-lg max-md:text-sm mb-6 flex">
+              <p className="w-auto h-full text-[#a18049] font-light oxygen flex items-center">
                 <Link href="/blog">Todos los blogs</Link>
               </p>
-              <p className="w-auto h-full text-lg font-light oxygen px-2">/</p>
-              <p className="w-auto h-full text-[#a18049] text-lg font-light oxygen flex items-center">
+              <p className="w-auto h-full font-light oxygen px-2">/</p>
+              <p className="w-auto h-full text-[#a18049] font-light oxygen flex items-center">
                 <Link href="/blog/metas-cumplidas">Metas cumplidas</Link>
               </p>
-              <p className="w-auto h-full text-lg font-light oxygen px-2">/</p>
-              <p className="w-auto h-full text-[#494949d2] text-lg font-light oxygen flex items-center">
+              <p className="w-auto h-full font-light oxygen px-2">/</p>
+              <p className="w-auto h-full text-[#494949d2] font-light oxygen flex items-center">
                 IMC Manda a Sus Artistas a Nivel Internacional
               </p>
             </nav>
 
             <div className="w-full h-auto pt-12 pb-6 bg-[#2e2414] mb-11">
               <div className="w-full h-full oxygen">
-                <h2 className="w-full h-auto xl:text-[63px] lg:text-[58px] max-lg:text-[55px] text-white flex justify-center items-center text-center leading-tight mb-2">
+                <h2 className="w-full h-auto xl:text-[63px] lg:text-[58px] md:text-[55px] max-md:text-[37px] text-white flex justify-center items-center text-center leading-tight md:mb-2 max-md:mb-5">
                   ¡IMC se vuelve internacional!
                 </h2>
-                <p className="w-full h-auto text-[19px] leading-7 text-[#ddd] text-center oxygen mb-4">
+                <p className="w-full h-auto md:text-[19px] max-md:text-[18px] leading-7 text-[#ddd] text-center oxygen mb-4">
                   IMC se alía con JMI para el programa Ethno, un taller en donde
                   artistas de 18 a 30 años de diversos países se juntan para
                   aprender de canciones folclóricas de alrededor del mundo,
                   aprendiendo acerca de la cultura de cada uno de ellos, así
                   como haciendo amistades internacionales.
                 </p>
-                <p className="w-full h-auto text-[19px] leading-7 text-[#ddd] text-center oxygen mb-[59px]">
+                <p className="w-full h-auto md:text-[19px] max-md:text-[18px] leading-7 text-[#ddd] text-center oxygen md:mb-[59px] max-md:mb-8">
                   En esta ocasión mandamos artistas a los países de La India,
                   Francia y Estonia. ¡Mucho éxito!
                 </p>

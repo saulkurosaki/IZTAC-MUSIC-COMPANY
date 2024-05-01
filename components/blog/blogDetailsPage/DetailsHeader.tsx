@@ -8,7 +8,7 @@ type DetailsHeaderProps = {
 
 const DetailsHeader = ({ title, date, image }: DetailsHeaderProps) => {
   return (
-    <section className="relative w-full h-[622px]">
+    <section className="relative w-full 2xl:h-[622px] max-2xl:h-[497px]">
       <span className="relative block w-full h-full">
         <Image
           src={image}

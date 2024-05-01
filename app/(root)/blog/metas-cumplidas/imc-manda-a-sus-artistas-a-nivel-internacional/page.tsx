@@ -38,14 +38,14 @@ const AchievementsDetailsPage1 = () => {
                 <h2 className="w-full h-auto xl:text-[63px] lg:text-[58px] md:text-[55px] max-md:text-[37px] text-white flex justify-center items-center text-center leading-tight md:mb-2 max-md:mb-5">
                   ¡IMC se vuelve internacional!
                 </h2>
-                <p className="w-full h-auto md:text-[19px] max-md:text-[18px] leading-7 text-[#ddd] text-center oxygen mb-4">
+                <p className="w-full h-auto md:text-[19px] max-md:text-[18px] leading-7 px-3 text-[#ddd] text-center oxygen mb-4">
                   IMC se alía con JMI para el programa Ethno, un taller en donde
                   artistas de 18 a 30 años de diversos países se juntan para
                   aprender de canciones folclóricas de alrededor del mundo,
                   aprendiendo acerca de la cultura de cada uno de ellos, así
                   como haciendo amistades internacionales.
                 </p>
-                <p className="w-full h-auto md:text-[19px] max-md:text-[18px] leading-7 text-[#ddd] text-center oxygen md:mb-[59px] max-md:mb-8">
+                <p className="w-full h-auto md:text-[19px] max-md:text-[18px] leading-7 px-3 text-[#ddd] text-center oxygen md:mb-[59px] max-md:mb-8">
                   En esta ocasión mandamos artistas a los países de La India,
                   Francia y Estonia. ¡Mucho éxito!
                 </p>

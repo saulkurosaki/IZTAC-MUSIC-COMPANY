@@ -25,11 +25,11 @@ const DetailsFooter = ({ title, date, image }: DetailsFooterProps) => {
         />
       </span>
 
-      <div className="absolute inset-0 z-20 container w-[1320px] h-auto text-[#eee] font-light px-[15px] 2xl:py-12 max-2xl:py-5 oxygen">
-        <h1 className="w-full h-auto mb-2 text-center text-[55px] leading-tight">
+      <div className="absolute inset-0 z-20 container xl:w-[1320px] max-xl:w-[960px] h-auto text-[#eee] font-light px-[15px] 2xl:py-12 max-2xl:py-5 oxygen">
+        <h1 className="w-full h-auto mb-2 text-center xl:text-[55px] max-xl:text-[50px] leading-tight">
           {title}
         </h1>
-        <p className="w-full text-xl flex justify-center 2xl:mb-7 max-2xl:mb-3">
+        <p className="w-full text-xl flex justify-center 2xl:mb-7 xl:mb-3 max-xl:mb-5">
           {date}
         </p>
         <div className="w-full 2xl:h-[75px] max-2xl:h-16 flex justify-center">

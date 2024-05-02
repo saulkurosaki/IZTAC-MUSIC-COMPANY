@@ -23,7 +23,7 @@ const DetailsFooter = ({ title, date, image, url }: DetailsFooterProps) => {
           <div
             className="absolute inset-0 z-10"
             style={{
-              backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.45))`,
+              backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4))`,
             }}
           />
         </span>

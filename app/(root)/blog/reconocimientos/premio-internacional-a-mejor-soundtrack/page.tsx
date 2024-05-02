@@ -5,6 +5,7 @@ import DetailsHeader from "@/components/blog/blogDetailsPage/DetailsHeader";
 import { recognitionsInfo } from "@/lib/constants";
 import CardImage1 from "@/assets/portfolio_image_1.webp";
 import DetailsFooter from "@/components/blog/blogDetailsPage/DetailsFooter";
+import Footer from "@/components/Footer";
 
 const RecognitionsDetailsPage4 = () => {
   return (
@@ -92,6 +93,8 @@ const RecognitionsDetailsPage4 = () => {
         image={recognitionsInfo[0].image}
         url={recognitionsInfo[0].url}
       />
+
+      <Footer />
     </div>
   );
 };

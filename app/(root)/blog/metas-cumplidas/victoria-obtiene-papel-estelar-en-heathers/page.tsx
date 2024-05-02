@@ -4,6 +4,7 @@ import Link from "next/link";
 import DetailsHeader from "@/components/blog/blogDetailsPage/DetailsHeader";
 import { achievementsInfo } from "@/lib/constants";
 import CardImage from "@/assets/victoria_congratulations.jpg";
+import DetailsFooter from "@/components/blog/blogDetailsPage/DetailsFooter";
 
 const AchievementsDetailsPage3 = () => {
   return (
@@ -74,6 +75,13 @@ const AchievementsDetailsPage3 = () => {
           </div>
         </div>
       </section>
+
+      <DetailsFooter
+        title={achievementsInfo[3].title}
+        date={achievementsInfo[3].date}
+        image={achievementsInfo[3].image}
+        url={achievementsInfo[3].url}
+      />
     </div>
   );
 };

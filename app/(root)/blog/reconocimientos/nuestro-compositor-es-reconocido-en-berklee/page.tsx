@@ -5,6 +5,7 @@ import DetailsHeader from "@/components/blog/blogDetailsPage/DetailsHeader";
 import { recognitionsInfo } from "@/lib/constants";
 import CardImage1 from "@/assets/berklee_post_img.webp";
 import DetailsFooter from "@/components/blog/blogDetailsPage/DetailsFooter";
+import Footer from "@/components/Footer";
 
 const RecognitionsDetailsPage3 = () => {
   return (
@@ -81,6 +82,8 @@ const RecognitionsDetailsPage3 = () => {
         image={recognitionsInfo[3].image}
         url={recognitionsInfo[3].url}
       />
+
+      <Footer />
     </div>
   );
 };

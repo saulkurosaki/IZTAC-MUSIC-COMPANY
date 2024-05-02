@@ -8,9 +8,9 @@ import iztacLogo from "../assets/iztac_logo_white.png";
 
 const Footer = () => {
   return (
-    <footer className="relative w-full xl:h-[438px] lg:h-[377px] max-md:h-[640px] bg-[#2e2414] z-20">
-      <div className="w-full xl:h-[381px] lg:h-[320px]">
-        <div className="w-full md:h-[138px] max-md:h-64 pt-4">
+    <footer className="relative w-full h-auto bg-[#2e2414] z-20">
+      <div className="w-full h-auto">
+        <div className="w-full h-auto pt-4">
           <div className="container w-full h-full px-[15px]">
             <div className="flex w-full h-[54px] justify-center md:mb-2 max-md:mb-4">
               <Link
@@ -48,9 +48,13 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="w-full xl:h-[243px] lg:h-44 max-md:h-[330px] py-4 flex justify-center">
+        <div className="py-4 flex justify-center">
           <Link href="/">
-            <Image src={iztacLogo} alt="main_logo" className="h-full w-auto" />
+            <Image
+              src={iztacLogo}
+              alt="main_logo"
+              className="w-auto xl:h-[243px] lg:h-44 max-md:h-[330px]"
+            />
           </Link>
         </div>
       </div>

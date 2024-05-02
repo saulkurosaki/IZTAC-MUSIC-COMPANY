@@ -28,19 +28,21 @@ const DetailsFooter = ({ title, date, image, url }: DetailsFooterProps) => {
           />
         </span>
 
-        <div className="absolute inset-0 z-20 container xl:w-[1320px] lg:w-[960px] md:w-[720px] max-md:w-full h-auto text-[#eee] font-light px-[15px] 2xl:py-12 max-2xl:py-5 oxygen">
-          <h1 className="w-full h-auto mb-2 text-center xl:text-[55px] lg:text-[50px] md:text-[40px] max-md:text-[30px] leading-tight">
-            {title}
-          </h1>
-          <p className="w-full text-xl flex justify-center 2xl:mb-7 xl:mb-3 md:mb-5 max-md:mb-3">
-            {date}
-          </p>
-          <div className="w-full 2xl:h-[75px] max-2xl:h-16 flex justify-center">
-            <Image
-              src={RightArrow}
-              alt="right_arrow"
-              className="w-auto h-auto"
-            />
+        <div className="absolute inset-0 z-20 container xl:w-[1320px] lg:w-[960px] md:w-[720px] max-md:w-full h-auto text-[#eee] font-light px-[15px] oxygen">
+          <div className="w-full h-full flex flex-col justify-center">
+            <h1 className="w-full h-auto mb-2 text-center xl:text-[55px] lg:text-[50px] md:text-[40px] max-md:text-[30px] leading-tight">
+              {title}
+            </h1>
+            <p className="w-full text-xl flex justify-center 2xl:mb-7 xl:mb-3 md:mb-5 max-md:mb-3">
+              {date}
+            </p>
+            <div className="w-full 2xl:h-[75px] xl:h-16 max-xl:h-14 flex justify-center">
+              <Image
+                src={RightArrow}
+                alt="right_arrow"
+                className="w-auto h-auto"
+              />
+            </div>
           </div>
         </div>
       </section>

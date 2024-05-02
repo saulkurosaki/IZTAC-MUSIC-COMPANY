@@ -5,6 +5,7 @@ import DetailsHeader from "@/components/blog/blogDetailsPage/DetailsHeader";
 import { achievementsInfo } from "@/lib/constants";
 import CardImage from "@/assets/maria_jose_congratulations.jpg";
 import DetailsFooter from "@/components/blog/blogDetailsPage/DetailsFooter";
+import Footer from "@/components/Footer";
 
 const AchievementsDetailsPage2 = () => {
   return (
@@ -77,6 +78,8 @@ const AchievementsDetailsPage2 = () => {
         image={achievementsInfo[2].image}
         url={achievementsInfo[2].url}
       />
+
+      <Footer />
     </div>
   );
 };

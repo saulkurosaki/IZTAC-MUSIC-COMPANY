@@ -210,3 +210,30 @@ export const achievementsInfo = [
     url: "/blog/metas-cumplidas/victor-consigue-papel-estelar-para-la-obra-in-the-heights",
   },
 ];
+
+export const recognitionsInfo = [
+  {
+    title: "IMC en la Global Game Jam",
+    date: "28 de Enero de 2024",
+    image: BlogPostImage2,
+    url: "/blog/reconocimientos/imc-en-la-global-game-jam",
+  },
+  {
+    title: "Nuestra Liricista Gana Premio Estatal",
+    date: "29 de Noviembre de 2022",
+    image: BlogPostImage3,
+    url: "/blog/reconocimientos/nuestra-liricista-gana-premio-estatal",
+  },
+  {
+    title: "Nuestro Compositor Es Reconocido En Berklee",
+    date: "28 de Agosto de 2023",
+    image: BlogPostImage4,
+    url: "/blog/reconocimientos/nuestro-compositor-es-reconocido-en-berklee",
+  },
+  {
+    title: "Premio Internacional A Mejor Soundtrack",
+    date: "24 de Marzo de 2023",
+    image: BlogPostImage5,
+    url: "/blog/reconocimientos/premio-internacional-a-mejor-soundtrack",
+  },
+];

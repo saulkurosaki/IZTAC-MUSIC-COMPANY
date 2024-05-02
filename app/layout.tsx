@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: "https://iztacmusiccompany.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fiztac_logo_white.6db7ba9f.png&w=1080&q=75",
+        url: "https://iztacmusiccompany.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbanner_image_1.ead6fc36.png&w=1920&q=75",
         width: 800,
         height: 600,
       },

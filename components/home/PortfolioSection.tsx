@@ -19,7 +19,7 @@ const PortfolioSection = () => {
       </span>
 
       {/* Upper Section */}
-      <div className="w-full xl:h-[411px] lg:h-[403px] md:h-[393px] max-md:h-[447px] absolute top-0 left-0 z-10 overflow-hidden">
+      <div className="w-full h-auto absolute top-0 left-0 z-10">
         <Image
           src={Port_Top_Waves}
           alt="Top Waves"
@@ -44,7 +44,7 @@ const PortfolioSection = () => {
           alt="Bottom Waves"
           className="w-full h-auto object-contain"
         />
-        <div className="absolute inset-0 w-full xl:h-[542px] lg:h-[422px] md:h-[2195px] py-6">
+        <div className="absolute inset-0 w-full h-auto py-6">
           <div className="xl:w-[1320px] lg:w-[960px] md:w-[720px] h-full container p-0">
             <div className="w-full h-full lg:grid lg:grid-cols-3 max-lg:flex max-lg:flex-col max-lg:justify-around">
               <PortfolioCard

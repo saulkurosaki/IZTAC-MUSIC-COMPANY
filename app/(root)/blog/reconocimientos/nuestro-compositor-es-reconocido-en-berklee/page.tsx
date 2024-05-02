@@ -1,7 +1,14 @@
+import DetailsHeader from "@/components/blog/blogDetailsPage/DetailsHeader";
+import { recognitionsInfo } from "@/lib/constants";
+
 const RecognitionsDetailsPage3 = () => {
   return (
     <div className="relative bg-[#fff] w-full h-full max-md:pt-14 md:pt-[70px] xl:pt-14 lg:pt-14">
-      RecognitionsDetailsPage3 component Test c:
+      <DetailsHeader
+        title={recognitionsInfo[2].title}
+        date={recognitionsInfo[2].date}
+        image={recognitionsInfo[2].image}
+      />
     </div>
   );
 };

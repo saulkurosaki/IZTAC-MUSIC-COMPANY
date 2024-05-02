@@ -21,7 +21,7 @@ const Header = () => {
 
       <div className="absolute inset-0 py-12 z-20">
         <div className="container xl:w-[1320px] lg:w-[960px] md:w-[720px] max-md:w-full h-full px-[15px]">
-          <div className="w-full text-[#eee] hover:opacity-70 font-light oxygen mt-2">
+          <div className="w-full text-[#eee] font-light oxygen mt-2">
             <h1 className="lg:text-6xl md:text-5xl max-md:text-4xl">
               Reconocimientos
             </h1>

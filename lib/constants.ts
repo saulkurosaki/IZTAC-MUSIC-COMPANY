@@ -16,7 +16,7 @@ import BlogPostImage2 from "@/assets/business_references_img_1.svg";
 import BlogPostImage3 from "@/assets/blog_post_img_3.jpeg";
 import BlogPostImage4 from "@/assets/portfolio_image_3.png";
 import BlogPostImage5 from "@/assets/portfolio_image_1.webp";
-import BlogPostImage7 from "@/assets/banner_image_1.png";
+import BlogPostImage7 from "@/assets/recognitions_bg_img.png";
 
 export const services = {
   coaching: {

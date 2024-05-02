@@ -8,7 +8,7 @@ import { portfolioSongs } from "@/lib/constants";
 
 const PortfolioSection = () => {
   return (
-    <section className="relative w-full xl:h-[953px] lg:h-[825px] md:h-[2588px] max-md:h-[1834px]">
+    <section className="relative w-full xl:h-[953px] lg:h-[825px] md:h-[2588px] max-md:h-[1834px] overflow-hidden">
       {/* Fixed Background */}
       <span className="absolute inset-0 z-0">
         <Image

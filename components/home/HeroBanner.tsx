@@ -150,7 +150,7 @@ const HeroBanner = () => {
                   Encuentra algunos de nuestros premios y nominaciones aquí
                 </p>
                 <Link
-                  href="/blog-2"
+                  href="/blog"
                   className="text-[23px] font-normal mt-auto flex justify-center items-center w-[199px] h-12 bg-[#B99253] hover:bg-[#bf9e69] transition hover:duration-150 rounded-lg text-[#2b2f35ef] px-4 pya-2"
                 >
                   Nuestros Logros

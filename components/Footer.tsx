@@ -14,6 +14,7 @@ const Footer = () => {
           <div className="container w-full h-full px-[15px]">
             <div className="flex w-full h-[54px] justify-center md:mb-2 max-md:mb-4">
               <Link
+                target="_blank"
                 href="https://soundcloud.com/zackarymc101?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
                 className="w-[54px] h-[54px] rounded-full bg-white cursor-pointer"
               >
@@ -38,7 +39,7 @@ const Footer = () => {
                   className="relative top-[2px]"
                 />
                 <Link
-                  href="mailto:Iztacmusicofficial@gmail.com"
+                  href="/contact-us"
                   className="text-[#b8a383] hover:text-[#b59259] text-lg oxygen flex items-center cursor-pointer"
                 >
                   Iztacmusicofficial@gmail.com

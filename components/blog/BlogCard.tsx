@@ -32,7 +32,7 @@ const BlogCard = ({
             className="w-full xl:h-[175px] lg:h-[189px] max-lg:h-[149px] object-cover z-0 rounded-md"
           />
           <div
-            className="w-full h-10 p-2 pt-4 flex items-center absolute inset-0 xl:top-[135px] lg:top-[149px] max-lg:top-[109px] z-10 rounded-md text-[#ededed] oxygen"
+            className="w-full h-10 p-2 pt-4 flex items-center absolute inset-0 xl:top-[135px] lg:top-[149px] max-lg:top-[109px] max-md:hidden z-10 rounded-md text-[#ededed] oxygen"
             style={{
               backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0.55), rgba(255, 255, 255, 0))`,
             }}
@@ -50,11 +50,7 @@ const BlogCard = ({
           <p className="w-[85px] h-full px-auto text-sm text-[#4f4f4f] font-bold oxygen">
             {date}
           </p>
-          <div
-            className={`${
-              achievement === "goals" ? "w-[133px]" : "w-[136px]"
-            } h-full px-2 flex`}
-          >
+          <div className={"w-[160px] h-full px-2 flex justify-end"}>
             <Image
               src={FolderImg}
               alt="folder_svg"

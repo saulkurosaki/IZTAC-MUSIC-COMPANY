@@ -6,6 +6,7 @@ import { recognitionsInfo } from "@/lib/constants";
 import CardImage1 from "@/assets/business_references_img_1.svg";
 import CardImage2 from "@/assets/global_game_jam_img_2.webp";
 import DetailsFooter from "@/components/blog/blogDetailsPage/DetailsFooter";
+import Footer from "@/components/Footer";
 
 const RecognitionsDetailsPage1 = () => {
   return (
@@ -94,6 +95,8 @@ const RecognitionsDetailsPage1 = () => {
         image={recognitionsInfo[1].image}
         url={recognitionsInfo[1].url}
       />
+
+      <Footer />
     </div>
   );
 };

@@ -12,7 +12,8 @@ const oxygen = Oxygen({
 
 export const metadata: Metadata = {
   title: "Iztac Music Company",
-  description: "The most awesome Music Company you've ever heard of.",
+  description:
+    "IMC es una compañía enfocada en la elaboración de música para cine, televisión y videojuegos. ¡Conoce más acerca de nosotros aquí!",
 };
 
 export default function RootLayout({

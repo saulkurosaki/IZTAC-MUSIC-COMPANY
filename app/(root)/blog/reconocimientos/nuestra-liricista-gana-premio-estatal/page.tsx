@@ -4,6 +4,7 @@ import Link from "next/link";
 import DetailsHeader from "@/components/blog/blogDetailsPage/DetailsHeader";
 import { recognitionsInfo } from "@/lib/constants";
 import CardImage1 from "@/assets/blog_post_img_3.jpeg";
+import DetailsFooter from "@/components/blog/blogDetailsPage/DetailsFooter";
 
 const RecognitionsDetailsPage2 = () => {
   return (
@@ -72,6 +73,13 @@ const RecognitionsDetailsPage2 = () => {
           </div>
         </div>
       </section>
+
+      <DetailsFooter
+        title={recognitionsInfo[2].title}
+        date={recognitionsInfo[2].date}
+        image={recognitionsInfo[2].image}
+        url={recognitionsInfo[2].url}
+      />
     </div>
   );
 };

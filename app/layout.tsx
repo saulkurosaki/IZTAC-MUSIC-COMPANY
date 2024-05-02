@@ -14,6 +14,15 @@ export const metadata: Metadata = {
   title: "Iztac Music Company",
   description:
     "IMC es una compañía enfocada en la elaboración de música para cine, televisión y videojuegos. ¡Conoce más acerca de nosotros aquí!",
+  // openGraph: {
+  //   images: [
+  //     {
+  //       url: "https://1.bp.blogspot.com/-YgUpXfy-v_g/V1enMNylDwI/AAAAAAAAAuU/XCQjEp6HPQoTSVvrdwV4hh1EjHFddcFiACKgB/s1600/cute-kittens-in-basket.jpg",
+  //       width: 800,
+  //       height: 600,
+  //     },
+  //   ],
+  // },
 };
 
 export default function RootLayout({

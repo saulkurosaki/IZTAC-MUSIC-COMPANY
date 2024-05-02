@@ -4,6 +4,7 @@ import Link from "next/link";
 import DetailsHeader from "@/components/blog/blogDetailsPage/DetailsHeader";
 import { recognitionsInfo } from "@/lib/constants";
 import CardImage1 from "@/assets/portfolio_image_1.webp";
+import DetailsFooter from "@/components/blog/blogDetailsPage/DetailsFooter";
 
 const RecognitionsDetailsPage4 = () => {
   return (
@@ -84,6 +85,13 @@ const RecognitionsDetailsPage4 = () => {
           </div>
         </div>
       </section>
+
+      <DetailsFooter
+        title={recognitionsInfo[0].title}
+        date={recognitionsInfo[0].date}
+        image={recognitionsInfo[0].image}
+        url={recognitionsInfo[0].url}
+      />
     </div>
   );
 };

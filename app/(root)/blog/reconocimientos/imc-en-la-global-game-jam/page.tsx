@@ -58,7 +58,7 @@ const RecognitionsDetailsPage1 = () => {
                       alt="card_image"
                       className="w-full h-auto p-4 mb-2 object-contain"
                     />
-                    <p className="w-full h-[56px] text-[#bbb] text-center text-lg flex justify-center items-center oxygen">
+                    <p className="w-full h-[56px] text-[#bbb] text-center text-lg px-6 flex justify-center items-center oxygen">
                       Logotipo oficial de la Global Game Jam 2024
                     </p>
                   </div>
@@ -71,7 +71,7 @@ const RecognitionsDetailsPage1 = () => {
                       alt="card_image"
                       className="w-full h-auto p-4 mb-2 object-contain"
                     />
-                    <p className="w-full h-[56px] text-[#bbb] text-center text-lg flex justify-center items-center oxygen">
+                    <p className="w-full h-[56px] text-[#bbb] text-center text-lg px-6 flex justify-center items-center oxygen">
                       Captura de pantalla del videojuego Armando el Rollo
                     </p>
                   </div>

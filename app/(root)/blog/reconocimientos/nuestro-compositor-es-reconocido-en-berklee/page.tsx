@@ -4,6 +4,7 @@ import Link from "next/link";
 import DetailsHeader from "@/components/blog/blogDetailsPage/DetailsHeader";
 import { recognitionsInfo } from "@/lib/constants";
 import CardImage1 from "@/assets/berklee_post_img.webp";
+import DetailsFooter from "@/components/blog/blogDetailsPage/DetailsFooter";
 
 const RecognitionsDetailsPage3 = () => {
   return (
@@ -73,6 +74,13 @@ const RecognitionsDetailsPage3 = () => {
           </div>
         </div>
       </section>
+
+      <DetailsFooter
+        title={recognitionsInfo[3].title}
+        date={recognitionsInfo[3].date}
+        image={recognitionsInfo[3].image}
+        url={recognitionsInfo[3].url}
+      />
     </div>
   );
 };
